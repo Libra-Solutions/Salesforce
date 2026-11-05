@@ -1,0 +1,5 @@
+Hello {!Opportunity.OwnerFirstName},
+
+The Sizing Opportunity request for [Request Details]  for {!Opportunity.Law_Firm_Name__c} Firm ID: {!Opportunity.Firm_Id__c} (Firm ID has been approved.. It is required that you reach out to the firm and reiterate the approved pricing and criteria. Once you’ve done this, mark the Opportunity as Closed-Won.
+
+Please reach out to your manager with any questions.

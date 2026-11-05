@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Unique Record Identifier From KeyMeds Application. --></help>
+    <label><!-- Core Id --></label>
+    <name>KeyMedsId_for_Display__c</name>
+</CustomFieldTranslation>

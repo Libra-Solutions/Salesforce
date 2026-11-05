@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_many_Additional_Funded_Other__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>NUMBERS only. If you selected &quot;Other&quot; above, enter your response here.</inlineHelpText>
+    <label>Other: # of Additional Funded per Month</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

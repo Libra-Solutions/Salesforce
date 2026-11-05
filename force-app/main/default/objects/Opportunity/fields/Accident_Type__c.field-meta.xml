@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accident_Type__c</fullName>
+    <label>Accident Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rear Ended</fullName>
+                <default>false</default>
+                <label>Rear Ended</label>
+            </value>
+            <value>
+                <fullName>Sideswipe</fullName>
+                <default>false</default>
+                <label>Sideswipe</label>
+            </value>
+            <value>
+                <fullName>T-bone</fullName>
+                <default>false</default>
+                <label>T-bone</label>
+            </value>
+            <value>
+                <fullName>HeadOn</fullName>
+                <default>false</default>
+                <label>HeadOn</label>
+            </value>
+            <value>
+                <fullName>Rollover</fullName>
+                <default>false</default>
+                <label>Rollover</label>
+            </value>
+            <value>
+                <fullName>Single Car</fullName>
+                <default>false</default>
+                <label>Single Car</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

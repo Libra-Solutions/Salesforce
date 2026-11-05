@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Provider</fullName>
+    <active>true</active>
+    <description>Tasks for Providers</description>
+    <label>Task - Provider</label>
+    <picklistValues>
+        <picklist>Appointment_Status__c</picklist>
+        <values>
+            <fullName>Appointment Held</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_they_integrated_with_Movedocs__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Attempts__c</picklist>
+        <values>
+            <fullName>1st</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4th</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5th</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Level_2_Results__c</picklist>
+        <values>
+            <fullName>Needs IT Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Longer Interested in using the integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Only using Integration for accessing bills and records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff Turnover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaware of Integration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Level_4_Results__c</picklist>
+        <values>
+            <fullName>ExpertPays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filevine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lexamica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartAdvocate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vista Consulting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Oasis_Event_Purpose__c</picklist>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS Bookings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting - Attorney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting - Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting - Support Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOC_Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Oasis_Event_Result__c</picklist>
+        <values>
+            <fullName>Accounts Receivable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atty Portal Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level Three - Demo Complete- Int</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level Three- Demo Completed - Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal Troubleshooting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retention Touch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Gift%2FMeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top 100</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Oasis_Sub_Type__c</picklist>
+        <values>
+            <fullName>Accounts Receivable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo Follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD Platform Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD Usage contact F%2FU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MoveDocs Intro Pitched</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perform Movedocs Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal Troubleshooting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting followup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retention Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Gift%2FMeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Request Reachout</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Oasis_Type__c</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Task</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Recieved Message</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Successfully_Contacted__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Task</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_kind_of_demo_was_completed__c</picklist>
+        <values>
+            <fullName>CMS Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movedocs Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTM Demo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

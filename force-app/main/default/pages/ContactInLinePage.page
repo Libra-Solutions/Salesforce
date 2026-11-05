@@ -1,0 +1,23 @@
+<apex:page standardController="Contact" extensions="ContactInlineExtension">
+  <apex:form >
+      <apex:outputLabel style="color:red;font-weight:bold; font-size:18px;">{!role}</apex:outputLabel><br/>
+      <table border='0'>
+      <tr>
+      <td><apex:outputLabel rendered="{!Contact.PreSet__c}" style="color:red;font-weight:bold; font-size:14px;">PRESET</apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Contact.Core__c}">CORE</apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Contact.GRS__c}">GRS</apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Contact.Atticus__c}">Atticus </apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Contact.Accident_Meds__c}">Accident Meds</apex:outputLabel></td>
+      </tr>
+      </table>
+     <apex:pageBlock >
+      <apex:pageBlockSection columns="1">
+        <apex:inputCheckbox value="{!isMDUser}" label="MoveDocs User" disabled="true" />
+        <apex:inputCheckbox value="{!isCTXUser}" label="CTX User" disabled="true" />
+        <apex:inputCheckbox value="{!isManualUser}" label="Manual User" disabled="true" />
+      </apex:pageBlockSection>
+    </apex:pageBlock>
+      
+      
+  </apex:form>
+</apex:page>

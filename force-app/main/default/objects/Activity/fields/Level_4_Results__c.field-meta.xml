@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_4_Results__c</fullName>
+    <label>Level 4 Results</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ExpertPays</fullName>
+                <default>false</default>
+                <label>ExpertPays</label>
+            </value>
+            <value>
+                <fullName>Foundation AI</fullName>
+                <default>false</default>
+                <label>Foundation AI</label>
+            </value>
+            <value>
+                <fullName>Lexamica</fullName>
+                <default>false</default>
+                <label>Lexamica</label>
+            </value>
+            <value>
+                <fullName>Vista Consulting</fullName>
+                <default>false</default>
+                <label>Vista Consulting</label>
+            </value>
+            <value>
+                <fullName>Filevine</fullName>
+                <default>false</default>
+                <label>Filevine</label>
+            </value>
+            <value>
+                <fullName>SmartAdvocate</fullName>
+                <default>false</default>
+                <label>SmartAdvocate</label>
+            </value>
+            <value>
+                <fullName>Hona</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hona</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Web Tab is to display CashTrax Attorney Portal.</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>PS Attorney Portal</label>
+    <motif>Custom27: Laptop</motif>
+    <url>https://sso.myoasis.com/</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

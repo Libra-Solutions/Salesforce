@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Chamber --></label>
+    <name>kw__Chamber__c</name>
+    <picklistValues>
+        <masterLabel>State House</masterLabel>
+        <translation><!-- State House --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Joint</masterLabel>
+        <translation><!-- State Joint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Senate</masterLabel>
+        <translation><!-- State Senate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US House</masterLabel>
+        <translation><!-- US House --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US Joint</masterLabel>
+        <translation><!-- US Joint --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US Senate</masterLabel>
+        <translation><!-- US Senate --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jkantheti@osidigital.com</contactEmail>
+    <contactPhone>9792649772</contactPhone>
+    <label>Medlien Bulk API</label>
+</ConnectedApp>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zip_Code_5digit</fullName>
+    <active>true</active>
+    <description>The zip code must be 5 numbers</description>
+    <errorConditionFormula>AND(
+NOT( ISPICKVAL(Status__c , &quot;Inactive&quot;)),
+    NOT(ISBLANK(Firm_Address__PostalCode__s)),
+    NOT(REGEX(Firm_Address__PostalCode__s, &quot;^[0-9]{5}$&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Firm_Address__PostalCode__s</errorDisplayField>
+    <errorMessage>The zip code must be 5 numbers.</errorMessage>
+</ValidationRule>

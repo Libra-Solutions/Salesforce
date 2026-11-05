@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_Required</fullName>
+    <active>true</active>
+    <description>Web/Pardot Leads Bypass</description>
+    <errorConditionFormula>AND(
+(ISBLANK(State_MapAnything__c)), ( $User.Alias &lt;&gt; &quot;psupp&quot;),
+OR(
+ISBLANK( Street ),
+ISBLANK(City),
+ISBLANK( State ),
+ISBLANK( PostalCode )
+))&amp;&amp;
+$Permission.Submit_Leads_Bypass=FALSE
+&amp;&amp;
+ISPICKVAL(Status,&quot;Qualified&quot;)</errorConditionFormula>
+    <errorMessage>Please fill Street, City, State and Zip Code</errorMessage>
+</ValidationRule>

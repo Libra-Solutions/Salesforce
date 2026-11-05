@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Type__c</fullName>
+    <label>Facility Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medical Practice</fullName>
+                <default>false</default>
+                <label>Medical Practice</label>
+            </value>
+            <value>
+                <fullName>Law Firm</fullName>
+                <default>false</default>
+                <label>Law Firm</label>
+            </value>
+            <value>
+                <fullName>Ambulatory Surgery Center</fullName>
+                <default>false</default>
+                <label>Ambulatory Surgery Center</label>
+            </value>
+            <value>
+                <fullName>Chiropractor</fullName>
+                <default>false</default>
+                <label>Chiropractor</label>
+            </value>
+            <value>
+                <fullName>Medical Practice + Imaging</fullName>
+                <default>false</default>
+                <label>Medical Practice + Imaging</label>
+            </value>
+            <value>
+                <fullName>Medical Practice + Multi-modality</fullName>
+                <default>false</default>
+                <label>Medical Practice + Multi-modality</label>
+            </value>
+            <value>
+                <fullName>Medical Practice + PT</fullName>
+                <default>false</default>
+                <label>Medical Practice + PT</label>
+            </value>
+            <value>
+                <fullName>Medical Practice only</fullName>
+                <default>false</default>
+                <label>Medical Practice only</label>
+            </value>
+            <value>
+                <fullName>Mgmt / Billing Company</fullName>
+                <default>false</default>
+                <label>Mgmt / Billing Company</label>
+            </value>
+            <value>
+                <fullName>Pain Treatment Center/Clinic</fullName>
+                <default>false</default>
+                <label>Pain Treatment Center/Clinic</label>
+            </value>
+            <value>
+                <fullName>Physical Therapy (standalone)</fullName>
+                <default>false</default>
+                <label>Physical Therapy (standalone)</label>
+            </value>
+            <value>
+                <fullName>Rx Distributor</fullName>
+                <default>false</default>
+                <label>Rx Distributor</label>
+            </value>
+            <value>
+                <fullName>Scheduling Office</fullName>
+                <default>false</default>
+                <label>Scheduling Office</label>
+            </value>
+            <value>
+                <fullName>Equipment Supplier</fullName>
+                <default>false</default>
+                <label>Equipment Supplier</label>
+            </value>
+            <value>
+                <fullName>Hospital (inpatient)</fullName>
+                <default>false</default>
+                <label>Hospital (inpatient)</label>
+            </value>
+            <value>
+                <fullName>Hospital (outpatient)</fullName>
+                <default>false</default>
+                <label>Hospital (outpatient)</label>
+            </value>
+            <value>
+                <fullName>Hospital (inpatient &amp; outpatient)</fullName>
+                <default>false</default>
+                <label>Hospital (inpatient &amp; outpatient)</label>
+            </value>
+            <value>
+                <fullName>Imaging Center (hospital)</fullName>
+                <default>false</default>
+                <label>Imaging Center (hospital)</label>
+            </value>
+            <value>
+                <fullName>Imaging Center (standalone)</fullName>
+                <default>false</default>
+                <label>Imaging Center (standalone)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Surgery Center</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Surgery Center</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

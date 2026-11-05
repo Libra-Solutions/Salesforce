@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Required_to_Qualify_Lead</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Phone) &amp;&amp;
+$Permission.Submit_Leads_Bypass=FALSE &amp;&amp;
+ISPICKVAL(Status,&quot;Qualified&quot;)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Please fill in the phone field to qualify this lead.</errorMessage>
+</ValidationRule>

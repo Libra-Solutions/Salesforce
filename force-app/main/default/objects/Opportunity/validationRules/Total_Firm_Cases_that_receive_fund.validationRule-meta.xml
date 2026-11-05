@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Firm_Cases_that_receive_fund</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(of_Total_Firm_Cases_that_receive_fund__c, &quot;Other&quot;),
+RecordType.Name = &apos;Sizing the Opportunity&apos;,
+ISBLANK(of_Total_Firm_Cases_that_receive_Other__c)
+)</errorConditionFormula>
+    <errorDisplayField>of_Total_Firm_Cases_that_receive_Other__c</errorDisplayField>
+    <errorMessage>Please fill the required field</errorMessage>
+</ValidationRule>

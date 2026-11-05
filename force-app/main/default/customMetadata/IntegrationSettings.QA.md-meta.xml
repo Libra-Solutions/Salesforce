@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CashTrax_QA</label>
+    <protected>false</protected>
+    <values>
+        <field>AdminEmail__c</field>
+        <value xsi:type="xsd:string">cchauhan@oasisfinancial.com</value>
+    </values>
+    <values>
+        <field>Envrionment_Flag__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>MLEndPoint__c</field>
+        <value xsi:type="xsd:string">http://salesforce.keyhealth.net</value>
+    </values>
+    <values>
+        <field>MLSecurityToken__c</field>
+        <value xsi:type="xsd:string">hvNY#1?WieiDLhYh?cqpdvWh-D</value>
+    </values>
+    <values>
+        <field>PSEndPoint__c</field>
+        <value xsi:type="xsd:string">http://sfapiprod.oasislegal.com</value>
+    </values>
+    <values>
+        <field>value__c</field>
+        <value xsi:type="xsd:string">992DB949-BF50-49ED-89DA-2243C802F95C</value>
+    </values>
+</CustomMetadata>

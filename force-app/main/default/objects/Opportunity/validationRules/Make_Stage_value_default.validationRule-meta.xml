@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Stage_value_default</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNEW(),
+RecordType.Name = &apos;Sizing the Opportunity&apos;,
+Not(ISPICKVAL( StageName , &apos;Created Opportunity&apos;) )
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Stage value must be Created Opportunity</errorMessage>
+</ValidationRule>

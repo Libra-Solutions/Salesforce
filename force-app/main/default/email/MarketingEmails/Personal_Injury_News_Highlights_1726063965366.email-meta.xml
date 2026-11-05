@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fast Facts is a collection of personal injury industry news, events, and information that we think will be helpful to you, your team, and your firm.  If you have insights to contribute to discussions on funding, personal injury law, or related subjects, we welcome your input. Email us at attorneysupport@oasisfinancial.com.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Personal Injury News Highlights</name>
+    <pageDevName>Personal_Injury_News_Highlights4</pageDevName>
+    <style>none</style>
+    <subject>Personal Injury News Highlights</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}}, 
+
+Fast Facts is a collection of personal injury industry news, events, and information that we think will be helpful to you, your team, and your firm.
+
+If you have insights to contribute to discussions on funding, personal injury law, or related subjects, we welcome your input. Email us at attorneysupport@oasisfinancial.com.
+
+Title
+
+Description
+
+Read full article here. &lt; https:// &gt; 
+
+Title
+
+Description
+
+Read full article here. &lt; https:// &gt; 
+
+Title
+
+Description
+
+Read full article here. &lt; https:// &gt; 
+
+Title
+
+Description
+
+Read full article here. &lt; https:// &gt; 
+
+Title
+
+Description
+
+Read full article here. &lt; https:// &gt; 
+
+Thanks for your time,
+
+Colin Lawler
+
+SVP &amp; Counsel
+
+Oasis Financial
+
+9525 W. Bryn Mawr Ave. Suite 900
+
+Rosemont, IL 60018
+
+Copyright © 2024 Oasis Financial,
+
+All rights reserved.
+
+Unsubscribe &lt;  {{{Unsubscribe}}}  &gt; | Website &lt; https://www.oasisfinancial.com/financial-funding-3-tp-bb/?kenibpid=p.511._k_16166500955e192aafaa00a92fbab9a2_k_.&amp;utm_source=BING&amp;utm_campaign=Oasis_Bing_SEM_Brand_D%252BT_Exact&amp;utm_term=oasis%2520financial&amp;utm_matchtype=e&amp;kpid=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;utm_id=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;msclkid=16166500955e192aafaa00a92fbab9a2&amp;utm_medium=cpc&amp;utm_content=Brand_Exact_Oasis%2520Financial &gt; | LinkedIn &lt; https://www.linkedin.com/company/oasis-legal-finance &gt; | Instagram &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

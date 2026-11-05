@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_Role_Desc_Mailing__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Role Description - Mailing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LEG Administrative Aide</fullName>
+                <default>false</default>
+                <label>LEG Administrative Aide</label>
+            </value>
+            <value>
+                <fullName>LEG Administrative Director</fullName>
+                <default>false</default>
+                <label>LEG Administrative Director</label>
+            </value>
+            <value>
+                <fullName>LEG Associate Staff</fullName>
+                <default>false</default>
+                <label>LEG Associate Staff</label>
+            </value>
+            <value>
+                <fullName>LEG Caseworker / Constituent Liaison</fullName>
+                <default>false</default>
+                <label>LEG Caseworker / Constituent Liaison</label>
+            </value>
+            <value>
+                <fullName>LEG Chief of Staff / Administrative Assistant</fullName>
+                <default>false</default>
+                <label>LEG Chief of Staff / Administrative Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Comptroller</fullName>
+                <default>false</default>
+                <label>LEG Comptroller</label>
+            </value>
+            <value>
+                <fullName>LEG Counsel / General Counsel</fullName>
+                <default>false</default>
+                <label>LEG Counsel / General Counsel</label>
+            </value>
+            <value>
+                <fullName>LEG Counsel / Legislative Counsel</fullName>
+                <default>false</default>
+                <label>LEG Counsel / Legislative Counsel</label>
+            </value>
+            <value>
+                <fullName>LEG Curator</fullName>
+                <default>false</default>
+                <label>LEG Curator</label>
+            </value>
+            <value>
+                <fullName>LEG Deputy Ranking Minority Member</fullName>
+                <default>false</default>
+                <label>LEG Deputy Ranking Minority Member</label>
+            </value>
+            <value>
+                <fullName>LEG Director of Security</fullName>
+                <default>false</default>
+                <label>LEG Director of Security</label>
+            </value>
+            <value>
+                <fullName>LEG District Director / District Chief of Staff</fullName>
+                <default>false</default>
+                <label>LEG District Director / District Chief of Staff</label>
+            </value>
+            <value>
+                <fullName>LEG Economist</fullName>
+                <default>false</default>
+                <label>LEG Economist</label>
+            </value>
+            <value>
+                <fullName>LEG Editor / Publications</fullName>
+                <default>false</default>
+                <label>LEG Editor / Publications</label>
+            </value>
+            <value>
+                <fullName>LEG Executive Assistant</fullName>
+                <default>false</default>
+                <label>LEG Executive Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Executive Assistant / Personal Assistant</fullName>
+                <default>false</default>
+                <label>LEG Executive Assistant / Personal Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Fellow / Detailee</fullName>
+                <default>false</default>
+                <label>LEG Fellow / Detailee</label>
+            </value>
+            <value>
+                <fullName>LEG Field Rep</fullName>
+                <default>false</default>
+                <label>LEG Field Rep</label>
+            </value>
+            <value>
+                <fullName>LEG Finance Director / Accountant / Financial</fullName>
+                <default>false</default>
+                <label>LEG Finance Director / Accountant / Financial</label>
+            </value>
+            <value>
+                <fullName>LEG Financial Administrator</fullName>
+                <default>false</default>
+                <label>LEG Financial Administrator</label>
+            </value>
+            <value>
+                <fullName>LEG Floor Staff</fullName>
+                <default>false</default>
+                <label>LEG Floor Staff</label>
+            </value>
+            <value>
+                <fullName>LEG Intern</fullName>
+                <default>false</default>
+                <label>LEG Intern</label>
+            </value>
+            <value>
+                <fullName>LEG Intern Coordinator</fullName>
+                <default>false</default>
+                <label>LEG Intern Coordinator</label>
+            </value>
+            <value>
+                <fullName>LEG Investigator</fullName>
+                <default>false</default>
+                <label>LEG Investigator</label>
+            </value>
+            <value>
+                <fullName>LEG Legislative Assistant</fullName>
+                <default>false</default>
+                <label>LEG Legislative Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Legislative Assistant / Policy Advisor</fullName>
+                <default>false</default>
+                <label>LEG Legislative Assistant / Policy Advisor</label>
+            </value>
+            <value>
+                <fullName>LEG Legislative Correspondent</fullName>
+                <default>false</default>
+                <label>LEG Legislative Correspondent</label>
+            </value>
+            <value>
+                <fullName>LEG Legislative Correspondent / Legislative Aide</fullName>
+                <default>false</default>
+                <label>LEG Legislative Correspondent / Legislative Aide</label>
+            </value>
+            <value>
+                <fullName>LEG Legislative Director</fullName>
+                <default>false</default>
+                <label>LEG Legislative Director</label>
+            </value>
+            <value>
+                <fullName>LEG Mailroom Manager / Mail Operations / Mail Services</fullName>
+                <default>false</default>
+                <label>LEG Mailroom Manager / Mail Operations / Mail Services</label>
+            </value>
+            <value>
+                <fullName>LEG Member Services Staff</fullName>
+                <default>false</default>
+                <label>LEG Member Services Staff</label>
+            </value>
+            <value>
+                <fullName>LEG New Media Director / Online Communications</fullName>
+                <default>false</default>
+                <label>LEG New Media Director / Online Communications</label>
+            </value>
+            <value>
+                <fullName>LEG Office Manager</fullName>
+                <default>false</default>
+                <label>LEG Office Manager</label>
+            </value>
+            <value>
+                <fullName>LEG Office Manager / Office Administrator</fullName>
+                <default>false</default>
+                <label>LEG Office Manager / Office Administrator</label>
+            </value>
+            <value>
+                <fullName>LEG Outreach</fullName>
+                <default>false</default>
+                <label>LEG Outreach</label>
+            </value>
+            <value>
+                <fullName>LEG Parliamentarian</fullName>
+                <default>false</default>
+                <label>LEG Parliamentarian</label>
+            </value>
+            <value>
+                <fullName>LEG Policy Analyst / Analyst</fullName>
+                <default>false</default>
+                <label>LEG Policy Analyst / Analyst</label>
+            </value>
+            <value>
+                <fullName>LEG Policy Director</fullName>
+                <default>false</default>
+                <label>LEG Policy Director</label>
+            </value>
+            <value>
+                <fullName>LEG Press Assistant</fullName>
+                <default>false</default>
+                <label>LEG Press Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Press Secretary / Communications Director</fullName>
+                <default>false</default>
+                <label>LEG Press Secretary / Communications Director</label>
+            </value>
+            <value>
+                <fullName>LEG Press Secretary / Communications Director / Other Liaison</fullName>
+                <default>false</default>
+                <label>LEG Press Secretary / Communications Director / Other Liaison</label>
+            </value>
+            <value>
+                <fullName>LEG Professional Staff Member</fullName>
+                <default>false</default>
+                <label>LEG Professional Staff Member</label>
+            </value>
+            <value>
+                <fullName>LEG Professional Staff Member / Parliamentarian</fullName>
+                <default>false</default>
+                <label>LEG Professional Staff Member / Parliamentarian</label>
+            </value>
+            <value>
+                <fullName>LEG Receptionist</fullName>
+                <default>false</default>
+                <label>LEG Receptionist</label>
+            </value>
+            <value>
+                <fullName>LEG Regional Director</fullName>
+                <default>false</default>
+                <label>LEG Regional Director</label>
+            </value>
+            <value>
+                <fullName>LEG Registrar</fullName>
+                <default>false</default>
+                <label>LEG Registrar</label>
+            </value>
+            <value>
+                <fullName>LEG Research Assistant / Legislative Aide</fullName>
+                <default>false</default>
+                <label>LEG Research Assistant / Legislative Aide</label>
+            </value>
+            <value>
+                <fullName>LEG Research Director</fullName>
+                <default>false</default>
+                <label>LEG Research Director</label>
+            </value>
+            <value>
+                <fullName>LEG Scheduler</fullName>
+                <default>false</default>
+                <label>LEG Scheduler</label>
+            </value>
+            <value>
+                <fullName>LEG Second Vice Chair</fullName>
+                <default>false</default>
+                <label>LEG Second Vice Chair</label>
+            </value>
+            <value>
+                <fullName>LEG Senior Advisor / Advisor</fullName>
+                <default>false</default>
+                <label>LEG Senior Advisor / Advisor</label>
+            </value>
+            <value>
+                <fullName>LEG Senior Analyst / Policy Analyst / Advisor</fullName>
+                <default>false</default>
+                <label>LEG Senior Analyst / Policy Analyst / Advisor</label>
+            </value>
+            <value>
+                <fullName>LEG Senior Secretary / Secretary</fullName>
+                <default>false</default>
+                <label>LEG Senior Secretary / Secretary</label>
+            </value>
+            <value>
+                <fullName>LEG Special Assistant</fullName>
+                <default>false</default>
+                <label>LEG Special Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Special Assistant / Special Projects</fullName>
+                <default>false</default>
+                <label>LEG Special Assistant / Special Projects</label>
+            </value>
+            <value>
+                <fullName>LEG Special Projects / Project Director</fullName>
+                <default>false</default>
+                <label>LEG Special Projects / Project Director</label>
+            </value>
+            <value>
+                <fullName>LEG Speechwriter / Editor / Publications and Documents</fullName>
+                <default>false</default>
+                <label>LEG Speechwriter / Editor / Publications and Documents</label>
+            </value>
+            <value>
+                <fullName>LEG Staff Assistant</fullName>
+                <default>false</default>
+                <label>LEG Staff Assistant</label>
+            </value>
+            <value>
+                <fullName>LEG Staff Assistant / Staff Researcher</fullName>
+                <default>false</default>
+                <label>LEG Staff Assistant / Staff Researcher</label>
+            </value>
+            <value>
+                <fullName>LEG Staff Consultant / Consultant / Staff Advisor / Advisor</fullName>
+                <default>false</default>
+                <label>LEG Staff Consultant / Consultant / Staff Advisor / Advisor</label>
+            </value>
+            <value>
+                <fullName>LEG Staff Director / Chief of Staff</fullName>
+                <default>false</default>
+                <label>LEG Staff Director / Chief of Staff</label>
+            </value>
+            <value>
+                <fullName>LEG Systems Administrator</fullName>
+                <default>false</default>
+                <label>LEG Systems Administrator</label>
+            </value>
+            <value>
+                <fullName>LEG Systems Administrator / Systems Operator</fullName>
+                <default>false</default>
+                <label>LEG Systems Administrator / Systems Operator</label>
+            </value>
+            <value>
+                <fullName>LEG Tour Coordinator</fullName>
+                <default>false</default>
+                <label>LEG Tour Coordinator</label>
+            </value>
+            <value>
+                <fullName>LEG US Representative</fullName>
+                <default>false</default>
+                <label>LEG US Representative</label>
+            </value>
+            <value>
+                <fullName>LEG US Senator</fullName>
+                <default>false</default>
+                <label>LEG US Senator</label>
+            </value>
+            <value>
+                <fullName>LEG Vice Ranking Minority Member</fullName>
+                <default>false</default>
+                <label>LEG Vice Ranking Minority Member</label>
+            </value>
+            <value>
+                <fullName>LEG Whip</fullName>
+                <default>false</default>
+                <label>LEG Whip</label>
+            </value>
+            <value>
+                <fullName>LEG Advisory Member</fullName>
+                <default>false</default>
+                <label>LEG Advisory Member</label>
+            </value>
+            <value>
+                <fullName>LEG Liaison Member</fullName>
+                <default>false</default>
+                <label>LEG Liaison Member</label>
+            </value>
+            <value>
+                <fullName>LEG Minority Chairman</fullName>
+                <default>false</default>
+                <label>LEG Minority Chairman</label>
+            </value>
+            <value>
+                <fullName>LEG State Representative</fullName>
+                <default>false</default>
+                <label>LEG State Representative</label>
+            </value>
+            <value>
+                <fullName>LEG State Senator</fullName>
+                <default>false</default>
+                <label>LEG State Senator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Sales_List_Lookup__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  Contact_Level_Responsible__c  =  $User.FirstName &amp; &quot; &quot; &amp;  $User.LastName  , 1 , 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Sales List Lookup</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Injuries --></label>
+    <name>Injuries__c</name>
+    <picklistValues>
+        <masterLabel>Broken Bones</masterLabel>
+        <translation><!-- Broken Bones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head / Face</masterLabel>
+        <translation><!-- Head / Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Injuries</masterLabel>
+        <translation><!-- Internal Injuries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leg / Foot</masterLabel>
+        <translation><!-- Leg / Foot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neck / Back</masterLabel>
+        <translation><!-- Neck / Back --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shoulder / Arm / Hand</masterLabel>
+        <translation><!-- Shoulder / Arm / Hand --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+The pricing request for {!Opportunity.Recommend_Pricing__c} for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c}) submitted by {!Opportunity.OwnerFullName} has been rejected. If you wish to appeal, please discuss directly with Colin and Ryan and subsequently resubmit for approval if necessary. Otherwise, please mark the Opportunity as Closed-Lost.
+
+Opportunity Link: https://oasiscrm--uatsandbox.lightning.force.com/{!Opportunity.Id}
+
+Please reach out to Colin and Ryan with any questions.

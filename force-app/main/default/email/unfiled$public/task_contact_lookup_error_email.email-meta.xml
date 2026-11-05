@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Task Contact Lookup Error Email</name>
+    <style>none</style>
+    <subject>Contact Lookup Failed on MS Bookings Task {!Task.Subject}</subject>
+    <textOnly>This task with a subject of: {!Task.Subject} With these comments: {!Task.Description} From MS Bookings: {!Task.From_MS_Bookings__c} {!Task.Link} View the task here: https://oasiscrm.lightning.force.com/lightning/r/Task/{!Task.Id}/view</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

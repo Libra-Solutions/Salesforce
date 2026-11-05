@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://oasiscrm.my.salesforce.com/sfc/p/610000007E9Q/a/4M0000005NeW/bwKe8bgf0J9dotJXCyXOG6tto5HMwbTxvJ8vdydGsJA</linkUrl>
+        <masterLabel>MapAnything with Salesforce Maps w Dave W</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/EYUXO7S6r_BMneofid8kDJ0BGk6DGbcMfpidUEeubw42xQ?e=4AlGTO</linkUrl>
+        <masterLabel>Manage Events via Mobile</masterLabel>
+        <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/EbqneV3U5p1FqPuUpkIndhEBKGKTlXVnQs2-_shbTgcNPg?e=qq137J</linkUrl>
+        <masterLabel>Can&apos;t Find OSR Page in Cashtrax</masterLabel>
+        <sortOrder>3</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:b:/g/personal/llevko_oasisfinancial_com/EcvcxBmCBAJJn90VATdRTj4BkCUqt4bwowem19_j60kXKw?e=wWEndH</linkUrl>
+        <masterLabel>Activity Reminders and Notifications</masterLabel>
+        <sortOrder>4</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:w:/g/personal/llevko_oasisfinancial_com/ERUJUiy3pEZDql2Jizj6qmUB61ZN5VC_igGPE1dgGWwn8A?e=UwAlGV</linkUrl>
+        <masterLabel>Outlook Plug-in for Salesforce</masterLabel>
+        <sortOrder>5</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:w:/g/personal/llevko_oasisfinancial_com/Ed4llx5Ef55Bk-YfHmvRJi8Bdt8sZItZDTX90cMnK02xdQ?e=e9rZhe</linkUrl>
+        <masterLabel>Login via Salesforce App</masterLabel>
+        <sortOrder>6</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/EVgL6FLx3CZCgNvymMZXwrIBiUtOKajVadhAcwA1By09fg?e=ezaLk1</linkUrl>
+        <masterLabel>Add Email Signature to Salesforce</masterLabel>
+        <sortOrder>7</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/Eajit5orFaFLi0jBoZcaVtgBJrJHXFn9dS05xDOirlDigA?e=yv94mf</linkUrl>
+        <masterLabel>Creating Support Contacts</masterLabel>
+        <sortOrder>8</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/EW8lCZ4krQtOn0LM09wlwXQBJmFdog-8oSPkZkJSmZ5a4A?e=QQ2cpt</linkUrl>
+        <masterLabel>Create New List View</masterLabel>
+        <sortOrder>9</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/EXfwG3WbTeBKklM9upNFRgIBiRR-ak7dls8oGdGWD0JQJA?e=swXIGi</linkUrl>
+        <masterLabel>Create New List Views, Part 2</masterLabel>
+        <sortOrder>10</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/ETGLWtEbwAZMpT-PsFB2dNwB8gaByuZqxhDn0c3dRmSFVQ?e=4uXeoo</linkUrl>
+        <masterLabel>Converting Lead to Existing Firm</masterLabel>
+        <sortOrder>11</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/ERFFTx4u7HpLsfcn-eFI2BcBZJMiPsX-xWsnOnVsjd3YjA?e=plNvDe</linkUrl>
+        <masterLabel>View Scheduled Events</masterLabel>
+        <sortOrder>12</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://help.salesforce.com/articleView?id=collab_following_records.htm&amp;type=5</linkUrl>
+        <masterLabel>Follow Records</masterLabel>
+        <sortOrder>13</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://oasisfinanciallytn-my.sharepoint.com/:v:/g/personal/llevko_oasisfinancial_com/EZZcaOF86YhEuvj0b3SaiNMB2R32N8fNfmqBqcMnzQU7IA?e=ZZ54dW</linkUrl>
+        <masterLabel>Add internal attendees to Events</masterLabel>
+        <sortOrder>14</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>Oasis | Key Salesforce Help</masterLabel>
+</CustomHelpMenuSection>

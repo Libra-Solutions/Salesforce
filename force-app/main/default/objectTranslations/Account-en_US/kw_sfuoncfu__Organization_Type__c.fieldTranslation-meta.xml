@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organization Type --></label>
+    <name>kw_sfuoncfu__Organization_Type__c</name>
+    <picklistValues>
+        <masterLabel>Governor&apos;s Offce</masterLabel>
+        <translation><!-- Governor&apos;s Offce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Agency</masterLabel>
+        <translation><!-- State Agency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Department</masterLabel>
+        <translation><!-- State Department --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

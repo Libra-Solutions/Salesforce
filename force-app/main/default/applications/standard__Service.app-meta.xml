@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-Case</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <tabs>Getting_Started_reg</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Solution</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Administration__c</tabs>
+    <tabs>Enhancements__c</tabs>
+    <tabs>Hunt_List__c</tabs>
+    <tabs>standard-WaveHome</tabs>
+    <tabs>Preset_Medlien_Communication__c</tabs>
+    <tabs>Preset_Med_Import_Csv</tabs>
+    <tabs>Pre_Med_Sync_Csv</tabs>
+    <tabs>Booking_Error__c</tabs>
+</CustomApplication>

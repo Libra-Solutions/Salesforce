@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Property Damage Amount --></label>
+    <name>PropertyDamageAmount__c</name>
+    <picklistValues>
+        <masterLabel>$1,000 or more</masterLabel>
+        <translation><!-- $1,000 or more --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less than $1,000</masterLabel>
+        <translation><!-- Less than $1,000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Totaled</masterLabel>
+        <translation><!-- Vehicle Totaled --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

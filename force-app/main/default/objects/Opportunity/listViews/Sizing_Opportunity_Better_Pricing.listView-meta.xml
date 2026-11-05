@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sizing_Opportunity_Better_Pricing</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>What_would_it_take_to_get_the_additional__c</columns>
+    <columns>Stage_Change_Date__c</columns>
+    <columns>Current_Pricing__c</columns>
+    <columns>Recommend_Pricing__c</columns>
+    <columns>Firm_Id__c</columns>
+    <columns>Atty_ID__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Sizing_the_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Dworkin,Goldblatt,First</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Submitted opportunity</value>
+    </filters>
+    <label>Sizing Opportunity Approval Queue</label>
+</ListView>

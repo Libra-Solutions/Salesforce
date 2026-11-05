@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Speciality --></label>
+    <name>Speciality__c</name>
+    <picklistValues>
+        <masterLabel>Acupuncture</masterLabel>
+        <translation><!-- Acupuncture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anesthesiologist</masterLabel>
+        <translation><!-- Anesthesiologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anesthesiology</masterLabel>
+        <translation><!-- Anesthesiology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aqua Therapy</masterLabel>
+        <translation><!-- Aqua Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audiology</masterLabel>
+        <translation><!-- Audiology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biofeedback</masterLabel>
+        <translation><!-- Biofeedback --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brain Injury</masterLabel>
+        <translation><!-- Brain Injury --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiology</masterLabel>
+        <translation><!-- Cardiology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chiropractic</masterLabel>
+        <translation><!-- Chiropractic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chiropractor</masterLabel>
+        <translation><!-- Chiropractor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentist</masterLabel>
+        <translation><!-- Dentist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dermatology</masterLabel>
+        <translation><!-- Dermatology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diagnostic</masterLabel>
+        <translation><!-- Diagnostic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dry Needling</masterLabel>
+        <translation><!-- Dry Needling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ENT</masterLabel>
+        <translation><!-- ENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ear, Nose, &amp; Throat</masterLabel>
+        <translation><!-- Ear, Nose, &amp; Throat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Practice</masterLabel>
+        <translation><!-- Family Practice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional Capacity Eval (FCE)</masterLabel>
+        <translation><!-- Functional Capacity Eval (FCE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Practice</masterLabel>
+        <translation><!-- General Practice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgeon</masterLabel>
+        <translation><!-- General Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Surgery</masterLabel>
+        <translation><!-- General Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health</masterLabel>
+        <translation><!-- Home Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health Care</masterLabel>
+        <translation><!-- Home Health Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital</masterLabel>
+        <translation><!-- Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hyperbarrics</masterLabel>
+        <translation><!-- Hyperbarrics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging</masterLabel>
+        <translation><!-- Imaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging Center</masterLabel>
+        <translation><!-- Imaging Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Initial Evaluation</masterLabel>
+        <translation><!-- Initial Evaluation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Test</masterLabel>
+        <translation><!-- Lab Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Massage Therapy</masterLabel>
+        <translation><!-- Massage Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Masseuse</masterLabel>
+        <translation><!-- Masseuse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Equipment (DME)</masterLabel>
+        <translation><!-- Medical Equipment (DME) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Practice</masterLabel>
+        <translation><!-- Medical Practice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi-Practice</masterLabel>
+        <translation><!-- Multi-Practice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NCV/EMG</masterLabel>
+        <translation><!-- NCV/EMG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuro Surgery</masterLabel>
+        <translation><!-- Neuro Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurodiagnostic</masterLabel>
+        <translation><!-- Neurodiagnostic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurologist</masterLabel>
+        <translation><!-- Neurologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurology</masterLabel>
+        <translation><!-- Neurology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuromonitoring</masterLabel>
+        <translation><!-- Neuromonitoring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuropsych Testing</masterLabel>
+        <translation><!-- Neuropsych Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuropsychology</masterLabel>
+        <translation><!-- Neuropsychology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neurosurgeon</masterLabel>
+        <translation><!-- Neurosurgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmology</masterLabel>
+        <translation><!-- Ophthalmology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optometry</masterLabel>
+        <translation><!-- Optometry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthodontist</masterLabel>
+        <translation><!-- Orthodontist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic</masterLabel>
+        <translation><!-- Orthopedic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic Surgeon</masterLabel>
+        <translation><!-- Orthopedic Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedic Surgery</masterLabel>
+        <translation><!-- Orthopedic Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedics</masterLabel>
+        <translation><!-- Orthopedics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orthopedist</masterLabel>
+        <translation><!-- Orthopedist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pain Management</masterLabel>
+        <translation><!-- Pain Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pain Management Interventional</masterLabel>
+        <translation><!-- Pain Management Interventional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pathology</masterLabel>
+        <translation><!-- Pathology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatrician</masterLabel>
+        <translation><!-- Pediatrician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy</masterLabel>
+        <translation><!-- Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiatrist</masterLabel>
+        <translation><!-- Physiatrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physiatrist (PMNR)</masterLabel>
+        <translation><!-- Physiatrist (PMNR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Medicine and Rehab</masterLabel>
+        <translation><!-- Physical Medicine and Rehab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Therapy</masterLabel>
+        <translation><!-- Physical Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Therapy (non-MD)</masterLabel>
+        <translation><!-- Physical Therapy (non-MD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician&apos;s Assistant</masterLabel>
+        <translation><!-- Physician&apos;s Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic Surgeon</masterLabel>
+        <translation><!-- Plastic Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastics</masterLabel>
+        <translation><!-- Plastics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Podiatrist</masterLabel>
+        <translation><!-- Podiatrist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Podiatry</masterLabel>
+        <translation><!-- Podiatry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Op Clearance/Bloodwork</masterLabel>
+        <translation><!-- Pre-Op Clearance/Bloodwork --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care</masterLabel>
+        <translation><!-- Primary Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychologist</masterLabel>
+        <translation><!-- Psychologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychology</masterLabel>
+        <translation><!-- Psychology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulmonologist</masterLabel>
+        <translation><!-- Pulmonologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiologist</masterLabel>
+        <translation><!-- Radiologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiology</masterLabel>
+        <translation><!-- Radiology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speech Therapy</masterLabel>
+        <translation><!-- Speech Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Surgeon</masterLabel>
+        <translation><!-- Spine Surgeon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spine Surgery</masterLabel>
+        <translation><!-- Spine Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Center</masterLabel>
+        <translation><!-- Surgery Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Center (ASC)</masterLabel>
+        <translation><!-- Surgery Center (ASC) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Translator</masterLabel>
+        <translation><!-- Translator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation</masterLabel>
+        <translation><!-- Transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urgent Care</masterLabel>
+        <translation><!-- Urgent Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urologist</masterLabel>
+        <translation><!-- Urologist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urology</masterLabel>
+        <translation><!-- Urology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VNG Testing</masterLabel>
+        <translation><!-- VNG Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vestibular PT</masterLabel>
+        <translation><!-- Vestibular PT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wound Care</masterLabel>
+        <translation><!-- Wound Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>concussion Management</masterLabel>
+        <translation><!-- concussion Management --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

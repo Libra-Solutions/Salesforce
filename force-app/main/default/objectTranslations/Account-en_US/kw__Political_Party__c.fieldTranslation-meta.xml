@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Political Party --></label>
+    <name>kw__Political_Party__c</name>
+    <picklistValues>
+        <masterLabel>Democratic Party</masterLabel>
+        <translation><!-- Democratic Party --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Independent</masterLabel>
+        <translation><!-- Independent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Republican Party</masterLabel>
+        <translation><!-- Republican Party --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

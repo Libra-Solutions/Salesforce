@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MoveDocs_Intro_Pitched_No_Atty_Interest__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For selection by Pre-Set reps only. MoveDocs Intro Pitched, no attorney interest.</description>
+    <label>MoveDocs Intro Pitched-No Atty Interest</label>
+    <type>Checkbox</type>
+</CustomField>

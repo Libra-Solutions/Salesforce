@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Assignment</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>State_Code__c</columns>
+    <columns>State_Name__c</columns>
+    <columns>Assign_To_ID__c</columns>
+    <columns>RVP_ID__c</columns>
+    <columns>Notes__c</columns>
+    <columns>FES_Id__c</columns>
+    <columns>FES_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>State Assignment</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Elaborate on what it would take to get additional cases from the firm each month. --></help>
+    <label><!-- How do we get additional cases? --></label>
+    <name>What_would_it_take_additional_Other__c</name>
+</CustomFieldTranslation>

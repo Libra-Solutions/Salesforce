@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Treatment --></label>
+    <name>Treatment__c</name>
+    <picklistValues>
+        <masterLabel>Chiro</masterLabel>
+        <translation><!-- Chiro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Injections</masterLabel>
+        <translation><!-- Injections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MRI/XRAY</masterLabel>
+        <translation><!-- MRI/XRAY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PT</masterLabel>
+        <translation><!-- PT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery</masterLabel>
+        <translation><!-- Surgery --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

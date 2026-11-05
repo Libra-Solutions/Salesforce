@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Type__c</fullName>
+    <description>Deal Type for Sizing the Opportunity request</description>
+    <inlineHelpText>PRICING DEAL: Attorney agrees to a specific increase in business sent to Oasis, tied to a change in our pricing for their clients
+AGREEMENT: Attorney agrees to a specific increase in business sent to Oasis, but with no pricing change
+NOTHING: There is not an agreement to change pricing, or a commitment from the firm to increase business
+PRICING PITCH: We believe that pricing will help gain us more business, but we don&apos;t have a specific number agreement</inlineHelpText>
+    <label>Deal Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pricing Deal</fullName>
+                <default>false</default>
+                <label>Pricing Deal</label>
+            </value>
+            <value>
+                <fullName>Agreement</fullName>
+                <default>false</default>
+                <label>Agreement</label>
+            </value>
+            <value>
+                <fullName>Nothing</fullName>
+                <default>false</default>
+                <label>Nothing</label>
+            </value>
+            <value>
+                <fullName>Pricing Pitch</fullName>
+                <default>false</default>
+                <label>Pricing Pitch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

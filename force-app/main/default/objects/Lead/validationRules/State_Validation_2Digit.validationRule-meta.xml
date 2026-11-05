@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Validation_2Digit</fullName>
+    <active>false</active>
+    <errorConditionFormula>LEN( State ) &lt;&gt; 2</errorConditionFormula>
+    <errorDisplayField>State</errorDisplayField>
+    <errorMessage>Please enter 2 digit State Code.</errorMessage>
+</ValidationRule>

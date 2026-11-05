@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_kind_of_demo_was_completed__c</fullName>
+    <label>What kind of demo was completed?</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Oasis_Event_Result__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CMS Integration</fullName>
+                <default>false</default>
+                <label>CMS Integration</label>
+            </value>
+            <value>
+                <fullName>OTM Demo</fullName>
+                <default>false</default>
+                <label>OTM Demo</label>
+            </value>
+            <value>
+                <fullName>Movedocs Demo</fullName>
+                <default>false</default>
+                <label>Movedocs Demo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Level Three - Demo Complete- Int</controllingFieldValue>
+            <controllingFieldValue>Level Three- Demo Completed - Not Interested</controllingFieldValue>
+            <valueName>CMS Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Level Three - Demo Complete- Int</controllingFieldValue>
+            <controllingFieldValue>Level Three- Demo Completed - Not Interested</controllingFieldValue>
+            <valueName>OTM Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Level Three - Demo Complete- Int</controllingFieldValue>
+            <controllingFieldValue>Level Three- Demo Completed - Not Interested</controllingFieldValue>
+            <valueName>Movedocs Demo</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

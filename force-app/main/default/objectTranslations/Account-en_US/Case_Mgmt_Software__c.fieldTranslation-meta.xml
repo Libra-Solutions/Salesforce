@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Case Mgmt Software --></label>
+    <name>Case_Mgmt_Software__c</name>
+    <picklistValues>
+        <masterLabel>8am CasePeer</masterLabel>
+        <translation><!-- 8am CasePeer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clio</masterLabel>
+        <translation><!-- Clio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don&apos;t have/Use one</masterLabel>
+        <translation><!-- Don&apos;t have/Use one --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Filevine</masterLabel>
+        <translation><!-- Filevine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growpath</masterLabel>
+        <translation><!-- Growpath --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Litify</masterLabel>
+        <translation><!-- Litify --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MyCase</masterLabel>
+        <translation><!-- MyCase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needles</masterLabel>
+        <translation><!-- Needles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neos</masterLabel>
+        <translation><!-- Neos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SmartAdvocate</masterLabel>
+        <translation><!-- SmartAdvocate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smokeball</masterLabel>
+        <translation><!-- Smokeball --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trialworks</masterLabel>
+        <translation><!-- Trialworks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vcase</masterLabel>
+        <translation><!-- Vcase --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

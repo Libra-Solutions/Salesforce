@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Is_Inactive</fullName>
+    <active>false</active>
+    <description>Checks for changes when the account is inactive.</description>
+    <errorConditionFormula>AND(
+NOT(ISNEW()),
+NOT($User.Alias = &quot;apionly&quot;),
+ IsActive__c = FALSE,
+NOT(ISCHANGED(IsActive__c )))</errorConditionFormula>
+    <errorMessage>You cannot edit inactive accounts.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This user will be sent an email notification upon Opportunity creation. --></help>
+    <label><!-- Outside Sales Rep (Main) --></label>
+    <name>Outside_Sales_Rep_Main__c</name>
+    <relationshipLabel><!-- Opportunities (Outside Sales Rep (Main)) --></relationshipLabel>
+</CustomFieldTranslation>

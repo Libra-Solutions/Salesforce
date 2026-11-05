@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserReportLookup__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>ANALYTICS- Used to narrow down dashboard viewing permissions. Value is 1 only if the user looking at the dashboard is the user assigned to the activity</description>
+    <externalId>false</externalId>
+    <formula>IF( Owner:User.Id  = $User.Id , 1 , 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>UserReportLookup</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

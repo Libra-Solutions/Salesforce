@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oasis_Sub_Type__c</fullName>
+    <description>Custom Activity Sub Type picklist field to further categorize custom Type picklist. Dependent Picklists.</description>
+    <label>Sub Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Oasis_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atty Event Interest</fullName>
+                <default>false</default>
+                <label>Atty Event Interest</label>
+            </value>
+            <value>
+                <fullName>Atty no longer in Firm</fullName>
+                <default>false</default>
+                <label>Atty No Longer in Firm</label>
+            </value>
+            <value>
+                <fullName>Atty not practicing PI</fullName>
+                <default>false</default>
+                <label>Atty Not Practicing PI</label>
+            </value>
+            <value>
+                <fullName>Accounts Receivable</fullName>
+                <default>false</default>
+                <label>Accounts Receivable</label>
+            </value>
+            <value>
+                <fullName>Atty/Provider Event Call</fullName>
+                <default>false</default>
+                <label>Atty/Provider Event Call</label>
+            </value>
+            <value>
+                <fullName>Atty Portal Demo</fullName>
+                <default>false</default>
+                <label>Atty Portal Demo</label>
+            </value>
+            <value>
+                <fullName>Atty Portal Pitched</fullName>
+                <default>false</default>
+                <label>Atty Portal Pitched</label>
+            </value>
+            <value>
+                <fullName>Atty refuses to participate</fullName>
+                <default>false</default>
+                <label>Atty Refuses to Participate</label>
+            </value>
+            <value>
+                <fullName>Cross-Sell Call</fullName>
+                <default>false</default>
+                <label>Cross-Sell Call</label>
+            </value>
+            <value>
+                <fullName>Cubs Event Follow-up Call</fullName>
+                <default>false</default>
+                <label>Cubs Event Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Customer Issue Resolved</fullName>
+                <default>false</default>
+                <label>Customer Issue Resolved</label>
+            </value>
+            <value>
+                <fullName>Customer Service General</fullName>
+                <default>false</default>
+                <label>Customer Service General</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Gift Sent to Attorney</fullName>
+                <default>false</default>
+                <label>Gift Sent to Attorney</label>
+            </value>
+            <value>
+                <fullName>IL Pricing Pitched</fullName>
+                <default>false</default>
+                <label>IL Pricing Pitched</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>MARKETING-Medical Funding-EMAIL</fullName>
+                <default>false</default>
+                <label>MARKETING-Medical Funding-EMAIL</label>
+            </value>
+            <value>
+                <fullName>Medical Provider Prospecting Call</fullName>
+                <default>false</default>
+                <label>Medical Provider Prospecting Call</label>
+            </value>
+            <value>
+                <fullName>Microfunding Pitched</fullName>
+                <default>false</default>
+                <label>Microfunding Pitched</label>
+            </value>
+            <value>
+                <fullName>Networking/Event Attendee Call</fullName>
+                <default>false</default>
+                <label>Networking/Event Attendee Call</label>
+            </value>
+            <value>
+                <fullName>Paid in Full Call</fullName>
+                <default>false</default>
+                <label>Paid in Full Call</label>
+            </value>
+            <value>
+                <fullName>Pitched Atty/Provider</fullName>
+                <default>false</default>
+                <label>Pitched Atty/Provider</label>
+            </value>
+            <value>
+                <fullName>Pitched Support Contact</fullName>
+                <default>false</default>
+                <label>Pitched Support Contact</label>
+            </value>
+            <value>
+                <fullName>Portal Troubleshooting</fullName>
+                <default>false</default>
+                <label>Portal Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Prospecting Call</fullName>
+                <default>false</default>
+                <label>Prospecting Call</label>
+            </value>
+            <value>
+                <fullName>Request for visit</fullName>
+                <default>false</default>
+                <label>Request for visit</label>
+            </value>
+            <value>
+                <fullName>Retention Call</fullName>
+                <default>false</default>
+                <label>Retention Touch</label>
+            </value>
+            <value>
+                <fullName>Send Gift/Meal</fullName>
+                <default>false</default>
+                <label>Send Gift/Meal</label>
+            </value>
+            <value>
+                <fullName>Send Marketing Collateral/Swag</fullName>
+                <default>false</default>
+                <label>Send Marketing Collateral/Swag</label>
+            </value>
+            <value>
+                <fullName>Settlement Express Pitched</fullName>
+                <default>false</default>
+                <label>Settlement Express Pitched</label>
+            </value>
+            <value>
+                <fullName>Settlement Express Submitted</fullName>
+                <default>false</default>
+                <label>Settlement Express Submitted</label>
+            </value>
+            <value>
+                <fullName>Settlement Express Funded</fullName>
+                <default>false</default>
+                <label>Settlement Express Funded</label>
+            </value>
+            <value>
+                <fullName>Sizing the Opportunity Pitched</fullName>
+                <default>false</default>
+                <label>Sizing the Opportunity Pitched</label>
+            </value>
+            <value>
+                <fullName>Spoke with Atty/Provider</fullName>
+                <default>false</default>
+                <label>Spoke with Atty/Provider</label>
+            </value>
+            <value>
+                <fullName>Spoke with Support Contact</fullName>
+                <default>false</default>
+                <label>Spoke with Support Contact</label>
+            </value>
+            <value>
+                <fullName>Summer Gift Follow-up Call</fullName>
+                <default>false</default>
+                <label>Summer Gift Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Swag Follow up Call</fullName>
+                <default>false</default>
+                <label>Swag Follow up Call</label>
+            </value>
+            <value>
+                <fullName>Unrepresented Lead</fullName>
+                <default>false</default>
+                <label>Unrepresented Lead</label>
+            </value>
+            <value>
+                <fullName>VA Pricing Pitched</fullName>
+                <default>false</default>
+                <label>VA Pricing Pitched</label>
+            </value>
+            <value>
+                <fullName>Welcome Packet/In-Service Call</fullName>
+                <default>false</default>
+                <label>Welcome Packet/In-Service Call</label>
+            </value>
+            <value>
+                <fullName>MoveDocs Intro Pitched</fullName>
+                <default>false</default>
+                <label>MoveDocs Intro Pitched</label>
+            </value>
+            <value>
+                <fullName>MoveDocs Intro Pitched - Atty Not Interested</fullName>
+                <default>false</default>
+                <label>MoveDocs Intro Pitched - Atty Not Interested</label>
+            </value>
+            <value>
+                <fullName>MoveDocs Atty Pitched - Already Uses MoveDocs</fullName>
+                <default>false</default>
+                <label>MoveDocs Atty Pitched - Already Uses MoveDocs</label>
+            </value>
+            <value>
+                <fullName>TLA Outreach</fullName>
+                <default>false</default>
+                <label>TLA Outreach</label>
+            </value>
+            <value>
+                <fullName>Inside Sales MD Demo</fullName>
+                <default>false</default>
+                <label>Inside Sales MD Demo</label>
+            </value>
+            <value>
+                <fullName>Oasis Intro Pitched</fullName>
+                <default>false</default>
+                <label>Oasis Intro Pitched</label>
+            </value>
+            <value>
+                <fullName>Oasis Intro Pitched – Atty Not Interested</fullName>
+                <default>false</default>
+                <label>Oasis Intro Pitched – Atty Not Interested</label>
+            </value>
+            <value>
+                <fullName>Oasis Atty Portal Demo</fullName>
+                <default>false</default>
+                <label>Oasis Atty Portal Demo</label>
+            </value>
+            <value>
+                <fullName>Demo Follow-up</fullName>
+                <default>false</default>
+                <label>Demo Follow-up</label>
+            </value>
+            <value>
+                <fullName>New Atty Follow-up</fullName>
+                <default>false</default>
+                <label>New Atty Follow-up</label>
+            </value>
+            <value>
+                <fullName>Perform Movedocs Demo</fullName>
+                <default>false</default>
+                <label>Perform Movedocs Demo</label>
+            </value>
+            <value>
+                <fullName>Prospecting followup</fullName>
+                <default>false</default>
+                <label>Prospecting followup</label>
+            </value>
+            <value>
+                <fullName>CMS Integration Followup</fullName>
+                <default>false</default>
+                <label>CMS Integration Followup</label>
+            </value>
+            <value>
+                <fullName>Website Request</fullName>
+                <default>false</default>
+                <label>Website Request</label>
+            </value>
+            <value>
+                <fullName>CMS Demo Follow up (Filevine/Casepeer/Smartadvocate)</fullName>
+                <default>false</default>
+                <label>CMS Demo Follow up (Filevine/Casepeer/Smartadvocate)</label>
+            </value>
+            <value>
+                <fullName>Website Request Reachout</fullName>
+                <default>false</default>
+                <label>Website Request Reachout</label>
+            </value>
+            <value>
+                <fullName>Oasis on MoveDocs</fullName>
+                <default>false</default>
+                <label>Oasis on MoveDocs</label>
+            </value>
+            <value>
+                <fullName>MoveDocs Demo</fullName>
+                <default>false</default>
+                <label>MoveDocs Demo</label>
+            </value>
+            <value>
+                <fullName>ExpertPays Submission</fullName>
+                <default>false</default>
+                <label>ExpertPays Submission</label>
+            </value>
+            <value>
+                <fullName>CMS Demo</fullName>
+                <default>false</default>
+                <label>CMS Demo</label>
+            </value>
+            <value>
+                <fullName>MD Usage contact F/U</fullName>
+                <default>false</default>
+                <label>MD Usage contact F/U</label>
+            </value>
+            <value>
+                <fullName>MD Platform Follow Up</fullName>
+                <default>false</default>
+                <label>MD Platform Follow Up</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Atty Event Interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Atty no longer in Firm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Atty not practicing PI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Accounts Receivable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Atty/Provider Event Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Atty Portal Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Atty refuses to participate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Cross-Sell Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Cubs Event Follow-up Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Customer Issue Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Customer Service General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>IL Pricing Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Left Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>MARKETING-Medical Funding-EMAIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Medical Provider Prospecting Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Microfunding Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Networking/Event Attendee Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Paid in Full Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Pitched Atty/Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Pitched Support Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Portal Troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Prospecting Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Request for visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Retention Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Send Marketing Collateral/Swag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Settlement Express Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Settlement Express Submitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Settlement Express Funded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Sizing the Opportunity Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Spoke with Atty/Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Spoke with Support Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Summer Gift Follow-up Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Swag Follow up Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Unrepresented Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>VA Pricing Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Welcome Packet/In-Service Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>MoveDocs Intro Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>MoveDocs Intro Pitched - Atty Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>TLA Outreach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Inside Sales MD Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Oasis Intro Pitched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <valueName>Oasis Intro Pitched – Atty Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Prospecting followup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Atty Portal Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Send Gift/Meal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>MoveDocs Atty Pitched - Already Uses MoveDocs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Oasis Atty Portal Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Demo Follow-up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>New Atty Follow-up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Perform Movedocs Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>CMS Integration Followup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Website Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>CMS Demo Follow up (Filevine/Casepeer/Smartadvocate)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Website Request Reachout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Task</controllingFieldValue>
+            <valueName>Oasis on MoveDocs</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

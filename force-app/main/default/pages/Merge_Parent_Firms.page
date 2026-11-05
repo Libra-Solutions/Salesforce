@@ -1,0 +1,11 @@
+<apex:page standardController="Account">
+    <flow:interview name="Parent_LawFirm_Merging" finishLocation="/{!Account.Id}">
+        <apex:param name="varType" value="{!Account.Type}"/>
+        <apex:param name="varParentId" value="{!Account.Id}"/>
+        <apex:param name="varHQ" value="{!Account.HeadQuarter__c}"/>
+        <apex:param name="varFirmId" value="{!Account.OS_Firm_Id__c}"/>
+        <apex:param name="varKeyMeds" value="{!Account.KeyMedsId_for_Display__c}"/>
+        <apex:param name="varAtticus" value="{!Account.AtticusId__c}"/>
+        <apex:param name="varGRS" value="{!Account.GRSId_For_Display__c}"/>
+        </flow:interview>    
+</apex:page>

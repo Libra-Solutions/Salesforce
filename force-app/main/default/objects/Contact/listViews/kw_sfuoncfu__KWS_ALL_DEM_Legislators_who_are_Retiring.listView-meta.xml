@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw_sfuoncfu__KWS_ALL_DEM_Legislators_who_are_Retiring</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <label>KWS ALL DEM Legislators who are Retiring</label>
+    <sharedTo>
+        <group>KnowWho_Users</group>
+    </sharedTo>
+</ListView>

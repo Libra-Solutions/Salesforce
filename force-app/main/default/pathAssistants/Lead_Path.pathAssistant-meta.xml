@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>ProductInterest__c</fieldNames>
+        <info>&lt;p&gt;Lead Status = CONTACTED when the following criteria is met:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;You have made contact with the business&lt;/li&gt;&lt;li&gt;You have NOT YET successfully made contact with the decision-maker &lt;b&gt;OR&lt;/b&gt; scheduled an appointment.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <info>&lt;p&gt;This is where you&amp;#39;ll be GUIDED TOWARDS SUCCESS in managing leads! Woo Hoo!!&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/rte_broken_image.png&quot; alt=&quot;This image is not available because: You don’t have the privileges to see it, or it has been removed from the system&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Open</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>ProductInterest__c</fieldNames>
+        <info>&lt;p&gt;Lead Status =&lt;b&gt;QUALIFIED&lt;/b&gt; when the following criteria is met:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;You have scheduled an appointment. OR&lt;/li&gt;&lt;li&gt;You have otherwise determined the business is &lt;b&gt;ABLE&lt;/b&gt; and &lt;b&gt;WILLING&lt;/b&gt; to become YOUR Customer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Lead Status =&lt;b&gt;UNQUALIFIED&lt;/b&gt; when &lt;b&gt;&lt;i&gt;&lt;u&gt;EITHER&lt;/u&gt;&lt;/i&gt;&lt;/b&gt; of the following criteria is met:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Business is U&lt;b&gt;NABLE&lt;/b&gt; to become YOUR Customer&lt;/li&gt;&lt;li&gt;Business is UNWILLING to become Your Customer&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

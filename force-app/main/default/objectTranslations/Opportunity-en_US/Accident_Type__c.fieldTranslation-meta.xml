@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Accident Type --></label>
+    <name>Accident_Type__c</name>
+    <picklistValues>
+        <masterLabel>HeadOn</masterLabel>
+        <translation><!-- HeadOn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rear Ended</masterLabel>
+        <translation><!-- Rear Ended --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rollover</masterLabel>
+        <translation><!-- Rollover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sideswipe</masterLabel>
+        <translation><!-- Sideswipe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Car</masterLabel>
+        <translation><!-- Single Car --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T-bone</masterLabel>
+        <translation><!-- T-bone --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

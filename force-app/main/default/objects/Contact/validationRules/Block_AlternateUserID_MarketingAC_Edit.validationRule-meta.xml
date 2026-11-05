@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_AlternateUserID_MarketingAC_Edit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  AND(
+OR(
+$RecordType.Name = &quot;Attorney&quot;,
+$RecordType.Name = &quot;C3 Provider&quot;
+),
+OR(
+CONTAINS(Contact_Source_Description__c,&quot;Cashtrax User&quot;),
+CONTAINS(Contact_Source_Description__c,&quot;MoveDocs User&quot;)
+)),
+  OR(
+    ISCHANGED(Alternate_User_ID__c),
+    ISCHANGED(Marketing_AC__c)
+  ),
+$User.Alias!= &apos;apionly&apos;
+)</errorConditionFormula>
+    <errorMessage>You cannot modify Alternate User ID or Marketing AC on Attorney or C3 Provider contacts unless you are an API user.</errorMessage>
+</ValidationRule>

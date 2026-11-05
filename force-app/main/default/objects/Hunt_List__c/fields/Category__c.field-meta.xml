@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grow</fullName>
+                <default>false</default>
+                <label>Grow</label>
+            </value>
+            <value>
+                <fullName>Maintain</fullName>
+                <default>false</default>
+                <label>Maintain</label>
+            </value>
+            <value>
+                <fullName>Protect</fullName>
+                <default>false</default>
+                <label>Protect</label>
+            </value>
+            <value>
+                <fullName>$, Case Score</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>$, Case Score</label>
+            </value>
+            <value>
+                <fullName>Lapsed Attorney</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lapsed Attorney</label>
+            </value>
+            <value>
+                <fullName>Rule 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rule 1</label>
+            </value>
+            <value>
+                <fullName>Rule 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rule 2</label>
+            </value>
+            <value>
+                <fullName>Rule 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rule 3</label>
+            </value>
+            <value>
+                <fullName>Rule 4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rule 4</label>
+            </value>
+            <value>
+                <fullName>Top 1000 Office No Visit 9 Mo.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top 1000 Office No Visit 9 Mo.</label>
+            </value>
+            <value>
+                <fullName>Top 1500 Office No Visit 6 Mo.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top 1500 Office No Visit 6 Mo.</label>
+            </value>
+            <value>
+                <fullName>Top 500 Office</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top 500 Office</label>
+            </value>
+            <value>
+                <fullName>WP Call List</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WP Call List</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

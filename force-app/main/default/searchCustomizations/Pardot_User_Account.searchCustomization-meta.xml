@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchCustomization xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channel>GlobalSearch</channel>
+    <masterLabel>Pardot_User_Account</masterLabel>
+    <objectOverride>
+        <objectApiName>Account</objectApiName>
+        <rule>
+            <fieldApiName>Non_Searchable_Account__c</fieldApiName>
+            <operator>eq</operator>
+            <ruleValue>
+                <value>false</value>
+            </ruleValue>
+        </rule>
+    </objectOverride>
+    <selectedProfile>Pardot User</selectedProfile>
+</SearchCustomization>

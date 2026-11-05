@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Converted</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &quot;Converted&quot;),
+    NOT(
+        OR(
+            $Profile.Name = &quot;Power User&quot;,
+            $Profile.Name = &quot;System Administrator&quot;
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>You do not have the permissions to convert this lead!</errorMessage>
+</ValidationRule>

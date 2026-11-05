@@ -1,0 +1,18 @@
+<apex:page standardController="Account">
+  <apex:form >
+      
+      <table border='0'>
+      <tr>
+      <td><apex:outputLabel rendered="{!Account.PreSet__c}" style="color:red;font-weight:bold; font-size:14px;">PRESET</apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Account.Core__c}">CORE</apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Account.GRS__c}">GRS</apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Account.Atticus__c}">Atticus </apex:outputLabel></td>
+      <td><apex:outputLabel style="color:red;font-weight:bold; font-size:14px;" rendered="{!Account.Accident_Meds__c}">Accident Meds</apex:outputLabel></td>
+      </tr>
+      </table>
+      
+      
+      
+      
+  </apex:form>
+</apex:page>

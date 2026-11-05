@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Highlights Panel --></label>
+            <section>Highlights Panel</section>
+        </sections>
+        <sections>
+            <label><!-- Line of Business --></label>
+            <section>Line of Business</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Attorney Account_Admin</layout>
+        <sections>
+            <label><!-- Highlights Panel --></label>
+            <section>Highlights Panel</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Attorney Firm Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Attorney Firm Layout(Business Development)</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Provider Account</layout>
+        <sections>
+            <label><!-- Line of Business --></label>
+            <section>Line of Business</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Provider Service Location Layout</layout>
+        <sections>
+            <label><!-- Line of Business --></label>
+            <section>Line of Business</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Account Admin</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Account Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Case --></label>
+        <name>Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Indirect Contact --></label>
+        <name>Create_Indirect_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Merge Firms Locations --></label>
+        <name>Merge_Firms_Locations</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Merge Parent Firms --></label>
+        <name>Merge_Parent_Firms</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Sync with Backend Systems --></label>
+        <name>Sync_to_Backend_Systems</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Attorney --></label>
+        <name>Attorney</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provider accounts imported from C3 --></description>
+        <label><!-- C3 Provider --></label>
+        <name>C3_Provider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider --></label>
+        <name>Provider</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Specific to FacilityTypeLevelId 3 = Service Account --></description>
+        <label><!-- Provider: Service Location --></label>
+        <name>Provider_Service_Location</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Accounts from Cimi Database --></description>
+        <label><!-- Service Account --></label>
+        <name>Service_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Committee --></label>
+        <name>kw__KW_Account_Committee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Member --></label>
+        <name>kw__KW_Account_Member</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Officer --></label>
+        <name>kw__KW_Account_Officer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Officer Former --></label>
+        <name>kw__KW_Account_Officer_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Caucus --></label>
+        <name>kw__KW_Caucus</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Caucus Former --></label>
+        <name>kw__KW_Caucus_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Committee Former --></label>
+        <name>kw__KW_Committee_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Former --></label>
+        <name>kw__KW_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - Member Former --></label>
+        <name>kw__KW_Legislative_Member_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>kw__Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Committee --></label>
+        <name>kw_sfuoncfu__KW_State_Account_Committee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Caucus --></label>
+        <name>kw_sfuoncfu__KW_State_Caucus</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Caucus Former --></label>
+        <name>kw_sfuoncfu__KW_State_Caucus_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Committee Former --></label>
+        <name>kw_sfuoncfu__KW_State_Committee_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Executive --></label>
+        <name>kw_sfuoncfu__KW_State_Executive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Executive Former --></label>
+        <name>kw_sfuoncfu__KW_State_Executive_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Member --></label>
+        <name>kw_sfuoncfu__KW_State_Member</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Member Former --></label>
+        <name>kw_sfuoncfu__KW_State_Member_Former</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Officer --></label>
+        <name>kw_sfuoncfu__KW_State_Officer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KW - State Officer Former --></label>
+        <name>kw_sfuoncfu__KW_State_Officer_Former</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot edit inactive accounts. --></errorMessage>
+        <name>Account_Is_Inactive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Contracting Manager Profile users can update these fields, after contract is done. --></errorMessage>
+        <name>Account_Validation_for_Provider</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Street, City, State and Zip. --></errorMessage>
+        <name>Address_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Admin cannot modify these fields for C3 Provider accounts. Only the API user is allowed to make updates. --></errorMessage>
+        <name>Block_Admin_C3_Provider_Field_Updates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CMS Demo selection is required for Business Development users --></errorMessage>
+        <name>CMS_Demo_Bussiness_Development_Profile</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- System Administrators are not allowed to modify the Case Mgmt Software field --></errorMessage>
+        <name>Case_Mgmt_Software_System_Admin_Edit_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not select Headquarter. --></errorMessage>
+        <name>HQ_Validation_During_Lead_Conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not authorized to change the Marketing BDE OR Assigned AC. These fields can only be modified by the API Only User. --></errorMessage>
+        <name>Marketing_BDE_Assigned_AC_Read_Exce</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not authorized to change the Account Owner. This field can only be modified by the API Only User. --></errorMessage>
+        <name>OwnerId_ReadOnly_Except_API</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the Phone or Fax. --></errorMessage>
+        <name>Phone_or_Fax_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can not change record type. --></errorMessage>
+        <name>RecordType_Validate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Re-parenting is not allowed on this record, please contact your administrator. --></errorMessage>
+        <name>Reparenting_not_allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Account Name cannot be edited. Only the API user ma update this field. --></errorMessage>
+        <name>Restrice_C3_Account_Name_Edit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only edit records that you own. --></errorMessage>
+        <name>Restrict_Edit_To_Own_Records</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have access to change this Account&apos;s name. Please send a change request. --></errorMessage>
+        <name>Service_Account_Not_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Service Account records cannot be marked inactive. --></errorMessage>
+        <name>Service_Accounts_Cannot_Be_Marked_Inacti</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Change_Request --></label>
+        <name>Change_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PS_Attorney_Portal --></label>
+        <name>PS_Attorney_Portal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Bulk_Handwrytten_Notes --></label>
+        <name>hndwrt__Send_Bulk_Handwrytten_Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_Editorial_Alert --></label>
+        <name>kw__Submit_Editorial_Alert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_To_Prospect_Insight --></label>
+        <name>pi__Send_To_Prospect_Insight</name>
+    </webLinks>
+</CustomObjectTranslation>

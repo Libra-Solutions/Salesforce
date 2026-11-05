@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Validation_for_Provider</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &apos;Provider&apos;, 
+OR(Not(IsBlank( Account.AtticusId__c )),Not(IsBlank( Account.GRSId__c )),Not(IsBlank( Account.KeyMedsID__c ))), 
+$Profile.Name &lt;&gt; &apos;Contracting Manager&apos;, $Profile.Name &lt;&gt; &apos;System Administrator&apos;, $UserRole.Name &lt;&gt; &apos;Case Manager&apos;,
+OR(IsChanged(FirstName),IsChanged(LastName),IsChanged( Email ),IsChanged(Phone),IsChanged(Fax)) , 
+Not(isNew()) 
+
+)</errorConditionFormula>
+    <errorMessage>Only Contracting Manager Profile users can update these fields, after contract is done.</errorMessage>
+</ValidationRule>

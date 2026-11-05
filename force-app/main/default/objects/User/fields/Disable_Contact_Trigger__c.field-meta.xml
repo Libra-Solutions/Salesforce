@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disable_Contact_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disables the Contact Trigger from firing when this value is true.</description>
+    <inlineHelpText>Disables the Contact Trigger from firing when this value is true.</inlineHelpText>
+    <label>Disable Contact Trigger</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_of_CasesFirm_Level</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Total_of_Cases_Firm_Level__c , &quot;Other&quot;),
+RecordType.Name = &apos;Sizing the Opportunity&apos;,
+ISBLANK(Total_of_Cases_Firm_Level_Other__c)
+)</errorConditionFormula>
+    <errorDisplayField>Total_of_Cases_Firm_Level_Other__c</errorDisplayField>
+    <errorMessage>Please fill the required text box</errorMessage>
+</ValidationRule>

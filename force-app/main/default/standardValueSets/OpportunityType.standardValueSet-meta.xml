@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>PORTFOLIO</fullName>
+        <default>false</default>
+        <label>PORTFOLIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SYO</fullName>
+        <default>false</default>
+        <label>SYO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CLASS A</fullName>
+        <default>false</default>
+        <label>CLASS A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CLASS B</fullName>
+        <default>false</default>
+        <label>CLASS B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SERVICING ONLY</fullName>
+        <default>false</default>
+        <label>SERVICING ONLY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OTA</fullName>
+        <default>false</default>
+        <label>OTA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Expert Pays</fullName>
+        <default>false</default>
+        <label>Expert Pays</label>
+    </standardValue>
+</StandardValueSet>

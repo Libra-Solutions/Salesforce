@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Acupuncture</fullName>
+        <default>false</default>
+        <label>Acupuncture</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiropractor</fullName>
+        <default>false</default>
+        <label>Chiropractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Dentist</fullName>
+        <default>false</default>
+        <label>Dentist</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnostic</fullName>
+        <default>false</default>
+        <label>Diagnostic</label>
+    </customValue>
+    <customValue>
+        <fullName>Ear, Nose, &amp; Throat</fullName>
+        <default>false</default>
+        <label>Ear, Nose, &amp; Throat</label>
+    </customValue>
+    <customValue>
+        <fullName>General Surgery</fullName>
+        <default>false</default>
+        <label>General Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Health</fullName>
+        <default>false</default>
+        <label>Home Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Masseuse</fullName>
+        <default>false</default>
+        <label>Masseuse</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi-Practice</fullName>
+        <default>false</default>
+        <label>Multi-Practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Neurology</fullName>
+        <default>false</default>
+        <label>Neurology</label>
+    </customValue>
+    <customValue>
+        <fullName>Neuro Surgery</fullName>
+        <default>false</default>
+        <label>Neuro Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Ophthalmology</fullName>
+        <default>false</default>
+        <label>Ophthalmology</label>
+    </customValue>
+    <customValue>
+        <fullName>Optometry</fullName>
+        <default>false</default>
+        <label>Optometry</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthodontist</fullName>
+        <default>false</default>
+        <label>Orthodontist</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedics</fullName>
+        <default>false</default>
+        <label>Orthopedics</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedic Surgery</fullName>
+        <default>false</default>
+        <label>Orthopedic Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Pain Management</fullName>
+        <default>false</default>
+        <label>Pain Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Pathology</fullName>
+        <default>false</default>
+        <label>Pathology</label>
+    </customValue>
+    <customValue>
+        <fullName>Pediatrician</fullName>
+        <default>false</default>
+        <label>Pediatrician</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy</fullName>
+        <default>false</default>
+        <label>Pharmacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Therapy</fullName>
+        <default>false</default>
+        <label>Physical Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastics</fullName>
+        <default>false</default>
+        <label>Plastics</label>
+    </customValue>
+    <customValue>
+        <fullName>Podiatry</fullName>
+        <default>false</default>
+        <label>Podiatry</label>
+    </customValue>
+    <customValue>
+        <fullName>Primary Care</fullName>
+        <default>false</default>
+        <label>Primary Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiology</fullName>
+        <default>false</default>
+        <label>Radiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Speech Therapy</fullName>
+        <default>false</default>
+        <label>Speech Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Spine Surgery</fullName>
+        <default>false</default>
+        <label>Spine Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Surgery Center</fullName>
+        <default>false</default>
+        <label>Surgery Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Urgent Care</fullName>
+        <default>false</default>
+        <label>Urgent Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Practice</fullName>
+        <default>false</default>
+        <label>Medical Practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic Surgeon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Plastic Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician&apos;s Assistant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physician&apos;s Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Therapy (non-MD)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physical Therapy (non-MD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Medicine and Rehab</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physical Medicine and Rehab</label>
+    </customValue>
+    <customValue>
+        <fullName>Physiatrist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physiatrist</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedic Surgeon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Orthopedic Surgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Orthopedist</label>
+    </customValue>
+    <customValue>
+        <fullName>Neurosurgeon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Neurosurgeon</label>
+    </customValue>
+    <customValue>
+        <fullName>Neurologist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Neurologist</label>
+    </customValue>
+    <customValue>
+        <fullName>General Practice</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General Practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Family Practice</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Family Practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Anesthesiologist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Anesthesiologist</label>
+    </customValue>
+    <customValue>
+        <fullName>Podiatrist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Podiatrist</label>
+    </customValue>
+    <customValue>
+        <fullName>Psychologist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Psychologist</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiologist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Radiologist</label>
+    </customValue>
+    <customValue>
+        <fullName>Urologist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Urologist</label>
+    </customValue>
+    <customValue>
+        <fullName>Imaging Center</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Imaging Center</label>
+    </customValue>
+    <masterLabel>Speciality</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

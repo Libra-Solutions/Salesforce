@@ -1,0 +1,6 @@
+<apex:page standardController="Contact">
+    <flow:interview name="Merge_Contacts" finishLocation="/{!Contact.Id}">
+        <apex:param name="varAccountId" value="{!Contact.AccountId}"/>
+        <apex:param name="varContactId" value="{!Contact.Id}"/>
+    </flow:interview>
+</apex:page>

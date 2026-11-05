@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Level_2_Other</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(ISPICKVAL(  Level_2_Results__c , &apos;Other&apos;) , true, false) &amp;&amp;
+(
+ISNULL(  Level_2_Results_Other__c ) ||
+ISBLANK( Level_2_Results_Other__c )
+)</errorConditionFormula>
+    <errorDisplayField>Level_2_Results_Other__c</errorDisplayField>
+    <errorMessage>Please fill in the Level 2 Results - Other field.</errorMessage>
+</ValidationRule>

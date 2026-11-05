@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_many_Additional_Funded_Cases__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How many ADDITIONAL Funded Cases we will get from the FIRM per MONTH? If the atty gives you the answer on an atty level multiply it out on a monthly firm basis. If there is a range like &quot;4-6 cases&quot;-- then pick the closest value.</inlineHelpText>
+    <label>How many Additional Fundings per MONTH</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

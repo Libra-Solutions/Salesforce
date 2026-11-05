@@ -1,0 +1,53 @@
+<template>
+    <lightning-card title="Hunt List CSV Upload" icon-name="utility:upload">
+        <div class="slds-p-around_medium">
+            <lightning-input
+                type="file"
+                label="Choose CSV file"
+                accept=".csv,text/csv"
+                onchange={handleFileChange}
+            ></lightning-input>
+
+            <div class="slds-m-top_small">
+                <lightning-button
+                    label="Upload CSV"
+                    variant="brand"
+                    onclick={handleUpload}
+                    disabled={uploadDisabled}
+                ></lightning-button>
+                <lightning-button
+                    class="slds-m-left_small"
+                    label="Go to Hunt List"
+                    variant="neutral"
+                    onclick={handleOpenHuntListView}
+                ></lightning-button>
+            </div>
+
+            <template lwc:if={fileName}>
+                <p class="slds-m-top_small">File: {fileName}</p>
+            </template>
+
+            <template lwc:if={rows.length}>
+                <p class="slds-m-top_small">Parsed rows: {rows.length}</p>
+
+                <template lwc:if={hasUploadErrors}>
+                    <div class="slds-box slds-theme_error slds-m-top_small">
+                        <p class="slds-text-title_bold">Upload errors</p>
+                        <ul class="slds-list_dotted slds-m-top_x-small slds-m-left_medium">
+                            <template for:each={uploadErrors} for:item="uploadError">
+                                <li key={uploadError}>{uploadError}</li>
+                            </template>
+                        </ul>
+                    </div>
+                </template>
+
+                <lightning-textarea
+                    class="slds-m-top_small"
+                    label="CSV parsed to JavaScript array (preview)"
+                    value={jsonPreview}
+                    readonly
+                ></lightning-textarea>
+            </template>
+        </div>
+    </lightning-card>
+</template>

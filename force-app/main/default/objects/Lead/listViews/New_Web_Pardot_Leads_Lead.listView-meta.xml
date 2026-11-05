@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Web_Pardot_Leads_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>New Web/Pardot Leads</label>
+    <queue>New_Web_Pardot_Leads</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

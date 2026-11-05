@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerId_ReadOnly_Except_API</fullName>
+    <active>true</active>
+    <description>Changed to API and Admin to handle IsActive changes</description>
+    <errorConditionFormula>AND(
+  OR(
+    RecordType.Name = &quot;Service Account&quot;,
+    RecordType.Name = &quot;C3 Provider&quot;
+  ),
+  ISCHANGED(OwnerId),
+  $Profile.Name &lt;&gt; &quot;API Only User&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;
+)</errorConditionFormula>
+    <errorMessage>You are not authorized to change the Account Owner. This field can only be modified by the API Only User.</errorMessage>
+</ValidationRule>

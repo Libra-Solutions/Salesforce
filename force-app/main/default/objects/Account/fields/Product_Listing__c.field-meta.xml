@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Listing__c</fullName>
+    <description>Products Used by Account P C G A (Preset, Core, Global, Atticus)</description>
+    <externalId>false</externalId>
+    <formula>/* TRIM( if (CTXFirmId__c &lt;&gt; &quot;0&quot;, &quot;P &quot;, &quot;&quot;) &amp;  if(KeyMedsID__c  &lt;&gt; 0, &quot;C &quot;, &quot;&quot;) &amp;  if(GRSId_For_Display__c &lt;&gt; &quot;0&quot;, &quot;G &quot;, &quot;&quot;) &amp;  if(AtticusId__c &lt;&gt; &quot;0&quot;, &quot;A&quot;, &quot;&quot;)) */
+
+TRIM( if( CTXFirmId__c &lt;&gt; &quot;&quot;, &quot;PS &quot;, &quot;&quot;) &amp; if(KeyMedsID__c  &lt;&gt; 0, &quot;Core &quot;, &quot;&quot;) &amp;  if(GRSId_For_Display__c &lt;&gt; &quot;&quot;, &quot;GRS &quot;, &quot;&quot;) &amp;  if(AtticusId__c &lt;&gt; &quot;&quot;, &quot;Atticus&quot;, &quot;&quot;) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Products Used by Account P C G A (Preset, Core, Global, Atticus)</inlineHelpText>
+    <label>Product Listing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

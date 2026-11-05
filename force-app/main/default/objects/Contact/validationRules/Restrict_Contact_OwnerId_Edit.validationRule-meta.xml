@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Contact_OwnerId_Edit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ AND(
+  OR(
+    $RecordType.Name = &quot;Attorney&quot;,
+    $RecordType.Name = &quot;C3 Provider&quot;
+  ),
+  OR(
+ CONTAINS(Contact_Source_Description__c,&quot;Cashtrax User&quot;),
+ CONTAINS(Contact_Source_Description__c,&quot;MoveDocs User&quot;)
+  )),
+ISCHANGED(OwnerId),
+$User.Alias != &apos;apionly&apos;
+)</errorConditionFormula>
+    <errorMessage>You are not authorized to change the Contact Owner. This field can only be modified by the API Only User.</errorMessage>
+</ValidationRule>

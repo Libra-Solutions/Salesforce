@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Closed Won Email for update cashtrax</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Closed Won Email for update cashtrax</name>
+    <style>none</style>
+    <subject>{!Opportunity.Law_Firm_Name__c} – Sizing Opportunity Closed-Won – ***Update Pricing in Cashtrax</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

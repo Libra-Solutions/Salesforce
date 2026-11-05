@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Level_2_Results</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(ISPICKVAL(  Are_they_integrated_with_Movedocs__c , &apos;Yes&apos;) , true, false) &amp;&amp;
+(
+ISNULL(TEXT( Level_2_Results__c )) ||
+ISBLANK(TEXT( Level_2_Results__c )) 
+) &amp;&amp;
+ CONTAINS( TEXT( Oasis_Event_Result__c), &quot;Level Two&quot;)</errorConditionFormula>
+    <errorDisplayField>Level_2_Results__c</errorDisplayField>
+    <errorMessage>Please fill in the Level 2 Results</errorMessage>
+</ValidationRule>

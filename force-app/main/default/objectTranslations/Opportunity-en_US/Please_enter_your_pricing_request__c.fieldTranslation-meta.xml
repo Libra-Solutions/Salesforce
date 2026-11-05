@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- NOTE: Only fill out this section if you are requesting new pricing. What pricing is the atty getting now? --></help>
+    <label><!-- Please enter your pricing request: --></label>
+    <name>Please_enter_your_pricing_request__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider</fullName>
+    <active>true</active>
+    <businessProcess>Workers Comp</businessProcess>
+    <compactLayoutAssignment>OpportunityCompactLayout</compactLayoutAssignment>
+    <label>Provider</label>
+    <picklistValues>
+        <picklist>Accident_Type__c</picklist>
+        <values>
+            <fullName>HeadOn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rear Ended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sideswipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Car</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T-bone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CaseType__c</picklist>
+        <values>
+            <fullName>Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worker%27s Compensation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closed_Lost_Reason__c</picklist>
+        <values>
+            <fullName>Authority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost Momentum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Personal Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Type__c</picklist>
+        <values>
+            <fullName>ADVANCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUBSCRIPTION</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contracted_Product__c</picklist>
+        <values>
+            <fullName>Accident Meds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atticus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DB_Competitor__c</picklist>
+        <values>
+            <fullName>Competitor A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deal_Type__c</picklist>
+        <values>
+            <fullName>Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Deal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Pitch</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Facility_Type__c</picklist>
+        <values>
+            <fullName>Alternative Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiologist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiothoracic Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiropractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dentist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diagnostic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ear%2C Nose%2C %26 Throat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi-Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neuro Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ophthalmology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthopedic Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pain Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatrician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Podiatrist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speech Therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent Care</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HasPlaintiffReceivedAnyOffers__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Injuries__c</picklist>
+        <values>
+            <fullName>Broken Bones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Head %2F Face</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Injuries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leg %2F Foot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neck %2F Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shoulder %2F Arm %2F Hand</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsCaseAccepted__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsSuitFiled__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsthereaSettlementOffer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsthereathirdPartyAction__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross Sell Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MapAnything</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar %2F Trade Show</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Liability__c</picklist>
+        <values>
+            <fullName>Defendant Cited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defendant Paid Property Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liability Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liability Undetermined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plaintiff Cited</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Liens_Against_Case__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PlaintiffInjury__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PlaintiffState__c</picklist>
+        <values>
+            <fullName>AK - Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR - Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS - American Samoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ - Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT - Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC - District of Columbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE - Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GU - Guam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI - Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA - Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID - Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL - Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN - Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS - Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY - Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA - Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD - Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME - Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI - Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN - Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO - Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP - Mariana Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND - North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE - Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH - New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM - New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV - Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK - Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR - Puerto Rico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI - Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD - South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN - Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT - Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA - Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VI - Virgin Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT - Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI - Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV - West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY - Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PlaintiffWas__c</picklist>
+        <values>
+            <fullName>Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedestrian</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProductInterest__c</picklist>
+        <values>
+            <fullName>Accident Meds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atticus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Settlement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PropertyDamageAmount__c</picklist>
+        <values>
+            <fullName>%241%2C000 or more</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than %241%2C000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle Totaled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StateCase__c</picklist>
+        <values>
+            <fullName>AK - Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR - Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS - American Samoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ - Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT - Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC - District of Columbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE - Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GU - Guam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI - Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA - Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID - Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL - Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN - Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS - Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY - Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA - Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD - Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME - Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI - Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN - Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO - Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP - Mariana Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND - North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE - Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH - New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM - New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV - Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK - Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR - Puerto Rico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI - Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD - South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN - Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT - Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA - Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VI - Virgin Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT - Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI - Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV - West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY - Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Total_of_Cases_Firm_Level__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Treatment__c</picklist>
+        <values>
+            <fullName>Chiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRI%2FXRAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>CLASS A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASS B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTFOLIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICING ONLY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SYO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>UIMUM__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_would_it_take_to_get_the_additional__c</picklist>
+        <values>
+            <fullName>Better Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>More Reductions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>of_Total_Firm_Cases_that_receive_fund__c</picklist>
+        <values>
+            <fullName>%3C15%25 %281 out of 8%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%25 %281 out of 6%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 %281 out of 5%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30%25 %281 out of 3%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50%25 %281 out of 2%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

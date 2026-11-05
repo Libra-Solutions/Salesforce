@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hunt List</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Hunt List</value>
+    </caseValues>
+    <layouts>
+        <layout>Hunt List Layout</layout>
+        <sections>
+            <label><!-- Attorney --></label>
+            <section>Attorney</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Firm Information --></label>
+            <section>Firm Information</section>
+        </sections>
+        <sections>
+            <label><!-- Record Information --></label>
+            <section>Record Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Postal Code must be exactly 5 numeric digits. --></errorMessage>
+        <name>Firm_name_postal_code_validation_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inactive Notes are required when Inactive Reason is Other. --></errorMessage>
+        <name>Inactive_Notes_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Select Inactive Reason. --></errorMessage>
+        <name>Inactive_Status_Requires_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The following fields are required when updating this record: Category, Firm Address, Monthly Case Counts, Manager Assignments, and Decision Maker fields. Please complete all required fields before saving. --></errorMessage>
+        <name>Require_Fields_On_Update_Except_APIOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter a value in between 1 through 16. --></errorMessage>
+        <name>Score_Attorney_Level_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter a value in between 1 through 16. --></errorMessage>
+        <name>Score_Firm_Level_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The zip code must be 5 numbers. --></errorMessage>
+        <name>Zip_Code_5digit</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Import_Hunt_Lists --></label>
+        <name>Import_Hunt_Lists</name>
+    </webLinks>
+</CustomObjectTranslation>

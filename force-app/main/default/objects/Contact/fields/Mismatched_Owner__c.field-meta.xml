@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mismatched_Owner__c</fullName>
+    <formula>If (NOT(ISBLANK(Account.CTXFirmId__c)), 
+AND(OwnerId != Account.OwnerId,
+Account.OwnerId != &quot;0054M000003ia3m&quot;),
+
+FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mismatched Owner</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

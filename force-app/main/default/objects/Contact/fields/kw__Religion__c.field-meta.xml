@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__Religion__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Religion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>African Methodist Episcopal</fullName>
+                <default>false</default>
+                <label>African Methodist Episcopal</label>
+            </value>
+            <value>
+                <fullName>Angelican</fullName>
+                <default>false</default>
+                <label>Angelican</label>
+            </value>
+            <value>
+                <fullName>Apostolic Christian</fullName>
+                <default>false</default>
+                <label>Apostolic Christian</label>
+            </value>
+            <value>
+                <fullName>Assembly of God</fullName>
+                <default>false</default>
+                <label>Assembly of God</label>
+            </value>
+            <value>
+                <fullName>Baptist</fullName>
+                <default>false</default>
+                <label>Baptist</label>
+            </value>
+            <value>
+                <fullName>Buddhism</fullName>
+                <default>false</default>
+                <label>Buddhism</label>
+            </value>
+            <value>
+                <fullName>Catholic</fullName>
+                <default>false</default>
+                <label>Catholic</label>
+            </value>
+            <value>
+                <fullName>Christian Church</fullName>
+                <default>false</default>
+                <label>Christian Church</label>
+            </value>
+            <value>
+                <fullName>Christian Reformed Church</fullName>
+                <default>false</default>
+                <label>Christian Reformed Church</label>
+            </value>
+            <value>
+                <fullName>Christian Scientist</fullName>
+                <default>false</default>
+                <label>Christian Scientist</label>
+            </value>
+            <value>
+                <fullName>Church of Christ</fullName>
+                <default>false</default>
+                <label>Church of Christ</label>
+            </value>
+            <value>
+                <fullName>Church of the Brethren</fullName>
+                <default>false</default>
+                <label>Church of the Brethren</label>
+            </value>
+            <value>
+                <fullName>Congregationalist</fullName>
+                <default>false</default>
+                <label>Congregationalist</label>
+            </value>
+            <value>
+                <fullName>Disciples of Christ</fullName>
+                <default>false</default>
+                <label>Disciples of Christ</label>
+            </value>
+            <value>
+                <fullName>Eastern Orthodox</fullName>
+                <default>false</default>
+                <label>Eastern Orthodox</label>
+            </value>
+            <value>
+                <fullName>Episcopalian</fullName>
+                <default>false</default>
+                <label>Episcopalian</label>
+            </value>
+            <value>
+                <fullName>Evangelical</fullName>
+                <default>false</default>
+                <label>Evangelical</label>
+            </value>
+            <value>
+                <fullName>Foursquare</fullName>
+                <default>false</default>
+                <label>Foursquare</label>
+            </value>
+            <value>
+                <fullName>French Huguenot</fullName>
+                <default>false</default>
+                <label>French Huguenot</label>
+            </value>
+            <value>
+                <fullName>Friedensthal Moravian Church</fullName>
+                <default>false</default>
+                <label>Friedensthal Moravian Church</label>
+            </value>
+            <value>
+                <fullName>Greek Orthodox</fullName>
+                <default>false</default>
+                <label>Greek Orthodox</label>
+            </value>
+            <value>
+                <fullName>Hinduism</fullName>
+                <default>false</default>
+                <label>Hinduism</label>
+            </value>
+            <value>
+                <fullName>Independent Bible Church</fullName>
+                <default>false</default>
+                <label>Independent Bible Church</label>
+            </value>
+            <value>
+                <fullName>Islam</fullName>
+                <default>false</default>
+                <label>Islam</label>
+            </value>
+            <value>
+                <fullName>Jewish</fullName>
+                <default>false</default>
+                <label>Jewish</label>
+            </value>
+            <value>
+                <fullName>Lutheran</fullName>
+                <default>false</default>
+                <label>Lutheran</label>
+            </value>
+            <value>
+                <fullName>Mennonite</fullName>
+                <default>false</default>
+                <label>Mennonite</label>
+            </value>
+            <value>
+                <fullName>Methodist</fullName>
+                <default>false</default>
+                <label>Methodist</label>
+            </value>
+            <value>
+                <fullName>Mormon</fullName>
+                <default>false</default>
+                <label>Mormon</label>
+            </value>
+            <value>
+                <fullName>Nazarene</fullName>
+                <default>false</default>
+                <label>Nazarene</label>
+            </value>
+            <value>
+                <fullName>Pentecostal</fullName>
+                <default>false</default>
+                <label>Pentecostal</label>
+            </value>
+            <value>
+                <fullName>Presbyterian</fullName>
+                <default>false</default>
+                <label>Presbyterian</label>
+            </value>
+            <value>
+                <fullName>Protestant - Unspecified Christian</fullName>
+                <default>false</default>
+                <label>Protestant - Unspecified Christian</label>
+            </value>
+            <value>
+                <fullName>Quaker</fullName>
+                <default>false</default>
+                <label>Quaker</label>
+            </value>
+            <value>
+                <fullName>Reorganized Church of Jesus Christ of Later Day Saints (Mormon)</fullName>
+                <default>false</default>
+                <label>Reorganized Church of Jesus Christ of Later Day Saints (Mormon)</label>
+            </value>
+            <value>
+                <fullName>Roman Catholic</fullName>
+                <default>false</default>
+                <label>Roman Catholic</label>
+            </value>
+            <value>
+                <fullName>Seventh-Day Adventist</fullName>
+                <default>false</default>
+                <label>Seventh-Day Adventist</label>
+            </value>
+            <value>
+                <fullName>Shekinah Fellowship</fullName>
+                <default>false</default>
+                <label>Shekinah Fellowship</label>
+            </value>
+            <value>
+                <fullName>Unitarian</fullName>
+                <default>false</default>
+                <label>Unitarian</label>
+            </value>
+            <value>
+                <fullName>United Church of Christ</fullName>
+                <default>false</default>
+                <label>United Church of Christ</label>
+            </value>
+            <value>
+                <fullName>Wesleyan</fullName>
+                <default>false</default>
+                <label>Wesleyan</label>
+            </value>
+            <value>
+                <fullName>Unspecified/Other</fullName>
+                <default>false</default>
+                <label>Unspecified/Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__Full_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(LEN(text(Salutation))&gt;0,text(Salutation) &amp; &quot; &quot;,&quot;&quot;) 
+&amp;
+IF(LEN(FirstName)&gt;0,FirstName&amp; &quot; &quot;,&quot;&quot;) 
+&amp;
+IF(LEN(kw__Middle_Name__c )&gt;0,kw__Middle_Name__c &amp; &quot; &quot;,&quot;&quot;)
+&amp;
+LastName
+&amp;
+&quot; &quot;
+&amp;
+IF(LEN(kw__Suffix__c  )&gt;0,kw__Suffix__c,&quot;&quot;)</formula>
+    <label>Full Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

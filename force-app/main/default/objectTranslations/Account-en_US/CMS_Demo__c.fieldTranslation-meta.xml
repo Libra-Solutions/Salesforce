@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CMS Demo --></label>
+    <name>CMS_Demo__c</name>
+    <picklistValues>
+        <masterLabel>Interested in Integration</masterLabel>
+        <translation><!-- Interested in Integration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Interested at this time</masterLabel>
+        <translation><!-- Not Interested at this time --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

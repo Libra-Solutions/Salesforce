@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>OTM_P1_NML_Em1</name>
+    <pageDevName>OTM_P1_Non_MDs_Em1</pageDevName>
+    <style>none</style>
+    <subject>Plaintiff Funding is easier than ever – Oasis Financial is now on MoveDocs</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+No one works harder to make plaintiff funding easier for you – and we continue to stand by that promise. Which is why we’re so excited to share some big news (drum roll please…).
+
+The Oasis Financial Attorney Portal is now on MoveDocs
+
+The new portal offers enhanced usability and quicker load times. Alongside the personal service you expect from your dedicated Oasis representative, you&apos;ll also be able to:
+
+ - View real-time payoff amounts and download payoff letters
+ - Track funding history details 24/7
+ - Initiate funding requests in a few clicks
+
+What will happen to my current case fundings?
+
+All your Oasis case funding details have been transitioned from the old portal to the “Plaintiff Funding” tab on MoveDocs. The old Oasis portal will continue to provide the information as well, but we will be sunsetting it in the coming months,and encourage you to use the new, improved functionality on MoveDocs.
+
+See it Live &lt; https://calendly.com/d/ckj5-9vh-zqz/oasis-on-movedocs?month=2024-05 &gt; 
+
+For privacy reasons, we have only set up permissions for YOU to see this funding information – but we can add any other team membersthat you’d like to have access.
+
+I’d love to schedule a 15-minute walkthrough of the Plaintiff Funding tab on MoveDocs to show you how fast and painless it is to manage funding. Plus the MoveDocs platform has other features, like expert services, that I think you’re firm will find helpful. Book a time that works for you at my link below.
+
+Book a Demo &lt; https://calendly.com/d/ckj5-9vh-zqz/oasis-on-movedocs?month=2024-05 &gt; 
+
+Sincerely,
+
+{{{Sender.Signature}}}
+
+Oasis Legal Finance
+
+9525 W. Bryn Mawr Ave. Suite 900
+
+Rosemont, IL 60018
+
+Copyright © 2024 Oasis Financial,
+
+All rights reserved.
+
+{{{Unsubscribe}}} | Website &lt; https://www.oasisfinancial.com/financial-funding-3-tp-bb/?kenibpid=p.511._k_16166500955e192aafaa00a92fbab9a2_k_.&amp;utm_source=BING&amp;utm_campaign=Oasis_Bing_SEM_Brand_D%252BT_Exact&amp;utm_term=oasis%2520financial&amp;utm_matchtype=e&amp;kpid=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;utm_id=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;msclkid=16166500955e192aafaa00a92fbab9a2&amp;utm_medium=cpc&amp;utm_content=Brand_Exact_Oasis%2520Financial &gt; | LinkedIn &lt; https://www.linkedin.com/company/oasis-legal-finance &gt; | Instagram &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

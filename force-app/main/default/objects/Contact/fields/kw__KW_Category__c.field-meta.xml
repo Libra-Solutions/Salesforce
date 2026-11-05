@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <label>KnowWho Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fed Caucus Staff</fullName>
+                <default>false</default>
+                <label>Fed Caucus Staff</label>
+            </value>
+            <value>
+                <fullName>Fed Committee Staff - Majority</fullName>
+                <default>false</default>
+                <label>Fed Committee Staff - Majority</label>
+            </value>
+            <value>
+                <fullName>Fed Committee Staff - Minority</fullName>
+                <default>false</default>
+                <label>Fed Committee Staff - Minority</label>
+            </value>
+            <value>
+                <fullName>Fed Committee Staff - Other</fullName>
+                <default>false</default>
+                <label>Fed Committee Staff - Other</label>
+            </value>
+            <value>
+                <fullName>Fed Leadership Staff</fullName>
+                <default>false</default>
+                <label>Fed Leadership Staff</label>
+            </value>
+            <value>
+                <fullName>Fed Legislator</fullName>
+                <default>false</default>
+                <label>Fed Legislator</label>
+            </value>
+            <value>
+                <fullName>Fed Legislator Staff</fullName>
+                <default>false</default>
+                <label>Fed Legislator Staff</label>
+            </value>
+            <value>
+                <fullName>Fed Officer Staff</fullName>
+                <default>false</default>
+                <label>Fed Officer Staff</label>
+            </value>
+            <value>
+                <fullName>Former Fed Caucus Staff</fullName>
+                <default>false</default>
+                <label>Former Fed Caucus Staff</label>
+            </value>
+            <value>
+                <fullName>Former Fed Committee Staff - Majority</fullName>
+                <default>false</default>
+                <label>Former Fed Committee Staff - Majority</label>
+            </value>
+            <value>
+                <fullName>Former Fed Committee Staff - Minority</fullName>
+                <default>false</default>
+                <label>Former Fed Committee Staff - Minority</label>
+            </value>
+            <value>
+                <fullName>Former Fed Committee Staff - Other</fullName>
+                <default>false</default>
+                <label>Former Fed Committee Staff - Other</label>
+            </value>
+            <value>
+                <fullName>Former Fed Leadership Staff</fullName>
+                <default>false</default>
+                <label>Former Fed Leadership Staff</label>
+            </value>
+            <value>
+                <fullName>Former Fed Legislator</fullName>
+                <default>false</default>
+                <label>Former Fed Legislator</label>
+            </value>
+            <value>
+                <fullName>Former Fed Legislator Staff</fullName>
+                <default>false</default>
+                <label>Former Fed Legislator Staff</label>
+            </value>
+            <value>
+                <fullName>Former Fed Officer Staff</fullName>
+                <default>false</default>
+                <label>Former Fed Officer Staff</label>
+            </value>
+            <value>
+                <fullName>Former State Caucus Staff</fullName>
+                <default>false</default>
+                <label>Former State Caucus Staff</label>
+            </value>
+            <value>
+                <fullName>Former State Committee Staff - Majority</fullName>
+                <default>false</default>
+                <label>Former State Committee Staff - Majority</label>
+            </value>
+            <value>
+                <fullName>Former State Committee Staff - Minority</fullName>
+                <default>false</default>
+                <label>Former State Committee Staff - Minority</label>
+            </value>
+            <value>
+                <fullName>Former State Committee Staff - Other</fullName>
+                <default>false</default>
+                <label>Former State Committee Staff - Other</label>
+            </value>
+            <value>
+                <fullName>Former State Exec Agency</fullName>
+                <default>false</default>
+                <label>Former State Exec Agency</label>
+            </value>
+            <value>
+                <fullName>Former State Exec Department</fullName>
+                <default>false</default>
+                <label>Former State Exec Department</label>
+            </value>
+            <value>
+                <fullName>Former State Exec Office</fullName>
+                <default>false</default>
+                <label>Former State Exec Office</label>
+            </value>
+            <value>
+                <fullName>Former State Leadership Staff</fullName>
+                <default>false</default>
+                <label>Former State Leadership Staff</label>
+            </value>
+            <value>
+                <fullName>Former State Legislator</fullName>
+                <default>false</default>
+                <label>Former State Legislator</label>
+            </value>
+            <value>
+                <fullName>Former State Legislator Staff</fullName>
+                <default>false</default>
+                <label>Former State Legislator Staff</label>
+            </value>
+            <value>
+                <fullName>Former State Officer Staff</fullName>
+                <default>false</default>
+                <label>Former State Officer Staff</label>
+            </value>
+            <value>
+                <fullName>State Caucus Staff</fullName>
+                <default>false</default>
+                <label>State Caucus Staff</label>
+            </value>
+            <value>
+                <fullName>State Committee Staff - Majority</fullName>
+                <default>false</default>
+                <label>State Committee Staff - Majority</label>
+            </value>
+            <value>
+                <fullName>State Committee Staff - Minority</fullName>
+                <default>false</default>
+                <label>State Committee Staff - Minority</label>
+            </value>
+            <value>
+                <fullName>State Committee Staff - Other</fullName>
+                <default>false</default>
+                <label>State Committee Staff - Other</label>
+            </value>
+            <value>
+                <fullName>State Exec Agency</fullName>
+                <default>false</default>
+                <label>State Exec Agency</label>
+            </value>
+            <value>
+                <fullName>State Exec Department</fullName>
+                <default>false</default>
+                <label>State Exec Department</label>
+            </value>
+            <value>
+                <fullName>State Exec Office</fullName>
+                <default>false</default>
+                <label>State Exec Office</label>
+            </value>
+            <value>
+                <fullName>State Leadership Staff</fullName>
+                <default>false</default>
+                <label>State Leadership Staff</label>
+            </value>
+            <value>
+                <fullName>State Legislator</fullName>
+                <default>false</default>
+                <label>State Legislator</label>
+            </value>
+            <value>
+                <fullName>State Legislator Staff</fullName>
+                <default>false</default>
+                <label>State Legislator Staff</label>
+            </value>
+            <value>
+                <fullName>State Officer Staff</fullName>
+                <default>false</default>
+                <label>State Officer Staff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

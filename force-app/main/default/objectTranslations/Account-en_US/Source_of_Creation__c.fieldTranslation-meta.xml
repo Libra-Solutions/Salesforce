@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source of Creation --></label>
+    <name>Source_of_Creation__c</name>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation><!-- Manual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Source Information</masterLabel>
+        <translation><!-- Source Information --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

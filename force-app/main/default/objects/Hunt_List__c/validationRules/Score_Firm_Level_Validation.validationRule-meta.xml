@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Score_Firm_Level_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(PM_Director__c  &lt; 1,PM_Director__c &gt; 16)</errorConditionFormula>
+    <errorDisplayField>PM_Director__c</errorDisplayField>
+    <errorMessage>Please Enter a value in between 1 through 16.</errorMessage>
+</ValidationRule>

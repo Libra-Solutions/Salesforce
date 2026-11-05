@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needs_to_be_Merged__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This gets checked when the Merge Account Import runs. Then unchecked after the merge process</description>
+    <label>Needs to be Merged</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Revenue_Required</fullName>
+    <active>true</active>
+    <description>AND(NOT(ISNEW()), ISBLANK(Amount) )</description>
+    <errorConditionFormula>IF(NOT(ISNEW()), isblank(Amount),false)</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>Please enter Annual Revenue.</errorMessage>
+</ValidationRule>

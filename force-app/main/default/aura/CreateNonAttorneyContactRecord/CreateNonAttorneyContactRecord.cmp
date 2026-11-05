@@ -1,0 +1,159 @@
+<aura:component controller="NonAttorneyController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickActionWithoutHeader" access="global" >
+    <aura:attribute name="newContact" type="object" />
+    <aura:attribute name="isNewModel" type="boolean" default="false"/>
+    <aura:attribute name="contactPickListValues" type="Object[]"/>	
+    <aura:attribute name="errMsg" type="String" default=""/>
+    <aura:attribute name="isErrMsg" type="boolean" default="false"/>
+    <aura:attribute name="isEmail" type="boolean" default="false"/>
+    <aura:attribute name="isSpinner" type="Boolean" />
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="isAccount" type="Boolean" />
+    <aura:attribute name="AttorneyConId" type="String" default=""/>
+    <aura:attribute name="selectedLookUpRecord" type="sObject" default="{}"/>
+ 
+     <aura:attribute name="attErrMsg" type="String" default=""/>	
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <aura:html tag="style">
+        .cuf-content {
+       		 padding: 0 0rem !important;
+        }
+        .slds-p-around--medium {
+       		 padding: 0rem !important;
+        }       
+         .slds-modal__content{
+            overflow-y:hidden !important;
+            height:unset !important;
+            max-height:unset !important;
+        }
+        .slds-modal__close{
+        	
+        }
+        .slds-backdrop_open{
+       	 opacity:0.8 !important
+        }
+    </aura:html>
+
+     <div class="modal-header slds-modal__header slds-size_1-of-1">
+        <h4 class="title slds-text-heading--medium" >Create Non-Attorney Contact</h4>
+    </div>
+    
+    <div class="slds-grid slds-wrap" style="padding:30px;height: 400px;overflow-y: auto">
+        <aura:if isTrue="{!v.isErrMsg}">
+            <div class="pageLevelErrors" style="width:100%;">
+                <div class="desktop forcePageError" aria-live="assertive" data-aura-rendered-by="3446:0" data-aura-class="forcePageError">
+                    <div class="genericNotification" data-aura-rendered-by="3448:0">
+                        <span class="genericError uiOutputText" data-aura-rendered-by="3451:0" data-aura-class="uiOutputText">Review the errors on this page.</span>
+                    </div>
+                    <ul class="errorsList" data-aura-rendered-by="3452:0">
+                        <li data-aura-rendered-by="3454:0">These required fields must be completed: {!v.errMsg}</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </aura:if>
+        
+        <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--12-of-12 slds-large-size--12-of-12">
+             <div class="slds-form-element">
+                 <aura:if isTrue="{!v.isAccount}">
+                     <c:customLookup attErrMsg="{!v.attErrMsg}" objectAPIName="Contact" IconName="standard:contact" selectedRecord="{!v.selectedLookUpRecord}" label="Attorney Contact"/>
+                	
+                 </aura:if>
+            </div>
+            
+            <div class="slds-form-element">
+                <lightning:select name="select1" label="Salutation"  value="{!v.newContact.Salutation}">
+                    <option value="">--None--</option>
+                    <aura:iteration items="{!v.contactPickListValues[0]}" var="val">
+                        <option value="{!val}">{!val}</option>
+                    </aura:iteration>
+                </lightning:select>
+                
+            </div>
+           
+            <div class="slds-form-element">
+                <lightning:input name="FirstName" aura:id="field"  required="true" label="First Name" value="{!v.newContact.FirstName}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:input name="LastName" aura:id="field"  required="true" label="Last Name" value="{!v.newContact.LastName}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:input  name="MiddleName" label="Middle Name" value="{!v.newContact.MiddleName__c}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:input  name="Phone" label="Phone" value="{!v.newContact.Phone}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:input  name="Mobile" label="Mobile" value="{!v.newContact.Mobile}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:input  name="Fax" label="Fax" value="{!v.newContact.Fax}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:input type="email" aura:id="field"  required="true" name="Email" label="Email" value="{!v.newContact.Email}"/>
+            </div>
+            <div class="slds-form-element">
+                <lightning:select name="role" label="Role" aura:id="field"  required="true" value="{!v.newContact.Role__c}">
+                    <option value="">--None--</option>
+                    <aura:iteration items="{!v.contactPickListValues[1]}" var="val">
+                        <option value="{!val}">{!val}</option>
+                    </aura:iteration>
+                </lightning:select>
+            </div>
+            
+             
+        </div>
+    </div>
+    <!-- MODAL FOOTER -->
+    <div class="modal-footer slds-modal__footer slds-size_1-of-1">
+        <div class="forceChangeRecordTypeFooter">
+            
+            <button class="slds-button slds-button_brand" onclick="{!c.saveRecord}">Save</button>
+        </div>
+    </div>
+    
+    <aura:if isTrue="{!v.isEmail}">
+        <div class="demo-only" style="height: 640px;">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01"  aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <button onclick="{!c.closeEmailAlert}" class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+                            <lightning:Icon  iconName="utility:close" alternativeText="close" variant="bare"/>	
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Email Exists</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <div class="pageLevelErrors" data-aura-rendered-by="4:1397;a">
+                            <div class="desktop forcePageError" aria-live="assertive" data-aura-rendered-by="3446:0" data-aura-class="forcePageError">
+                                <div class="genericNotification" data-aura-rendered-by="3448:0">
+                                    <span class="genericError uiOutputText" data-aura-rendered-by="3451:0" data-aura-class="uiOutputText">Contact with same Email Exists. Please use Non-Attorney related list and create a relationship</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick="{!c.closeEmailAlert}">Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick="{!c.nonAttorneyShow}">Ok</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open" style="opacity:0.5!important;height: 85.5%;margin-top: 7.5%;"></div>
+        </div>
+        
+    </aura:if>
+    
+    <aura:if isTrue="{!v.isSpinner}">
+        <div class="slds">
+            <div class="slds-spinner_container" style="background-color:black;opacity:0.1;z-index:9999;height:600px">
+                <div class="slds-spinner--inverse slds-spinner slds-spinner--large" role="alert">
+                    <span class="slds-assistive-text">Loading</span>
+                    <div class="slds-spinner__dot-a"></div>
+                    <div class="slds-spinner__dot-b"></div>
+                </div>
+            </div>
+        </div>
+    </aura:if>
+    
+</aura:component>

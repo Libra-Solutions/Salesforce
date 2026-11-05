@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Role</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paralegal</fullName>
+                <default>false</default>
+                <label>Paralegal</label>
+            </value>
+            <value>
+                <fullName>Case Manager</fullName>
+                <default>false</default>
+                <label>Case Manager</label>
+            </value>
+            <value>
+                <fullName>Legal Assistant</fullName>
+                <default>false</default>
+                <label>Legal Assistant</label>
+            </value>
+            <value>
+                <fullName>Legal Secretary</fullName>
+                <default>false</default>
+                <label>Legal Secretary</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>Management</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>Receptionist</fullName>
+                <default>false</default>
+                <label>Receptionist</label>
+            </value>
+            <value>
+                <fullName>Main</fullName>
+                <default>false</default>
+                <label>ML- Main</label>
+            </value>
+            <value>
+                <fullName>Medical Records</fullName>
+                <default>false</default>
+                <label>ML - Medical Records</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>ML – Billing</label>
+            </value>
+            <value>
+                <fullName>Scheduling</fullName>
+                <default>false</default>
+                <label>ML – Scheduling</label>
+            </value>
+            <value>
+                <fullName>Dynamics Contact</fullName>
+                <default>false</default>
+                <label>Dynamics Contact</label>
+            </value>
+            <value>
+                <fullName>Estimates</fullName>
+                <default>false</default>
+                <label>Estimates</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

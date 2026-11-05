@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- List Type --></label>
+    <name>List_Type__c</name>
+    <picklistValues>
+        <masterLabel>Hunt List</masterLabel>
+        <translation><!-- Hunt List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wolf Pack</masterLabel>
+        <translation><!-- Wolf Pack --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

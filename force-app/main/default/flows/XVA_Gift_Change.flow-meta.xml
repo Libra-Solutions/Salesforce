@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>XVA Gift Change {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>XVA Gift Change</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>XVA_Gift_Import_Event_Creation_Flow_1</targetReference>
+        </connector>
+        <filterFormula>AND(
+ISCHANGED({!$Record.Import_Status__c}),
+NOT(ISBLANK({!$Record.Import_Status__c})),
+{!$Record.Import_Status__c} = &quot;Pending&quot;)</filterFormula>
+        <object>Gift__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>XVA_Gift_Import_Event_Creation_Flow_1</name>
+        <label>XVA - Gift Import Event Creation Flow 1</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>XVA_Gift_Import_Event_Creation</flowName>
+        <inputAssignments>
+            <name>GiftImport</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

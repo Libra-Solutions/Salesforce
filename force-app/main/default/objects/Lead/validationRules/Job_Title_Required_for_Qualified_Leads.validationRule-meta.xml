@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Title_Required_for_Qualified_Leads</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Title) &amp;&amp;
+$Permission.Submit_Leads_Bypass=FALSE &amp;&amp;
+ISPICKVAL(Status,&quot;Qualified&quot;)</errorConditionFormula>
+    <errorDisplayField>Title</errorDisplayField>
+    <errorMessage>Please fill out the Job Title before qualifying this lead.</errorMessage>
+</ValidationRule>

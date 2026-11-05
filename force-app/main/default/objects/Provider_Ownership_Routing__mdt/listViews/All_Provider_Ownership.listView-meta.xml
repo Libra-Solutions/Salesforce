@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Provider_Ownership</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>State_Code__c</columns>
+    <columns>State_Name__c</columns>
+    <columns>Assignment_Count__c</columns>
+    <columns>Assign_To_ID__c</columns>
+    <columns>Notes__c</columns>
+    <columns>NamespacePrefix</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Provider Ownership</label>
+</ListView>

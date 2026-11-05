@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pardot_Lightning_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(pi__url__c)),     HYPERLINK( LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) &amp;&apos;lightning/page/pardot/prospect?pardot__path=%2Fprospect%2Fread%2Fid%2F&apos;&amp; Right(pi__url__c ,value(text(LEN(pi__url__c) - FIND(&apos;=&apos;, pi__url__c))))     ,LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) &amp;&apos;lightning/page/pardot/prospect?pardot__path=%2Fprospect%2Fread%2Fid%2F&apos;&amp; Right(pi__url__c ,value(text(LEN(pi__url__c) - FIND(&apos;=&apos;, pi__url__c)))), &quot;_self&quot;) ,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pardot Lightning URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

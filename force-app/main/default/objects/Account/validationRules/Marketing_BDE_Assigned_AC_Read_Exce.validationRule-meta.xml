@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_BDE_Assigned_AC_Read_Exce</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  OR(
+    RecordType.Name = &quot;Service Account&quot;,
+    RecordType.Name = &quot;C3 Provider&quot;
+  ),
+  OR(
+    ISCHANGED(Assigned_AC__c),
+    ISCHANGED(MarketingBDE__c)
+  ),
+  $User.Alias != &quot;apionly&quot;
+
+)</errorConditionFormula>
+    <errorMessage>You are not authorized to change the Marketing BDE OR Assigned AC. These fields can only be modified by the API Only User.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oasis_Event_Purpose__c</fullName>
+    <description>This field is to capture Oasis specific Event Purpose.</description>
+    <inlineHelpText>Meeting: scheduled visit with selected Contact
+Drop-In: unscheduled meeting or swag drop-off
+Networking: interaction at conference or event</inlineHelpText>
+    <label>Type of Event</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Meeting - Attorney</fullName>
+                <default>false</default>
+                <label>Meeting - Attorney</label>
+            </value>
+            <value>
+                <fullName>Meeting - Provider</fullName>
+                <default>false</default>
+                <label>Meeting - Provider</label>
+            </value>
+            <value>
+                <fullName>Meeting - Support Contact</fullName>
+                <default>false</default>
+                <label>Meeting - Support Contact</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>VOC_Meeting</fullName>
+                <default>false</default>
+                <label>VOC-Meeting</label>
+            </value>
+            <value>
+                <fullName>Summer Gift</fullName>
+                <default>false</default>
+                <label>Summer Gift</label>
+            </value>
+            <value>
+                <fullName>Cubs 2024</fullName>
+                <default>false</default>
+                <label>Cubs 2024</label>
+            </value>
+            <value>
+                <fullName>Thanksgiving Gift</fullName>
+                <default>false</default>
+                <label>Thanksgiving Gift</label>
+            </value>
+            <value>
+                <fullName>MS Bookings</fullName>
+                <default>false</default>
+                <label>MS Bookings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

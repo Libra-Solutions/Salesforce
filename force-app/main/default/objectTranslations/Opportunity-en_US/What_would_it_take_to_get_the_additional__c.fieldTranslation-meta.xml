@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub Stage --></label>
+    <name>What_would_it_take_to_get_the_additional__c</name>
+    <picklistValues>
+        <masterLabel>Better Pricing</masterLabel>
+        <translation><!-- Better Pricing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co-Marketing</masterLabel>
+        <translation><!-- Co-Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>More Reductions</masterLabel>
+        <translation><!-- More Reductions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

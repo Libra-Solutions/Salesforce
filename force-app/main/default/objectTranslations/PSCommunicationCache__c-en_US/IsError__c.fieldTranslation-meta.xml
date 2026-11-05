@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Send workflow email on error --></help>
+    <label><!-- IsError --></label>
+    <name>IsError__c</name>
+</CustomFieldTranslation>

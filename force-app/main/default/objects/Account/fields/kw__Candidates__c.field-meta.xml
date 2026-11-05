@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__Candidates__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(  kw__Candidates_URL__c&amp;&quot;&amp;theme=&quot;&amp;TEXT($Organization.UiSkin)  , IMAGE(&quot;/servlet/servlet.FileDownload?file=015A0000001hcdI&quot;, &quot;Candidates&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Candidates and Elects</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

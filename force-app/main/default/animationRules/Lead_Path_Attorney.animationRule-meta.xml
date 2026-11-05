@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>sometimes</animationFrequency>
+    <developerName>Lead_Path_Attorney</developerName>
+    <isActive>false</isActive>
+    <masterLabel>Lead Path - Attorney</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Attorney</recordTypeName>
+    <sobjectType>Lead</sobjectType>
+    <targetField>Status</targetField>
+    <targetFieldChangeToValues>Qualified,Contacted</targetFieldChangeToValues>
+</AnimationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- KH Class - A
+Class A = Doc performing exam -->
+    </help>
+    <label><!-- No of Class A Referral --></label>
+    <name>NoofClassAReferral__c</name>
+</CustomFieldTranslation>

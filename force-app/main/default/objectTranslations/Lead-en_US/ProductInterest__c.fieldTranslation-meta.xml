@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Interest --></label>
+    <name>ProductInterest__c</name>
+    <picklistValues>
+        <masterLabel>Accident Meds</masterLabel>
+        <translation><!-- Accident Meds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atticus</masterLabel>
+        <translation><!-- Atticus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Core</masterLabel>
+        <translation><!-- Core --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation><!-- Custom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Express Cash for Care</masterLabel>
+        <translation><!-- Express Cash for Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GRS</masterLabel>
+        <translation><!-- GRS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Settlement</masterLabel>
+        <translation><!-- Pre-Settlement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

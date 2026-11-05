@@ -1,0 +1,13 @@
+This task with a subject of: {!Task.Subject}
+<br>
+
+With these comments:<br>
+{!Task.Description}
+
+<br>
+From MS Bookings: {!Task.From_MS_Bookings__c}>br>
+
+{!Task.Link}<br>
+
+View the task here:<br>
+https://oasiscrm.lightning.force.com/lightning/r/Task/{!Task.Id}/view

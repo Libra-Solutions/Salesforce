@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jirwin@librasolutionsgroup.com</contactEmail>
+    <description>Use Pardot Related Actions in Flows</description>
+    <iconUrl>https://login.salesforce.com/logos/Custom/Flux_Blue/icon.svg</iconUrl>
+    <label>Flow actions for Pardot</label>
+    <logoUrl>https://login.salesforce.com/logos/Custom/Flux_Blue/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
+        <certificate>MIIEpTCCA42gAwIBAgIOAZLaXDHmAAAAAB0JR+IwDQYJKoZIhvcNAQELBQAwgY4xJjAkBgNVBAMMHUZsb3dfQWN0aW9uc19mb3JfUGFyZG90XzEwXzI0MRgwFgYDVQQLDA8wMEQ2MTAwMDAwMDdFOVExFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTI0MTAyOTIyMTg0OFoXDTI1MTAyOTEyMDAwMFowgY4xJjAkBgNVBAMMHUZsb3dfQWN0aW9uc19mb3JfUGFyZG90XzEwXzI0MRgwFgYDVQQLDA8wMEQ2MTAwMDAwMDdFOVExFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk1ctN7US8OX01HglOJ6oMNa3E92sVatMri7bOhzc+LoNgBkaDEZeSM57Y/yOW5k8CPf8ijTcQheQqD5JuwUiEYtdQHPNuLcKSE3LGZ6yUW3MrN01DreEVGA/W++jK8SvuA/dV2w5tXtWyhZENzwFB0ycsLJsJYiFdGgXe2wLIC/RyGP5/sUDfXq7O8I3lm9u4VZ+yIXdf+NLtsWEvfYVfK+K0xf6pIN/9qTuRf8trw47v4cRJSJZdpbU4nSGda6IRrkvMdzt5GuogdVKExtm3+tlsiuCCygEPe948BUiOWBJZOAPPOqKQuSr7tSwljf61QbgM6O4uNhHUZSaa77OXQIDAQABo4H+MIH7MB0GA1UdDgQWBBSEqrBg5inTYbHhr3ECzXn88RuQWTAPBgNVHRMBAf8EBTADAQH/MIHIBgNVHSMEgcAwgb2AFISqsGDmKdNhseGvcQLNefzxG5BZoYGUpIGRMIGOMSYwJAYDVQQDDB1GbG93X0FjdGlvbnNfZm9yX1BhcmRvdF8xMF8yNDEYMBYGA1UECwwPMDBENjEwMDAwMDA3RTlRMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAZLaXDHmAAAAAB0JR+IwDQYJKoZIhvcNAQELBQADggEBAAH7pDDlhDv4MyYtw0QjEgcUPP7bduYwAzwNLRfyguCxkO3HFaQB6GfHJgtbDpXzrdUvHw/kUipTBvIRh65jSaa4ttoxOqzzRh+QWbWFweVqc/Bi2EHSGwlFVtUtj/K/tg0ZWXeAipRA+gvgdVW1x0h1Vql4bJOv+lpVNU6JHT8QoBWbU4fTBqXFvoIuarC9FRs2Q3Eg4b5v1jSIjZqbALRxZro+ZzNv4a/nITKBaXmVNLeHcdlTFqCsAPUDVj5VZpU50RYy4+AT2GSJjoY/9UrRzI5xNIYJt4QPtfj9RbITFZ1NTjh7XWXu+Ip5xR6llWUaUONoCxhRV2kVCnxf+4w=</certificate>
+        <consumerKey>3MVG9EJ2FoGDnkgVqtYmb..iNeUZVfiWCXpCe248.Oq.3uyWN6s27qE0TW178jtVtn0iRNk14nQaK2v1UC344</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isDPopEnabled>false</isDPopEnabled>
+        <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
+        <isEnforceRefreshTokenTTL>false</isEnforceRefreshTokenTTL>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isIpBindingEnabled>false</isIpBindingEnabled>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPKImTLSEnabled>false</isPKImTLSEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>RefreshToken</scopes>
+        <scopes>Pardot</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Pardot API Access</permissionSetName>
+</ConnectedApp>

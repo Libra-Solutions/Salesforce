@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cross_Sell__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Cross Sell Pitch
+Potential Customer / Interest in Cross-sell of Product Lines</description>
+    <inlineHelpText>Strong cross-sell conversation, potential lead</inlineHelpText>
+    <label>Cross-Sell</label>
+    <type>Checkbox</type>
+</CustomField>

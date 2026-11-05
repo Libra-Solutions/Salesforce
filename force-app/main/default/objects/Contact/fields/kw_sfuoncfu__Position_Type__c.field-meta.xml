@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw_sfuoncfu__Position_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Position Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Presidential Appointment without Senate Confirmation</fullName>
+                <default>false</default>
+                <label>Presidential Appointment without Senate Confirmation</label>
+            </value>
+            <value>
+                <fullName>Presidential Appointment w/o Senate Confirmation</fullName>
+                <default>false</default>
+                <label>Presidential Appointment w/o Senate Confirmation</label>
+            </value>
+            <value>
+                <fullName>Career Appointment</fullName>
+                <default>false</default>
+                <label>Career Appointment</label>
+            </value>
+            <value>
+                <fullName>Elected Position</fullName>
+                <default>false</default>
+                <label>Elected Position</label>
+            </value>
+            <value>
+                <fullName>Non-career Appointment</fullName>
+                <default>false</default>
+                <label>Non-career Appointment</label>
+            </value>
+            <value>
+                <fullName>Other Appointment</fullName>
+                <default>false</default>
+                <label>Other Appointment</label>
+            </value>
+            <value>
+                <fullName>Schedule C Excepted Appointment</fullName>
+                <default>false</default>
+                <label>Schedule C Excepted Appointment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Trio_Task_Creation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(CONTAINS(Subject, &quot;The Trio Solution HandL&quot;), CreatedBy.Alias = &quot;apionly&quot;)</errorConditionFormula>
+    <errorMessage>Do not automatically create Trio tasks.</errorMessage>
+</ValidationRule>

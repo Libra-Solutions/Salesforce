@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_DEM_Members_who_are_Female</fullName>
+    <booleanFilter>1 AND (2 OR 3) AND 4 AND 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>kw__StateOfCoverage__c</columns>
+    <columns>kw__District__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>kw__KW_Category__c</field>
+        <operation>equals</operation>
+        <value>Fed Legislator</value>
+    </filters>
+    <filters>
+        <field>kw__Political_Party__c</field>
+        <operation>startsWith</operation>
+        <value>Democratic Party</value>
+    </filters>
+    <filters>
+        <field>kw__Political_Party__c</field>
+        <operation>startsWith</operation>
+        <value>Democrat Farm Labor Party</value>
+    </filters>
+    <filters>
+        <field>kw__Gender__c</field>
+        <operation>equals</operation>
+        <value>Female</value>
+    </filters>
+    <filters>
+        <field>kw__KW_Address__c</field>
+        <operation>equals</operation>
+        <value>Fed Capitol</value>
+    </filters>
+    <label>KW DEM Members who are Female</label>
+    <sharedTo>
+        <group>KnowWho_Users</group>
+    </sharedTo>
+</ListView>

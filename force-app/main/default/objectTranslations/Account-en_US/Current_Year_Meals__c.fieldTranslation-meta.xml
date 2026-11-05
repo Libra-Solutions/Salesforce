@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Current Year Meals --></label>
+    <name>Current_Year_Meals__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+The Sizing Opportunity request for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c}) submitted by {!Opportunity.OwnerFullName} is ready for your evaluation. Please Approve or Reject the request at your earliest convenience. 
+
+Opportunity Link: https://oasiscrm--uatsandbox.lightning.force.com/{!Opportunity.Id}
+
+Approve/Reject Link: {!ApprovalRequest.Internal_URL}
+
+Sizing Approval Queue: https://oasiscrm.lightning.force.com/lightning/o/Opportunity/list?filterName=00B4M000004aSaOUAU

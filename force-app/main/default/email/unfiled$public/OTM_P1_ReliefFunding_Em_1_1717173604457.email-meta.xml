@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>OTM Phase 1 Email to Relief Funding customers.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>OTM_P1_ReliefFunding_Em#1</name>
+    <pageDevName>OTM_P1_ReliefFunding_Em_1</pageDevName>
+    <style>none</style>
+    <subject>Meet Oasis Financial, formerly Relief Funding, now on MoveDocs</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+I wanted to share some exciting news regarding your Relief Funding cases. We’re excited to announce those case fundingdetails are now viewable on the MoveDocs platform. Now, you can:
+ - View real-time payoff amounts and download payoff letters
+ - Track funding history details 24/7
+ - Initiate funding requests in a few clicks 
+
+Additionally, MoveDocs has chosen to partner with Oasis Financialfor plaintiff funding moving forward. Relief Funding cases were already contracted through Oasis, so your case details have been transitioned to “Oasis Financial” section under the “Plaintiff Funding” tab within MoveDocs.
+
+Book a Demo &lt; https://calendly.com/d/ckj5-9vh-zqz/oasis-on-movedocs?month=2024-05 &gt; 
+
+For privacy reasons, we have only set up permissions for YOU to see this fundinginformation – but we can add any other team membersthat you’d like to have access.
+
+I’d love to schedule a 15-minute walkthrough of the Plaintiff Fundingtab on MoveDocs to show you how fast and painless it is to manage funding. Book a time that works for you at my link below.
+
+Thanks – I look forward to speaking with you soon!
+
+Book a Demo &lt; https://calendly.com/d/ckj5-9vh-zqz/oasis-on-movedocs?month=2024-05 &gt; 
+
+Sincerely,
+
+{{{Sender.Signature}}}
+
+MoveDocs
+
+4670 S. Fort Apache Road, Suite 200
+
+Las Vegas, NV 89147
+
+Copyright © 2024 MoveDocs,
+
+All rights reserved.
+
+{{{Unsubscribe}}}  &lt; {{Unsubscribe}} &gt; | Website &lt; https://www.oasisfinancial.com/financial-funding-3-tp-bb/?kenibpid=p.511._k_16166500955e192aafaa00a92fbab9a2_k_.&amp;utm_source=BING&amp;utm_campaign=Oasis_Bing_SEM_Brand_D%252BT_Exact&amp;utm_term=oasis%2520financial&amp;utm_matchtype=e&amp;kpid=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;utm_id=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;msclkid=16166500955e192aafaa00a92fbab9a2&amp;utm_medium=cpc&amp;utm_content=Brand_Exact_Oasis%2520Financial &gt; | LinkedIn &lt; https://www.linkedin.com/company/oasis-legal-finance &gt; | Instagram &lt; https://www.instagram.com/oasisfinancial/ &gt;  &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

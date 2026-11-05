@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivityQualificationYN__c</fullName>
+    <description>Yes/No Text Function for Activity Qualification</description>
+    <externalId>false</externalId>
+    <formula>if( ActivityQualification__c = 1, &quot;Yes&quot;, &quot;No&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Qualified activities are counted as Calls or Meeting with a Meeting Result. Emails/Meetings without a result and VM&apos;s are not counted as Qualified activities</inlineHelpText>
+    <label>Qualified Activity?</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Pre-Show Email/Post-Show Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Oasis Financial Sponsorships Emails</name>
+    <pageDevName>Oasis_Financial_Sponsorships_Emails</pageDevName>
+    <style>none</style>
+    <subject>Visit Booth 49 at the Lanier Trial Academy for a chance to Win a Scotty Cameron Putter!</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+Are you heading to theLanier Trial Academyfrom June 17th-20th?
+
+Be sure to stop by our booth to learn about MoveDocs &lt; http://www.movedocs.com/ &gt; – the leading Personal Injury Solutions Platform helping law firms optimize outcomes and minimize costs.
+
+ - Plaintiff Medical:A searchable map of over 10,000 providers, click-to-schedule appointments, and free delivery of bills and records
+ - Plaintiff Funding from Oasis Financial &lt; https://www.oasisfinancial.com/ &gt; : Attentive personal service plus access to transact and view payoff information 24/7
+ - Expert Services from ExpertPays:Find expert witnesses to strengthen your case with no upfront costs for your firm
+
+Sincerely,
+
+{{{Sender.Signature}}}
+
+Oasis Legal Finance
+
+9525 W. Bryn Mawr Ave. Suite 900
+
+Rosemont, IL 60018
+
+Copyright © 2024 Oasis Financial,
+
+All rights reserved.
+
+Unsubscribe &lt;  {{{Unsubscribe}}}  &gt; | Website &lt; https://www.oasisfinancial.com/financial-funding-3-tp-bb/?kenibpid=p.511._k_16166500955e192aafaa00a92fbab9a2_k_.&amp;utm_source=BING&amp;utm_campaign=Oasis_Bing_SEM_Brand_D%252BT_Exact&amp;utm_term=oasis%2520financial&amp;utm_matchtype=e&amp;kpid=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;utm_id=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;msclkid=16166500955e192aafaa00a92fbab9a2&amp;utm_medium=cpc&amp;utm_content=Brand_Exact_Oasis%2520Financial &gt; | LinkedIn &lt; https://www.linkedin.com/company/oasis-legal-finance &gt; | Instagram &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Relation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Account Relation</label>
+    <referenceTo>Account_Relation__c</referenceTo>
+    <relationshipLabel>PS - Pricing Breakdown</relationshipLabel>
+    <relationshipName>PS_Pricing_Breakdown</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,56 @@
+<aura:component controller="RecordTypeController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+             
+    <aura:attribute name="recordTypeLabel" type="String" />
+    <aura:attribute name="recordType" type="String" />  
+    <aura:attribute name="ContactRec" type="Contact" />
+    <aura:attribute name="disableNextButton" type="boolean" default="false" />
+    <aura:attribute name="message" type="string" default="This Attorney has not been Synced to the Backend Systems. Please click 'SyncToBackendSystems' button on Account." />
+    <aura:attribute name="message1" type="string" default=""/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+      
+    <lightning:layout multipleRows="true" verticalAlign="end">
+        <lightning:layoutItem size="12" smallDeviceSize="12" mediumDeviceSize="1" largeDeviceSize="1" padding="around-small"/>
+        <lightning:layoutItem size="12" smallDeviceSize="10" mediumDeviceSize="8" largeDeviceSize="8" padding="around-small">
+            <div class="slds-form-element">
+                    <label class="slds-form-element__label">Enter Case Type</label>
+                    <div class="slds-form-element__control">
+                    
+                        <ui:inputSelect class="single" aura:id="selectid" change="{!c.onChange}">
+                            <ui:inputSelectOption text="--Select--" value="true"/>
+                            <ui:inputSelectOption text="Auto"/>
+                            <ui:inputSelectOption text="Worker's Compensation"/>
+                            <ui:inputSelectOption text="Other"/>                               
+                        </ui:inputSelect>                          
+                    </div>
+                </div> 
+        </lightning:layoutItem>
+        
+        <lightning:layoutItem size="12" smallDeviceSize="2" mediumDeviceSize="2" largeDeviceSize="2" padding="around-small">
+            <aura:if isTrue="{!!v.disableNextButton}">
+        		<lightning:button class="slds-button slds-button--brand" onclick="{!c.createRecord}">Next</lightning:button>
+            </aura:if>
+            <aura:if isTrue="{!v.disableNextButton}">
+            	<lightning:button class="slds-button slds-button--brand" disabled="true">Next</lightning:button>
+                <br/>
+                
+            </aura:if>
+           
+        </lightning:layoutItem>
+        <lightning:layoutItem size="12" smallDeviceSize="12" mediumDeviceSize="1" largeDeviceSize="1" padding="around-small">
+        
+        </lightning:layoutItem>
+    </lightning:layout>
+    <div>  
+        <p class="slds-align_absolute-center" align="center" style="color:red;"><b>{!v.message1}</b></p>                     
+    </div>
+    
+    <aura:if isTrue="{!v.disableNextButton}">
+        <!-- Show the message to ui -->
+        
+            <div class="slds-notify__content">
+                <br/>
+                <p class="slds-align_absolute-center" align="center" style="color:red;"><b>{!v.message}</b></p>                
+            </div>
+        
+    </aura:if>
+</aura:component>

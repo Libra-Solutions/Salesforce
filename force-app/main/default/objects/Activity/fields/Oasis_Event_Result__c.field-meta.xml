@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oasis_Event_Result__c</fullName>
+    <defaultValue>&quot;Level 1-Quick in office/lobby/conf boot &quot;</defaultValue>
+    <description>This field is to capture Oasis specific Event Result.</description>
+    <label>Result of Activity</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Level 1</fullName>
+                <default>false</default>
+                <label>Level One-Drop-in</label>
+            </value>
+            <value>
+                <fullName>Level 2-Pitched MoveDocs</fullName>
+                <default>false</default>
+                <label>Level Two-Pitched MoveDocs- A meeting with an atty/para/decision maker</label>
+            </value>
+            <value>
+                <fullName>Level 2-Pitched Oasis</fullName>
+                <default>false</default>
+                <label>Level Two-Pitched Oasis- A meeting with an atty/para/decision maker</label>
+            </value>
+            <value>
+                <fullName>Level 2-Pitched MoveDocs with Case Management Integration</fullName>
+                <default>false</default>
+                <label>Level Two-Pitched MoveDocs with Case Management Integration- A meeting with an atty/para/decision maker</label>
+            </value>
+            <value>
+                <fullName>Level 2-Pitched Expert Pays</fullName>
+                <default>false</default>
+                <label>Level Two-Pitched Expert Pays- A meeting with an atty/para/decision maker</label>
+            </value>
+            <value>
+                <fullName>Level 3</fullName>
+                <default>false</default>
+                <label>Level Three- ‘Top Tier’ Meeting (Firm Presentation, Lunch/Dinner Meeting)</label>
+            </value>
+            <value>
+                <fullName>Level Three - Demo Complete- Int</fullName>
+                <default>false</default>
+                <label>Level Three - Demo Complete- Int</label>
+            </value>
+            <value>
+                <fullName>Level Three- Demo Completed - Not Interested</fullName>
+                <default>false</default>
+                <label>Level Three - Demo Complete- Not Int</label>
+            </value>
+            <value>
+                <fullName>Accounts Receivable</fullName>
+                <default>false</default>
+                <label>Accounts Receivable</label>
+            </value>
+            <value>
+                <fullName>Atty Portal Demo</fullName>
+                <default>false</default>
+                <label>Atty Portal Demo</label>
+            </value>
+            <value>
+                <fullName>Portal Troubleshooting</fullName>
+                <default>false</default>
+                <label>Portal Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Request for Visit</fullName>
+                <default>false</default>
+                <label>Request for Visit</label>
+            </value>
+            <value>
+                <fullName>Retention Touch</fullName>
+                <default>false</default>
+                <label>Retention Touch</label>
+            </value>
+            <value>
+                <fullName>Send Gift/Meal</fullName>
+                <default>false</default>
+                <label>Send Gift/Meal</label>
+            </value>
+            <value>
+                <fullName>Top 100</fullName>
+                <default>false</default>
+                <label>Top 100</label>
+            </value>
+            <value>
+                <fullName>Atty Event Interest</fullName>
+                <default>false</default>
+                <label>Atty Event Interest</label>
+            </value>
+            <value>
+                <fullName>Atty/Provider Event Call</fullName>
+                <default>false</default>
+                <label>Atty/Provider Event Call</label>
+            </value>
+            <value>
+                <fullName>Cubs Event Follow-up Call</fullName>
+                <default>false</default>
+                <label>Cubs Event Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Medical Provider Prospecting Call</fullName>
+                <default>false</default>
+                <label>Medical Provider Prospecting Call</label>
+            </value>
+            <value>
+                <fullName>Paid in Full Call</fullName>
+                <default>false</default>
+                <label>Paid in Full Call</label>
+            </value>
+            <value>
+                <fullName>Pitched Atty/Provider</fullName>
+                <default>false</default>
+                <label>Pitched Atty/Provider</label>
+            </value>
+            <value>
+                <fullName>Pitched Support Contact</fullName>
+                <default>false</default>
+                <label>Pitched Support Contact</label>
+            </value>
+            <value>
+                <fullName>Prospecting Call</fullName>
+                <default>false</default>
+                <label>Prospecting Call</label>
+            </value>
+            <value>
+                <fullName>Send Marketing Collateral/Swag</fullName>
+                <default>false</default>
+                <label>Send Marketing Collateral/Swag</label>
+            </value>
+            <value>
+                <fullName>Sizing the Opportunity Pitched</fullName>
+                <default>false</default>
+                <label>Sizing the Opportunity Pitched</label>
+            </value>
+            <value>
+                <fullName>Spoke with Atty/Provider</fullName>
+                <default>false</default>
+                <label>Spoke with Atty/Provider</label>
+            </value>
+            <value>
+                <fullName>Spoke with Support Contact</fullName>
+                <default>false</default>
+                <label>Spoke with Support Contact</label>
+            </value>
+            <value>
+                <fullName>Summer Gift Follow-up Call</fullName>
+                <default>false</default>
+                <label>Summer Gift Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Swag Follow-up Call</fullName>
+                <default>false</default>
+                <label>Swag Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Unrepresented Lead</fullName>
+                <default>false</default>
+                <label>Unrepresented Lead</label>
+            </value>
+            <value>
+                <fullName>Welcome Packet/In-Service Call</fullName>
+                <default>false</default>
+                <label>Welcome Packet/In-Service Call</label>
+            </value>
+            <value>
+                <fullName>MoveDocs Intro Pitched</fullName>
+                <default>false</default>
+                <label>MoveDocs Intro Pitched</label>
+            </value>
+            <value>
+                <fullName>MoveDocs Intro Pitched – Atty Not Interested</fullName>
+                <default>false</default>
+                <label>MoveDocs Intro Pitched – Atty Not Interested</label>
+            </value>
+            <value>
+                <fullName>Oasis Intro Pitched</fullName>
+                <default>false</default>
+                <label>Oasis Intro Pitched</label>
+            </value>
+            <value>
+                <fullName>Oasis Intro Pitched – Atty Not Interested</fullName>
+                <default>false</default>
+                <label>Oasis Intro Pitched – Atty Not Interested</label>
+            </value>
+            <value>
+                <fullName>Level Four- Pitched Referral Partner</fullName>
+                <default>false</default>
+                <label>Level Four- Pitched Referral Partner</label>
+            </value>
+            <value>
+                <fullName>Atty Portal Pitched ???</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Atty Portal Pitched ???</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Cross-Sell Call????</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cross-Sell Call????</label>
+            </value>
+            <value>
+                <fullName>Level 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Level 2-A Meeting with an atty/para/decision maker</label>
+            </value>
+            <value>
+                <fullName>Level Three- Demo Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Level Three- Demo Complete</label>
+            </value>
+            <value>
+                <fullName>Level Two-Pitched MoveDocs- A meeting with an atty/para/decision maker - Not Interested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Level Two-Pitched MoveDocs- A meeting with an atty/para/decision maker - Not Interested</label>
+            </value>
+            <value>
+                <fullName>Level Two-Pitched Oasis- A meeting with an atty/para/decision maker- Interested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Level Two-Pitched Oasis- A meeting with an atty/para/decision maker- Interested</label>
+            </value>
+            <value>
+                <fullName>Movedocs Demo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Movedocs Demo</label>
+            </value>
+            <value>
+                <fullName>New Atty Follow-up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Atty Follow-up</label>
+            </value>
+            <value>
+                <fullName>OasisAtty Portal Demo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OasisAtty Portal Demo</label>
+            </value>
+            <value>
+                <fullName>Summer Gift - Dropped Off</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Summer Gift - Dropped Off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

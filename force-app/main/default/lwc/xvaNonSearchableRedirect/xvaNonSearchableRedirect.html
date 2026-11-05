@@ -1,0 +1,16 @@
+<template>
+
+    
+    <template lwc:if={displayNotice}>
+        <lightning-card title="Redirect Notice">
+            <div>
+                <p>Would have redirected to Cashtrax Account: {redirectResult.redirectName}</p>
+                <lightning-formatted-url value={displayUrl} label={redirectResult.redirectName}>
+                </lightning-formatted-url>
+            </div>
+        </lightning-card>
+    </template>
+
+
+
+</template>

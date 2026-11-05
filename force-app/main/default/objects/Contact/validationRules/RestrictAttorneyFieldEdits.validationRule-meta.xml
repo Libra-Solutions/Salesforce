@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictAttorneyFieldEdits</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+  $RecordType.Name = &quot;Attorney&quot;,
+  NOT(
+    AND(
+        ISBLANK(MD_User_ID__c),
+        ISBLANK(Cashtrax_Id__c)
+    )
+  ),
+  ISCHANGED(AccountId) || ISCHANGED(LastName) || ISCHANGED(FirstName)
+  || ISCHANGED(Phone) || ISCHANGED(MobilePhone) || ISCHANGED(Email) 
+  || ISCHANGED(Phone_Extension__c) || ISCHANGED(MD_User_ID__c) || ISCHANGED(MD_User_Is_Active__c)
+  || ISCHANGED(MD_User_Last_Activity_Date__c) || ISCHANGED(MD_User_Role__c) || ISCHANGED(MD_Inactive_Date__c)
+  || ISCHANGED(RecordTypeId) || ISCHANGED(Merge_To__c) || ISCHANGED(Needs_to_be_Merged__c)
+  || ISCHANGED(Attorney_ID__c) || ISCHANGED(Title) || ISCHANGED(User_Type__c) || ISCHANGED(MD_User_Primary_Phone_Number__c) || ISCHANGED(BarVerificationDate__c) || ISCHANGED(MD_User_Last_Login_Date__c)
+  || ISCHANGED(MD_Date_Requested__c) || ISCHANGED(MD_Inactive_Date__c) || ISCHANGED(Fax) || ISCHANGED(Average_to_MD__c) || ISCHANGED(Average_Case_Load__c) || ISCHANGED(Average_Cases_Medical__c),
+  NOT($Profile.Name = &quot;API Only User&quot;)
+)</errorConditionFormula>
+    <errorMessage>Only API-only users are permitted to edit these fields on Attorney records.</errorMessage>
+</ValidationRule>

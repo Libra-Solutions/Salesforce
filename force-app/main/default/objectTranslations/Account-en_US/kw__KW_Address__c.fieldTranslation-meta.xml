@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KnowWho Address --></label>
+    <name>kw__KW_Address__c</name>
+    <picklistValues>
+        <masterLabel>Fed Capitol Office</masterLabel>
+        <translation><!-- Fed Capitol Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Caucus Office</masterLabel>
+        <translation><!-- Fed Caucus Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Committee Office</masterLabel>
+        <translation><!-- Fed Committee Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed District Office</masterLabel>
+        <translation><!-- Fed District Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Leadership Office</masterLabel>
+        <translation><!-- Fed Leadership Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Officer Office</masterLabel>
+        <translation><!-- Fed Officer Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Subcommittee Office</masterLabel>
+        <translation><!-- Fed Subcommittee Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Capitol Office</masterLabel>
+        <translation><!-- State Capitol Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Caucus Office</masterLabel>
+        <translation><!-- State Caucus Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Committee Office</masterLabel>
+        <translation><!-- State Committee Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State District Office</masterLabel>
+        <translation><!-- State District Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Exec Agency</masterLabel>
+        <translation><!-- State Exec Agency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Exec Department</masterLabel>
+        <translation><!-- State Exec Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Exec Office</masterLabel>
+        <translation><!-- State Exec Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Leadership Office</masterLabel>
+        <translation><!-- State Leadership Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Officer Office</masterLabel>
+        <translation><!-- State Officer Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Subcommittee Office</masterLabel>
+        <translation><!-- State Subcommittee Office --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

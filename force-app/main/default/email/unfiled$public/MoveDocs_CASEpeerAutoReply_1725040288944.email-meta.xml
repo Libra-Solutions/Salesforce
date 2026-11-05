@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto reply to CASEpeer Pendo Guide within MoveDocs</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MoveDocs_CASEpeerAutoReply</name>
+    <pageDevName>MoveDocs_CASEpeerAutoReply</pageDevName>
+    <style>none</style>
+    <subject>MoveDocs + CASEpeer Integration Request Received</subject>
+    <textOnly>Hi there!
+
+We&apos;ve received your request for a demo or activation of our CASEpeer integration. 
+
+Someone from our support team will be in touch shortly.
+
+Thank you,
+
+The MoveDocs Team
+
+MoveDocs
+
+4670 S. Fort Apache Road, Suite 200
+
+Las Vegas, NV 89147
+
+Copyright © 2024 MoveDocs,
+
+All rights reserved.
+
+{{{Unsubscribe}}}  &lt; {{Unsubscribe}} &gt; | Website &lt; https://www.oasisfinancial.com/financial-funding-3-tp-bb/?kenibpid=p.511._k_16166500955e192aafaa00a92fbab9a2_k_.&amp;utm_source=BING&amp;utm_campaign=Oasis_Bing_SEM_Brand_D%252BT_Exact&amp;utm_term=oasis%2520financial&amp;utm_matchtype=e&amp;kpid=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;utm_id=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;msclkid=16166500955e192aafaa00a92fbab9a2&amp;utm_medium=cpc&amp;utm_content=Brand_Exact_Oasis%2520Financial &gt; | LinkedIn &lt; https://www.linkedin.com/company/oasis-legal-finance &gt; | Instagram &lt; https://www.instagram.com/oasisfinancial/ &gt;  &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to SF hosted MCP servers. Created 7/6/26 for Claude integration.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MCP Client User</label>
+</PermissionSet>

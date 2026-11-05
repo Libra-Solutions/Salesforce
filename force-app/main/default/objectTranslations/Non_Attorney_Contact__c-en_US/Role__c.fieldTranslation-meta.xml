@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>CEO</masterLabel>
+        <translation><!-- CEO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CFO</masterLabel>
+        <translation><!-- CFO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case Manager</masterLabel>
+        <translation><!-- Case Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamics Contact</masterLabel>
+        <translation><!-- Dynamics Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estimates</masterLabel>
+        <translation><!-- Estimates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Assistant</masterLabel>
+        <translation><!-- Legal Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Secretary</masterLabel>
+        <translation><!-- Legal Secretary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML - Medical Records</masterLabel>
+        <translation><!-- ML - Medical Records --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML – Billing</masterLabel>
+        <translation><!-- ML – Billing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML – Scheduling</masterLabel>
+        <translation><!-- ML – Scheduling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ML- Main</masterLabel>
+        <translation><!-- ML- Main --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management</masterLabel>
+        <translation><!-- Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paralegal</masterLabel>
+        <translation><!-- Paralegal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Receptionist</masterLabel>
+        <translation><!-- Receptionist --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

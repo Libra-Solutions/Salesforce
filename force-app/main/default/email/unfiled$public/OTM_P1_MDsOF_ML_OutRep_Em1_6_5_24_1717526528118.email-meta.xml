@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>OTM, Phase 1 Em #1: -Med Lien, Outside Rep from MoveDocs, (Mentions Oasis rep); Oasis Header + Mds Footer, MDs Signature</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>OTM_P1_MDsOF_ML_OutRep_Em1_6.5.24</name>
+    <pageDevName>OTM_P1_MDsOF_ML_OutRep_Em1_6_5_24</pageDevName>
+    <style>none</style>
+    <subject>Introducing Oasis Financial on MoveDocs</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+No one works harder to make plaintiff funding easier for you – and we continue to stand by that promise. Which is why we’re so excited to share some big news (drum roll please…).
+
+The Oasis Financial Attorney Portal is now on MoveDocs
+
+So, in addition to the personal service you get from your dedicated Oasis representative, we now have a new portal with enhanced usability and quicker load times.
+
+Now, you can access your plaintiff funding data in seconds, 24/7. Plus, MoveDocs is the leading Personal Injury Solutions Platform with a suite of curated solutions, including plaintiff medical and expert services, built to help you optimize case outcomes while minimizing costs.
+
+Book a Demo &lt; https://calendly.com/d/ckj5-9vh-zqz/oasis-on-movedocs?month=2024-05 &gt; 
+
+Plaintiff Funding from
+
+Oasis Financial
+
+ - View real-time payoff amounts and download payoff letters
+ - Track funding history details 24/7
+ - Initiate funding requests in a few clicks
+
+Plaintiff Medical
+
+ - Search 10,000+ providers and track your plaintiff&apos;s care
+ - Automatically receive free bills and records
+ - Manage your cases within your CMS 
+
+Expert Services from ExpertPays
+
+ - Choose from an attorney-curated directory of experts
+ - Fund experts with ExpertPays&apos; money - only pay when you win!
+
+MoveDocs is free to use, HIPAA-compliant, and integrates with all major CMS softwareincluding Filevine, CASEpeer, and vCase.
+
+I’d like to walk you through the features of our new Oasis attorney portal and introduce you to the power of MoveDocs. Book a time that works for you at my link below.
+
+Thanks – I look forward to speaking with you soon!
+
+Book a Demo &lt; https://calendly.com/d/ckj5-9vh-zqz/oasis-on-movedocs?month=2024-05 &gt; 
+
+Sincerely,
+
+{{{Sender.Signature}}}
+
+MoveDocs
+
+4670 S. Fort Apache Road, Suite 200
+
+Las Vegas, NV 89147
+
+Copyright © 2024 MoveDocs,
+
+All rights reserved.
+
+{{{Unsubscribe}}} | Website &lt; https://www.oasisfinancial.com/financial-funding-3-tp-bb/?kenibpid=p.511._k_16166500955e192aafaa00a92fbab9a2_k_.&amp;utm_source=BING&amp;utm_campaign=Oasis_Bing_SEM_Brand_D%252BT_Exact&amp;utm_term=oasis%2520financial&amp;utm_matchtype=e&amp;kpid=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;utm_id=bi_cmp-272418238_adg-1238050237095660_ad-77378309010645_kwd-77378255823005%3Aaud-808175916%3Aloc-4095_dev-c_ext-_prd-_sig-16166500955e192aafaa00a92fbab9a2&amp;msclkid=16166500955e192aafaa00a92fbab9a2&amp;utm_medium=cpc&amp;utm_content=Brand_Exact_Oasis%2520Financial &gt; | LinkedIn &lt; https://www.linkedin.com/company/oasis-legal-finance &gt; | Instagram &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

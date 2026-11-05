@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Auto Application</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance/Case Information --></label>
+            <section>Insurance/Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Application --></label>
+            <section>New Application</section>
+        </sections>
+        <sections>
+            <label><!-- Plaintiff Information --></label>
+            <section>Plaintiff Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Other Type</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Application --></label>
+            <section>New Application</section>
+        </sections>
+        <sections>
+            <label><!-- Plaintiff Information --></label>
+            <section>Plaintiff Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sizing Layout</layout>
+        <sections>
+            <label><!-- Auto Populated Fields --></label>
+            <section>Auto Populated Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Management Use Only --></label>
+            <section>Management Use Only</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Workers Comp</layout>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Incident Details --></label>
+            <section>Incident Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Application --></label>
+            <section>New Application</section>
+        </sections>
+        <sections>
+            <label><!-- Plaintiff Information --></label>
+            <section>Plaintiff Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- PS-QuickAdd-Auto --></label>
+        <name>PS_QuickAdd_Auto</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PS-QuickAdd-Other --></label>
+        <name>PS_QuickAdd_Other</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PS-QuickAdd-WC --></label>
+        <name>PS_QuickAdd_WC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider --></label>
+        <name>Provider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sizing the Opportunity --></label>
+        <name>Sizing_the_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Law Firm --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- &apos;Accident Date&apos; should not be a future date --></errorMessage>
+        <name>Accident_date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Annual Estimate. --></errorMessage>
+        <name>Amount_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Annual Revenue. --></errorMessage>
+        <name>Annual_Revenue_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Closed Lost reason --></errorMessage>
+        <name>Closed_Lost_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Closed Lost-Other reason. --></errorMessage>
+        <name>Closed_Lost_Reason_other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Contracted Product before closing the opportunity --></errorMessage>
+        <name>Contracted_Product_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Contracted Product. --></errorMessage>
+        <name>Contracted_Product_Mandatory_on_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only barbie user can update  Contracted checkbox. --></errorMessage>
+        <name>Contracted_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check the Contracted field, if the contract is signed. --></errorMessage>
+        <name>Contracted_Validation_on_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of birth should not be a future date --></errorMessage>
+        <name>DOB_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Stage value must be Created Opportunity --></errorMessage>
+        <name>Make_Stage_value_default</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can not change Record type. --></errorMessage>
+        <name>RecordType_Validate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Attt Id Should be null --></errorMessage>
+        <name>Restrict_Atty_Id</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only edit records that you own. --></errorMessage>
+        <name>Restrict_Edit_To_Own_Records</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Firm Id Should be null --></errorMessage>
+        <name>Restrict_Firm_Id</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the required field --></errorMessage>
+        <name>Total_Firm_Cases_that_receive_fund</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the required text box --></errorMessage>
+        <name>Total_of_CasesFirm_Level</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the Closed description, SAVE, and then re-select ‘Mark Stage as Complete’. --></errorMessage>
+        <name>Validation_on_closed_desscription</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_Bulk_Handwrytten_Notes --></label>
+        <name>hndwrt__Send_Bulk_Handwrytten_Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

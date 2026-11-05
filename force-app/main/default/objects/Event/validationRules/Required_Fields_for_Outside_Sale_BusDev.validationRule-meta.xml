@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Fields_for_Outside_Sale_BusDev</fullName>
+    <active>true</active>
+    <description>Required fields for Outside Sales and Business Development Profiles</description>
+    <errorConditionFormula>($Profile.Name = &apos;Business Development&apos; &amp;&amp;  ISBLANK(TEXT(Oasis_Event_Result__c ))) || ($Profile.Name = &apos;Outside Sales&apos; &amp;&amp; ISBLANK(TEXT(Oasis_Event_Result__c )))</errorConditionFormula>
+    <errorDisplayField>Oasis_Event_Result__c</errorDisplayField>
+    <errorMessage>Please fill out the Result of Event field.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Level4_Reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Oasis_Event_Result__c , &quot;Level Four- Pitched Referral Partner&quot;), ISBLANK(TEXT(Level_4_Results__c )))</errorConditionFormula>
+    <errorDisplayField>Level_4_Results__c</errorDisplayField>
+    <errorMessage>When Level Four is selected for the Event Result, Level Four Results must be filled in.</errorMessage>
+</ValidationRule>

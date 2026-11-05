@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alternate_User_ID__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Test field for lookup user for future (Assigned AC)</description>
+    <inlineHelpText>Id for Account engagement to use as an alternate sender.</inlineHelpText>
+    <label>Marketing BDE</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

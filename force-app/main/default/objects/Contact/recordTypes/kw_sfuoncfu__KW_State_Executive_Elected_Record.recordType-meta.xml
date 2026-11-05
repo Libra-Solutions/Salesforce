@@ -1,0 +1,2309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw_sfuoncfu__KW_State_Executive_Elected_Record</fullName>
+    <active>true</active>
+    <label>KW - State Executive Elected Record</label>
+    <picklistValues>
+        <picklist>Dietary_Restrictions_Preferences__c</picklist>
+        <values>
+            <fullName>Dairy Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diabetic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gluten Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kosher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Carb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non GMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paleo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hobbies__c</picklist>
+        <values>
+            <fullName>Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traveling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LicenseState__c</picklist>
+        <values>
+            <fullName>AK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MaritalStatus__c</picklist>
+        <values>
+            <fullName>Divorced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Married</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Widowed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProductInterest__c</picklist>
+        <values>
+            <fullName>Accident Meds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atticus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Settlement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Main</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paralegal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Speciality__c</picklist>
+        <values>
+            <fullName>Medical Practice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Ethnicity__c</picklist>
+        <values>
+            <fullName>Asian%2FPacific American</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black%2FAfrican American</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hispanic%2FLatino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two or More Ethnicities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White%2FCaucasian</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Issues_Mailing_Lists__c</picklist>
+        <values>
+            <fullName>Aerospace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animal Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appropriations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Census</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disaster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt Ops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homeland Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immigration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intergovernmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Judiciary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minorities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seniors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urban Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veterans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welfare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Issues__c</picklist>
+        <values>
+            <fullName>Aerospace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animal Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appropriations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Census</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disaster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt Ops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homeland Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immigration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intergovernmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Judiciary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minorities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seniors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urban Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veterans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welfare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__KW_Address__c</picklist>
+        <values>
+            <fullName>Fed Capitol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Caucus Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Committee Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Leadership Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Member Staff - Capitol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Member Staff - District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Officer Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Capitol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Caucus Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Committee Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Exec Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Exec Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Exec Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Leadership Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Member Staff - Capitol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Member Staff - District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Officer Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__KW_Category__c</picklist>
+        <values>
+            <fullName>Fed Caucus Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Committee Staff - Majority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Committee Staff - Minority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Committee Staff - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Leadership Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Legislator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Legislator Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fed Officer Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Caucus Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Committee Staff - Majority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Committee Staff - Minority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Committee Staff - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Leadership Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Legislator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Legislator Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Fed Officer Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Caucus Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Committee Staff - Majority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Committee Staff - Minority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Committee Staff - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Exec Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Exec Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Exec Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Leadership Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Legislator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Legislator Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former State Officer Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Caucus Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Committee Staff - Majority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Committee Staff - Minority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Committee Staff - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Exec Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Exec Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Exec Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Leadership Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Legislator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Legislator Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Officer Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__KW_Directory__c</picklist>
+        <values>
+            <fullName>CongressForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedExecForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GovAffairsForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LocalForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediaForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>StateForce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__KW_Role_Code__c</picklist>
+        <values>
+            <fullName>LEG AA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG DD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG EA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG EAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG ED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG GAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG GC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG INV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG OM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG OMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PMF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PRR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG RA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG RE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG STR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG TC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG TRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG VCH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__KW_Role_Desc_Mailing__c</picklist>
+        <values>
+            <fullName>LEG Administrative Aide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Administrative Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Advisory Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Associate Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Caseworker %2F Constituent Liaison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Comptroller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Economist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Editor %2F Publications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Field Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Legislative Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Legislative Correspondent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Legislative Correspondent %2F Legislative Aide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Liaison Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Mailroom Manager %2F Mail Operations %2F Mail Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Minority Chairman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Office Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Parliamentarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Press Secretary %2F Communications Director %2F Other Liaison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Professional Staff Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Receptionist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Scheduler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Staff Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Staff Assistant %2F Staff Researcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Staff Consultant %2F Consultant %2F Staff Advisor %2F Advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG State Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG State Senator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Tour Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG US Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG US Senator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__KW_Template__c</picklist>
+        <values>
+            <fullName>ContactMember</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactMemberFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactOfficer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactOfficerFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStaff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStaffFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateExecutive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateExecutiveElected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateExecutiveElectedFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateExecutiveFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateExecutiveStaffer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateExecutiveStafferFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateMember</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateMemberFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateOfficer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateOfficerFormer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateStaff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ContactStateStaffFormer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Know_Role_Code_Mailing__c</picklist>
+        <values>
+            <fullName>LEG AA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG CW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG DD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG EA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG EAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG ED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG FS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG GAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG GC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG INV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG OM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG OMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PMF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PRR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG PSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG RA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG RE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG STR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG SW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG TC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG TRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG VCH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Political_Party__c</picklist>
+        <values>
+            <fullName>Democratic Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Republican Party</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Religion__c</picklist>
+        <values>
+            <fullName>African Methodist Episcopal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angelican</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apostolic Christian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assembly of God</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baptist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buddhism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catholic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian Reformed Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian Scientist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Church of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Church of the Brethren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congregationalist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disciples of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Orthodox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Episcopalian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evangelical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foursquare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French Huguenot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friedensthal Moravian Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek Orthodox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hinduism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent Bible Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Islam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lutheran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mennonite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methodist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mormon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nazarene</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pentecostal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presbyterian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protestant - Unspecified Christian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quaker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reorganized Church of Jesus Christ of Later Day Saints %28Mormon%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roman Catholic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seventh-Day Adventist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shekinah Fellowship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unitarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Church of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unspecified%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wesleyan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw__Role_Description__c</picklist>
+        <values>
+            <fullName>LEG Administrative Aide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Administrative Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Advisory Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Associate Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Caseworker %2F Constituent Liaison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Comptroller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Economist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Editor %2F Publications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Field Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Legislative Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Legislative Correspondent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Legislative Correspondent %2F Legislative Aide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Liaison Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Mailroom Manager %2F Mail Operations %2F Mail Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Minority Chairman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Office Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Parliamentarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Press Secretary %2F Communications Director %2F Other Liaison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Professional Staff Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Receptionist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Scheduler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Staff Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Staff Assistant %2F Staff Researcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Staff Consultant %2F Consultant %2F Staff Advisor %2F Advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG State Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG State Senator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG Tour Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG US Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEG US Senator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw_sfuoncfu__CCO_e__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw_sfuoncfu__Executive_Level__c</picklist>
+        <values>
+            <fullName>EX-I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX-II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX-III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX-IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX-V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE-2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw_sfuoncfu__Position_Status__c</picklist>
+        <values>
+            <fullName>This executive has been nominated and is awaiting confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive has been renominated and is awaiting nomination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is retiring from this position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is running for a different office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is serving in a designate capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is serving in a normal capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is serving in an acting capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is serving in an undefined capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This position is currently vacant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw_sfuoncfu__Position_Type__c</picklist>
+        <values>
+            <fullName>Career Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elected Position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-career Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presidential Appointment w%2Fo Senate Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presidential Appointment without Senate Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule C Excepted Appointment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>kw_sfuoncfu__Reelection_Status_e__c</picklist>
+        <values>
+            <fullName>Reelection status for this executive is not available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive has reached their term limit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is retiring at the end of this term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive is running for a different office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This executive may run for reelection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

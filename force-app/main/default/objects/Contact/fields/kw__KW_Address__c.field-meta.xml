@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_Address__c</fullName>
+    <deprecated>false</deprecated>
+    <label>KnowWho Address</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fed Capitol</fullName>
+                <default>false</default>
+                <label>Fed Capitol</label>
+            </value>
+            <value>
+                <fullName>Fed Caucus Staff</fullName>
+                <default>false</default>
+                <label>Fed Caucus Staff</label>
+            </value>
+            <value>
+                <fullName>Fed Committee Staff</fullName>
+                <default>false</default>
+                <label>Fed Committee Staff</label>
+            </value>
+            <value>
+                <fullName>Fed Leadership Staff</fullName>
+                <default>false</default>
+                <label>Fed Leadership Staff</label>
+            </value>
+            <value>
+                <fullName>Fed Member Staff - Capitol</fullName>
+                <default>false</default>
+                <label>Fed Member Staff - Capitol</label>
+            </value>
+            <value>
+                <fullName>Fed Member Staff - District</fullName>
+                <default>false</default>
+                <label>Fed Member Staff - District</label>
+            </value>
+            <value>
+                <fullName>Fed Officer Staff</fullName>
+                <default>false</default>
+                <label>Fed Officer Staff</label>
+            </value>
+            <value>
+                <fullName>State Capitol</fullName>
+                <default>false</default>
+                <label>State Capitol</label>
+            </value>
+            <value>
+                <fullName>State Caucus Staff</fullName>
+                <default>false</default>
+                <label>State Caucus Staff</label>
+            </value>
+            <value>
+                <fullName>State Committee Staff</fullName>
+                <default>false</default>
+                <label>State Committee Staff</label>
+            </value>
+            <value>
+                <fullName>State Exec Agency</fullName>
+                <default>false</default>
+                <label>State Exec Agency</label>
+            </value>
+            <value>
+                <fullName>State Exec Department</fullName>
+                <default>false</default>
+                <label>State Exec Department</label>
+            </value>
+            <value>
+                <fullName>State Exec Office</fullName>
+                <default>false</default>
+                <label>State Exec Office</label>
+            </value>
+            <value>
+                <fullName>State Leadership Staff</fullName>
+                <default>false</default>
+                <label>State Leadership Staff</label>
+            </value>
+            <value>
+                <fullName>State Member Staff - Capitol</fullName>
+                <default>false</default>
+                <label>State Member Staff - Capitol</label>
+            </value>
+            <value>
+                <fullName>State Member Staff - District</fullName>
+                <default>false</default>
+                <label>State Member Staff - District</label>
+            </value>
+            <value>
+                <fullName>State Officer Staff</fullName>
+                <default>false</default>
+                <label>State Officer Staff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Communication Error Email</name>
+    <style>none</style>
+    <subject>Sync Error on Action : {!PSCommunicationCache__c.GenericName__c}</subject>
+    <textOnly>Dear   {!PSCommunicationCache__c.OwnerFirstName},
+
+There is some sync issue with backend systems. Please reach out to your administrator.   
+
+
+
+Operation : &apos;{!PSCommunicationCache__c.Operation__c} Object ID :  {!PSCommunicationCache__c.ObjectId__c} Input Payload :  {!PSCommunicationCache__c.InputPayload__c} Output Response : {!PSCommunicationCache__c.ResponsePayload__c}   Thanks Salesforce Admin</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

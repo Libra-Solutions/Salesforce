@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__Political_Party__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Political Party</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Democratic Party</fullName>
+                <default>false</default>
+                <label>Democratic Party</label>
+            </value>
+            <value>
+                <fullName>Republican Party</fullName>
+                <default>false</default>
+                <label>Republican Party</label>
+            </value>
+            <value>
+                <fullName>Independent</fullName>
+                <default>false</default>
+                <label>Independent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Unique Record Identifier From CashTrax Application. --></help>
+    <label><!-- CashTrax Id --></label>
+    <name>CTXFirmId__c</name>
+</CustomFieldTranslation>

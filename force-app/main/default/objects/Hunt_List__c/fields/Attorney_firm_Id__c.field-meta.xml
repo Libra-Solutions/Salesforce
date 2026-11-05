@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attorney_firm_Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Attorney</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.Attorney_ID__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Hunt List (Attorney)</relationshipLabel>
+    <relationshipName>Hunt_List2</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

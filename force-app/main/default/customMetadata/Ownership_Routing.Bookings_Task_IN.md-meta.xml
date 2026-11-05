@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Bookings Task - IN</label>
+    <protected>false</protected>
+    <values>
+        <field>Assign_To_ID__c</field>
+        <value xsi:type="xsd:string">0054M000003icw8QAA</value>
+    </values>
+    <values>
+        <field>FES_Id__c</field>
+        <value xsi:type="xsd:string">005Rl00000CmAqzIAF</value>
+    </values>
+    <values>
+        <field>FES_Name__c</field>
+        <value xsi:type="xsd:string">Emily Neary</value>
+    </values>
+    <values>
+        <field>Notes__c</field>
+        <value xsi:type="xsd:string">Colin Lawler
+Liz Perica</value>
+    </values>
+    <values>
+        <field>RVP_ID__c</field>
+        <value xsi:type="xsd:string">0054M0000047QOGQA2</value>
+    </values>
+    <values>
+        <field>State_Code__c</field>
+        <value xsi:type="xsd:string">IN</value>
+    </values>
+    <values>
+        <field>State_Name__c</field>
+        <value xsi:type="xsd:string">Indiana</value>
+    </values>
+</CustomMetadata>

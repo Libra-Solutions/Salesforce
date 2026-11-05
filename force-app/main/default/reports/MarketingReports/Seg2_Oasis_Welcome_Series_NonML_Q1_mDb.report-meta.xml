@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Contact.Account.Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$FirstName</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$LastName</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Email</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Contact.Account.Owner</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Contact.Owner</field>
+    </columns>
+    <columns>
+        <field>Campaign$Status</field>
+    </columns>
+    <description>Report showing breakdown of number of people in campaign by Assigned AC, and their activity in the campaign. 
+Campaign: Seg2 | Oasis Welcome - NonML | Q1FY25 campaign. (https://oasiscrm.lightning.force.com/lightning/r/Campaign/701Rl00000ZEFUUIA5/view)</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign$Id</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>701Rl00000ZEFUU</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Campaign.CampaignMembers$Contact.Account.Assigned_AC__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Seg2 | Oasis Welcome - NonML | Q1FY25</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_Members_and_Extended_Data__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Campaign$StartDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

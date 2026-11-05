@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Change_Restriction_C3_Provider</fullName>
+    <active>true</active>
+    <description>C3 Provider Records can&apos;t have their names changed other than by the API Only User.</description>
+    <errorConditionFormula>AND(
+  RecordType.Name = &quot;C3 Provider&quot;,
+  $User.Alias &lt;&gt; &quot;apionly&quot;,
+  OR(
+    ISCHANGED(FirstName),
+    ISCHANGED(LastName)
+  )
+)</errorConditionFormula>
+    <errorMessage>The name can only be changed through a Change Request. Please go to the associated Account and click the Change Request button on the top right-hand side of the screen.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Grow</masterLabel>
+        <translation><!-- Grow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintain</masterLabel>
+        <translation><!-- Maintain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Protect</masterLabel>
+        <translation><!-- Protect --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

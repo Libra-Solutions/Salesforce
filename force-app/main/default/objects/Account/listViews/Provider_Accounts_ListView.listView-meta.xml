@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider_Accounts_ListView</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>provider_id_c__c</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>provider_substatus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Non_Searchable_Account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.C3_Provider,Account.Provider</value>
+    </filters>
+    <filters>
+        <field>provider_status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Provider: Enterprise</value>
+    </filters>
+    <label>Provider Enterprise Accounts</label>
+</ListView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Support Contact</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Support Contacts</value>
+    </caseValues>
+    <layouts>
+        <layout>Non-Attorney Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Support Contact</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Re-parenting is not allowed on this record, please contact your administrator. --></errorMessage>
+        <name>Support_Contact_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

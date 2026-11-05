@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Type__c</fullName>
+    <label>Facility Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chiropractor</fullName>
+                <default>false</default>
+                <label>Chiropractor</label>
+            </value>
+            <value>
+                <fullName>Alternative Medicine</fullName>
+                <default>false</default>
+                <label>Alternative Medicine</label>
+            </value>
+            <value>
+                <fullName>Dentist</fullName>
+                <default>false</default>
+                <label>Dentist</label>
+            </value>
+            <value>
+                <fullName>Diagnostic</fullName>
+                <default>false</default>
+                <label>Diagnostic</label>
+            </value>
+            <value>
+                <fullName>Ear, Nose, &amp; Throat</fullName>
+                <default>false</default>
+                <label>Ear, Nose, &amp; Throat</label>
+            </value>
+            <value>
+                <fullName>Home Health</fullName>
+                <default>false</default>
+                <label>Home Health</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Laboratory</fullName>
+                <default>false</default>
+                <label>Laboratory</label>
+            </value>
+            <value>
+                <fullName>Massage</fullName>
+                <default>false</default>
+                <label>Massage</label>
+            </value>
+            <value>
+                <fullName>Multi-Practice</fullName>
+                <default>false</default>
+                <label>Multi-Practice</label>
+            </value>
+            <value>
+                <fullName>Neurology</fullName>
+                <default>false</default>
+                <label>Neurology</label>
+            </value>
+            <value>
+                <fullName>Neuro Surgery</fullName>
+                <default>false</default>
+                <label>Neuro Surgery</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology</fullName>
+                <default>false</default>
+                <label>Ophthalmology</label>
+            </value>
+            <value>
+                <fullName>Optometry</fullName>
+                <default>false</default>
+                <label>Optometry</label>
+            </value>
+            <value>
+                <fullName>Orthopedic Surgery</fullName>
+                <default>false</default>
+                <label>Orthopedic Surgery</label>
+            </value>
+            <value>
+                <fullName>Pain Management</fullName>
+                <default>false</default>
+                <label>Pain Management</label>
+            </value>
+            <value>
+                <fullName>Pediatrician</fullName>
+                <default>false</default>
+                <label>Pediatrician</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Physical Therapy</fullName>
+                <default>false</default>
+                <label>Physical Therapy</label>
+            </value>
+            <value>
+                <fullName>Plastics</fullName>
+                <default>false</default>
+                <label>Plastics</label>
+            </value>
+            <value>
+                <fullName>Primary Care</fullName>
+                <default>false</default>
+                <label>Primary Care</label>
+            </value>
+            <value>
+                <fullName>Speech Therapy</fullName>
+                <default>false</default>
+                <label>Speech Therapy</label>
+            </value>
+            <value>
+                <fullName>Surgery Center</fullName>
+                <default>false</default>
+                <label>Surgery Center</label>
+            </value>
+            <value>
+                <fullName>Urgent Care</fullName>
+                <default>false</default>
+                <label>Urgent Care</label>
+            </value>
+            <value>
+                <fullName>Cardiologist</fullName>
+                <default>false</default>
+                <label>Cardiologist</label>
+            </value>
+            <value>
+                <fullName>Cardiothoracic Surgery</fullName>
+                <default>false</default>
+                <label>Cardiothoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Podiatrist</fullName>
+                <default>false</default>
+                <label>Podiatrist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

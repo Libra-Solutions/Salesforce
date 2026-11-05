@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speciality__c</fullName>
+    <label>Speciality</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anesthesiologist</fullName>
+                <default>false</default>
+                <label>Anesthesiologist</label>
+            </value>
+            <value>
+                <fullName>Chiropractor</fullName>
+                <default>false</default>
+                <label>Chiropractor</label>
+            </value>
+            <value>
+                <fullName>Dentist</fullName>
+                <default>false</default>
+                <label>Dentist</label>
+            </value>
+            <value>
+                <fullName>Family Practice</fullName>
+                <default>false</default>
+                <label>Family Practice</label>
+            </value>
+            <value>
+                <fullName>General Practice</fullName>
+                <default>false</default>
+                <label>General Practice</label>
+            </value>
+            <value>
+                <fullName>Imaging Center</fullName>
+                <default>false</default>
+                <label>Imaging Center</label>
+            </value>
+            <value>
+                <fullName>Medical Practice</fullName>
+                <default>false</default>
+                <label>Medical Practice</label>
+            </value>
+            <value>
+                <fullName>Neurologist</fullName>
+                <default>false</default>
+                <label>Neurologist</label>
+            </value>
+            <value>
+                <fullName>Neurosurgeon</fullName>
+                <default>false</default>
+                <label>Neurosurgeon</label>
+            </value>
+            <value>
+                <fullName>Orthopedic Surgeon</fullName>
+                <default>false</default>
+                <label>Orthopedic Surgeon</label>
+            </value>
+            <value>
+                <fullName>Orthopedist</fullName>
+                <default>false</default>
+                <label>Orthopedist</label>
+            </value>
+            <value>
+                <fullName>Pain Management</fullName>
+                <default>false</default>
+                <label>Pain Management</label>
+            </value>
+            <value>
+                <fullName>Physiatrist</fullName>
+                <default>false</default>
+                <label>Physiatrist</label>
+            </value>
+            <value>
+                <fullName>Physical Medicine and Rehab</fullName>
+                <default>false</default>
+                <label>Physical Medicine and Rehab</label>
+            </value>
+            <value>
+                <fullName>Physical Therapy (non-MD)</fullName>
+                <default>false</default>
+                <label>Physical Therapy (non-MD)</label>
+            </value>
+            <value>
+                <fullName>Physician&apos;s Assistant</fullName>
+                <default>false</default>
+                <label>Physician&apos;s Assistant</label>
+            </value>
+            <value>
+                <fullName>Plastic Surgeon</fullName>
+                <default>false</default>
+                <label>Plastic Surgeon</label>
+            </value>
+            <value>
+                <fullName>Podiatrist</fullName>
+                <default>false</default>
+                <label>Podiatrist</label>
+            </value>
+            <value>
+                <fullName>Psychologist</fullName>
+                <default>false</default>
+                <label>Psychologist</label>
+            </value>
+            <value>
+                <fullName>Radiologist</fullName>
+                <default>false</default>
+                <label>Radiologist</label>
+            </value>
+            <value>
+                <fullName>Urgent Care</fullName>
+                <default>false</default>
+                <label>Urgent Care</label>
+            </value>
+            <value>
+                <fullName>Urologist</fullName>
+                <default>false</default>
+                <label>Urologist</label>
+            </value>
+            <value>
+                <fullName>Acupuncture</fullName>
+                <default>false</default>
+                <label>Acupuncture</label>
+            </value>
+            <value>
+                <fullName>Anesthesiology</fullName>
+                <default>false</default>
+                <label>Anesthesiology</label>
+            </value>
+            <value>
+                <fullName>Aqua Therapy</fullName>
+                <default>false</default>
+                <label>Aqua Therapy</label>
+            </value>
+            <value>
+                <fullName>Audiology</fullName>
+                <default>false</default>
+                <label>Audiology</label>
+            </value>
+            <value>
+                <fullName>Biofeedback</fullName>
+                <default>false</default>
+                <label>Biofeedback</label>
+            </value>
+            <value>
+                <fullName>Brain Injury</fullName>
+                <default>false</default>
+                <label>Brain Injury</label>
+            </value>
+            <value>
+                <fullName>Cardiology</fullName>
+                <default>false</default>
+                <label>Cardiology</label>
+            </value>
+            <value>
+                <fullName>Chiropractic</fullName>
+                <default>false</default>
+                <label>Chiropractic</label>
+            </value>
+            <value>
+                <fullName>concussion Management</fullName>
+                <default>false</default>
+                <label>concussion Management</label>
+            </value>
+            <value>
+                <fullName>Dermatology</fullName>
+                <default>false</default>
+                <label>Dermatology</label>
+            </value>
+            <value>
+                <fullName>Dry Needling</fullName>
+                <default>false</default>
+                <label>Dry Needling</label>
+            </value>
+            <value>
+                <fullName>ENT</fullName>
+                <default>false</default>
+                <label>ENT</label>
+            </value>
+            <value>
+                <fullName>Functional Capacity Eval (FCE)</fullName>
+                <default>false</default>
+                <label>Functional Capacity Eval (FCE)</label>
+            </value>
+            <value>
+                <fullName>General Surgeon</fullName>
+                <default>false</default>
+                <label>General Surgeon</label>
+            </value>
+            <value>
+                <fullName>Home Health Care</fullName>
+                <default>false</default>
+                <label>Home Health Care</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Hyperbarrics</fullName>
+                <default>false</default>
+                <label>Hyperbarrics</label>
+            </value>
+            <value>
+                <fullName>Imaging</fullName>
+                <default>false</default>
+                <label>Imaging</label>
+            </value>
+            <value>
+                <fullName>Initial Evaluation</fullName>
+                <default>false</default>
+                <label>Initial Evaluation</label>
+            </value>
+            <value>
+                <fullName>Lab Test</fullName>
+                <default>false</default>
+                <label>Lab Test</label>
+            </value>
+            <value>
+                <fullName>Massage Therapy</fullName>
+                <default>false</default>
+                <label>Massage Therapy</label>
+            </value>
+            <value>
+                <fullName>Medical Equipment (DME)</fullName>
+                <default>false</default>
+                <label>Medical Equipment (DME)</label>
+            </value>
+            <value>
+                <fullName>NCV/EMG</fullName>
+                <default>false</default>
+                <label>NCV/EMG</label>
+            </value>
+            <value>
+                <fullName>Neurodiagnostic</fullName>
+                <default>false</default>
+                <label>Neurodiagnostic</label>
+            </value>
+            <value>
+                <fullName>Neurology</fullName>
+                <default>false</default>
+                <label>Neurology</label>
+            </value>
+            <value>
+                <fullName>Neuromonitoring</fullName>
+                <default>false</default>
+                <label>Neuromonitoring</label>
+            </value>
+            <value>
+                <fullName>Neuropsych Testing</fullName>
+                <default>false</default>
+                <label>Neuropsych Testing</label>
+            </value>
+            <value>
+                <fullName>Neuropsychology</fullName>
+                <default>false</default>
+                <label>Neuropsychology</label>
+            </value>
+            <value>
+                <fullName>Orthopedic</fullName>
+                <default>false</default>
+                <label>Orthopedic</label>
+            </value>
+            <value>
+                <fullName>Pain Management Interventional</fullName>
+                <default>false</default>
+                <label>Pain Management Interventional</label>
+            </value>
+            <value>
+                <fullName>Pediatrician</fullName>
+                <default>false</default>
+                <label>Pediatrician</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Physiatrist (PMNR)</fullName>
+                <default>false</default>
+                <label>Physiatrist (PMNR)</label>
+            </value>
+            <value>
+                <fullName>Physical Therapy</fullName>
+                <default>false</default>
+                <label>Physical Therapy</label>
+            </value>
+            <value>
+                <fullName>Podiatry</fullName>
+                <default>false</default>
+                <label>Podiatry</label>
+            </value>
+            <value>
+                <fullName>Pre-Op Clearance/Bloodwork</fullName>
+                <default>false</default>
+                <label>Pre-Op Clearance/Bloodwork</label>
+            </value>
+            <value>
+                <fullName>Primary Care</fullName>
+                <default>false</default>
+                <label>Primary Care</label>
+            </value>
+            <value>
+                <fullName>Psychology</fullName>
+                <default>false</default>
+                <label>Psychology</label>
+            </value>
+            <value>
+                <fullName>Pulmonologist</fullName>
+                <default>false</default>
+                <label>Pulmonologist</label>
+            </value>
+            <value>
+                <fullName>Speech Therapy</fullName>
+                <default>false</default>
+                <label>Speech Therapy</label>
+            </value>
+            <value>
+                <fullName>Spine Surgeon</fullName>
+                <default>false</default>
+                <label>Spine Surgeon</label>
+            </value>
+            <value>
+                <fullName>Surgery Center (ASC)</fullName>
+                <default>false</default>
+                <label>Surgery Center (ASC)</label>
+            </value>
+            <value>
+                <fullName>Translator</fullName>
+                <default>false</default>
+                <label>Translator</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Urology</fullName>
+                <default>false</default>
+                <label>Urology</label>
+            </value>
+            <value>
+                <fullName>Vestibular PT</fullName>
+                <default>false</default>
+                <label>Vestibular PT</label>
+            </value>
+            <value>
+                <fullName>VNG Testing</fullName>
+                <default>false</default>
+                <label>VNG Testing</label>
+            </value>
+            <value>
+                <fullName>Wound Care</fullName>
+                <default>false</default>
+                <label>Wound Care</label>
+            </value>
+            <value>
+                <fullName>Diagnostic</fullName>
+                <default>false</default>
+                <label>Diagnostic</label>
+            </value>
+            <value>
+                <fullName>Ear, Nose, &amp; Throat</fullName>
+                <default>false</default>
+                <label>Ear, Nose, &amp; Throat</label>
+            </value>
+            <value>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+                <label>General Surgery</label>
+            </value>
+            <value>
+                <fullName>Home Health</fullName>
+                <default>false</default>
+                <label>Home Health</label>
+            </value>
+            <value>
+                <fullName>Masseuse</fullName>
+                <default>false</default>
+                <label>Masseuse</label>
+            </value>
+            <value>
+                <fullName>Multi-Practice</fullName>
+                <default>false</default>
+                <label>Multi-Practice</label>
+            </value>
+            <value>
+                <fullName>Neuro Surgery</fullName>
+                <default>false</default>
+                <label>Neuro Surgery</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology</fullName>
+                <default>false</default>
+                <label>Ophthalmology</label>
+            </value>
+            <value>
+                <fullName>Optometry</fullName>
+                <default>false</default>
+                <label>Optometry</label>
+            </value>
+            <value>
+                <fullName>Orthodontist</fullName>
+                <default>false</default>
+                <label>Orthodontist</label>
+            </value>
+            <value>
+                <fullName>Orthopedics</fullName>
+                <default>false</default>
+                <label>Orthopedics</label>
+            </value>
+            <value>
+                <fullName>Orthopedic Surgery</fullName>
+                <default>false</default>
+                <label>Orthopedic Surgery</label>
+            </value>
+            <value>
+                <fullName>Pathology</fullName>
+                <default>false</default>
+                <label>Pathology</label>
+            </value>
+            <value>
+                <fullName>Plastics</fullName>
+                <default>false</default>
+                <label>Plastics</label>
+            </value>
+            <value>
+                <fullName>Radiology</fullName>
+                <default>false</default>
+                <label>Radiology</label>
+            </value>
+            <value>
+                <fullName>Spine Surgery</fullName>
+                <default>false</default>
+                <label>Spine Surgery</label>
+            </value>
+            <value>
+                <fullName>Surgery Center</fullName>
+                <default>false</default>
+                <label>Surgery Center</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

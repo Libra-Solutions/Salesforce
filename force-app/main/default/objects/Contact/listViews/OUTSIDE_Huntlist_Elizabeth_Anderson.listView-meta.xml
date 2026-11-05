@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OUTSIDE_Huntlist_Elizabeth_Anderson</fullName>
+    <columns>Meeting_Complete__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account.GMSA__c</columns>
+    <columns>Account.Billing_Street__c</columns>
+    <columns>Account.Billing_City__c</columns>
+    <columns>Account.Billing_State__c</columns>
+    <columns>Account.Zip__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Phone_link__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Assigned_Field_Director__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Attorney</value>
+    </filters>
+    <filters>
+        <field>Assigned_Field_Director__c</field>
+        <operation>equals</operation>
+        <value>Elizabeth Anderson</value>
+    </filters>
+    <label>OUTSIDE Huntlist - Elizabeth Anderson</label>
+</ListView>

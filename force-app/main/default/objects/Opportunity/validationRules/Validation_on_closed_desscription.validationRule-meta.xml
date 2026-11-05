@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_closed_desscription</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &apos;Sizing the Opportunity&apos;,
+OR(
+ISPICKVAL(StageName, &quot;Closed Lost&quot;),
+ISPICKVAL(StageName, &quot;Closed Won&quot;)
+),ISBLANK(ClosedDescription__c)
+)</errorConditionFormula>
+    <errorDisplayField>ClosedDescription__c</errorDisplayField>
+    <errorMessage>Please fill the Closed description, SAVE, and then re-select ‘Mark Stage as Complete’.</errorMessage>
+</ValidationRule>

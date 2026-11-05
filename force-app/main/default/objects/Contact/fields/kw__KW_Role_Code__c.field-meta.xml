@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_Role_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Role Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LEG AA</fullName>
+                <default>false</default>
+                <label>LEG AA</label>
+            </value>
+            <value>
+                <fullName>LEG AC</fullName>
+                <default>false</default>
+                <label>LEG AC</label>
+            </value>
+            <value>
+                <fullName>LEG AD</fullName>
+                <default>false</default>
+                <label>LEG AD</label>
+            </value>
+            <value>
+                <fullName>LEG AI</fullName>
+                <default>false</default>
+                <label>LEG AI</label>
+            </value>
+            <value>
+                <fullName>LEG AS</fullName>
+                <default>false</default>
+                <label>LEG AS</label>
+            </value>
+            <value>
+                <fullName>LEG AV</fullName>
+                <default>false</default>
+                <label>LEG AV</label>
+            </value>
+            <value>
+                <fullName>LEG CK</fullName>
+                <default>false</default>
+                <label>LEG CK</label>
+            </value>
+            <value>
+                <fullName>LEG CR</fullName>
+                <default>false</default>
+                <label>LEG CR</label>
+            </value>
+            <value>
+                <fullName>LEG CT</fullName>
+                <default>false</default>
+                <label>LEG CT</label>
+            </value>
+            <value>
+                <fullName>LEG CW</fullName>
+                <default>false</default>
+                <label>LEG CW</label>
+            </value>
+            <value>
+                <fullName>LEG DD</fullName>
+                <default>false</default>
+                <label>LEG DD</label>
+            </value>
+            <value>
+                <fullName>LEG DRM</fullName>
+                <default>false</default>
+                <label>LEG DRM</label>
+            </value>
+            <value>
+                <fullName>LEG DS</fullName>
+                <default>false</default>
+                <label>LEG DS</label>
+            </value>
+            <value>
+                <fullName>LEG EA</fullName>
+                <default>false</default>
+                <label>LEG EA</label>
+            </value>
+            <value>
+                <fullName>LEG EAP</fullName>
+                <default>false</default>
+                <label>LEG EAP</label>
+            </value>
+            <value>
+                <fullName>LEG EC</fullName>
+                <default>false</default>
+                <label>LEG EC</label>
+            </value>
+            <value>
+                <fullName>LEG ED</fullName>
+                <default>false</default>
+                <label>LEG ED</label>
+            </value>
+            <value>
+                <fullName>LEG FA</fullName>
+                <default>false</default>
+                <label>LEG FA</label>
+            </value>
+            <value>
+                <fullName>LEG FDR</fullName>
+                <default>false</default>
+                <label>LEG FDR</label>
+            </value>
+            <value>
+                <fullName>LEG FL</fullName>
+                <default>false</default>
+                <label>LEG FL</label>
+            </value>
+            <value>
+                <fullName>LEG FLS</fullName>
+                <default>false</default>
+                <label>LEG FLS</label>
+            </value>
+            <value>
+                <fullName>LEG FR</fullName>
+                <default>false</default>
+                <label>LEG FR</label>
+            </value>
+            <value>
+                <fullName>LEG FS</fullName>
+                <default>false</default>
+                <label>LEG FS</label>
+            </value>
+            <value>
+                <fullName>LEG GAC</fullName>
+                <default>false</default>
+                <label>LEG GAC</label>
+            </value>
+            <value>
+                <fullName>LEG GC</fullName>
+                <default>false</default>
+                <label>LEG GC</label>
+            </value>
+            <value>
+                <fullName>LEG INT</fullName>
+                <default>false</default>
+                <label>LEG INT</label>
+            </value>
+            <value>
+                <fullName>LEG INV</fullName>
+                <default>false</default>
+                <label>LEG INV</label>
+            </value>
+            <value>
+                <fullName>LEG LA</fullName>
+                <default>false</default>
+                <label>LEG LA</label>
+            </value>
+            <value>
+                <fullName>LEG LAP</fullName>
+                <default>false</default>
+                <label>LEG LAP</label>
+            </value>
+            <value>
+                <fullName>LEG LC</fullName>
+                <default>false</default>
+                <label>LEG LC</label>
+            </value>
+            <value>
+                <fullName>LEG LCA</fullName>
+                <default>false</default>
+                <label>LEG LCA</label>
+            </value>
+            <value>
+                <fullName>LEG LD</fullName>
+                <default>false</default>
+                <label>LEG LD</label>
+            </value>
+            <value>
+                <fullName>LEG MM</fullName>
+                <default>false</default>
+                <label>LEG MM</label>
+            </value>
+            <value>
+                <fullName>LEG MSS</fullName>
+                <default>false</default>
+                <label>LEG MSS</label>
+            </value>
+            <value>
+                <fullName>LEG NMD</fullName>
+                <default>false</default>
+                <label>LEG NMD</label>
+            </value>
+            <value>
+                <fullName>LEG OM</fullName>
+                <default>false</default>
+                <label>LEG OM</label>
+            </value>
+            <value>
+                <fullName>LEG OMS</fullName>
+                <default>false</default>
+                <label>LEG OMS</label>
+            </value>
+            <value>
+                <fullName>LEG OUT</fullName>
+                <default>false</default>
+                <label>LEG OUT</label>
+            </value>
+            <value>
+                <fullName>LEG PA</fullName>
+                <default>false</default>
+                <label>LEG PA</label>
+            </value>
+            <value>
+                <fullName>LEG PAF</fullName>
+                <default>false</default>
+                <label>LEG PAF</label>
+            </value>
+            <value>
+                <fullName>LEG PD</fullName>
+                <default>false</default>
+                <label>LEG PD</label>
+            </value>
+            <value>
+                <fullName>LEG PL</fullName>
+                <default>false</default>
+                <label>LEG PL</label>
+            </value>
+            <value>
+                <fullName>LEG PM</fullName>
+                <default>false</default>
+                <label>LEG PM</label>
+            </value>
+            <value>
+                <fullName>LEG PMF</fullName>
+                <default>false</default>
+                <label>LEG PMF</label>
+            </value>
+            <value>
+                <fullName>LEG PRA</fullName>
+                <default>false</default>
+                <label>LEG PRA</label>
+            </value>
+            <value>
+                <fullName>LEG PRR</fullName>
+                <default>false</default>
+                <label>LEG PRR</label>
+            </value>
+            <value>
+                <fullName>LEG PS</fullName>
+                <default>false</default>
+                <label>LEG PS</label>
+            </value>
+            <value>
+                <fullName>LEG PSO</fullName>
+                <default>false</default>
+                <label>LEG PSO</label>
+            </value>
+            <value>
+                <fullName>LEG RA</fullName>
+                <default>false</default>
+                <label>LEG RA</label>
+            </value>
+            <value>
+                <fullName>LEG RD</fullName>
+                <default>false</default>
+                <label>LEG RD</label>
+            </value>
+            <value>
+                <fullName>LEG RDR</fullName>
+                <default>false</default>
+                <label>LEG RDR</label>
+            </value>
+            <value>
+                <fullName>LEG RE</fullName>
+                <default>false</default>
+                <label>LEG RE</label>
+            </value>
+            <value>
+                <fullName>LEG SA</fullName>
+                <default>false</default>
+                <label>LEG SA</label>
+            </value>
+            <value>
+                <fullName>LEG SAR</fullName>
+                <default>false</default>
+                <label>LEG SAR</label>
+            </value>
+            <value>
+                <fullName>LEG SC</fullName>
+                <default>false</default>
+                <label>LEG SC</label>
+            </value>
+            <value>
+                <fullName>LEG SCA</fullName>
+                <default>false</default>
+                <label>LEG SCA</label>
+            </value>
+            <value>
+                <fullName>LEG SD</fullName>
+                <default>false</default>
+                <label>LEG SD</label>
+            </value>
+            <value>
+                <fullName>LEG SO</fullName>
+                <default>false</default>
+                <label>LEG SO</label>
+            </value>
+            <value>
+                <fullName>LEG SOI</fullName>
+                <default>false</default>
+                <label>LEG SOI</label>
+            </value>
+            <value>
+                <fullName>LEG SP</fullName>
+                <default>false</default>
+                <label>LEG SP</label>
+            </value>
+            <value>
+                <fullName>LEG SPA</fullName>
+                <default>false</default>
+                <label>LEG SPA</label>
+            </value>
+            <value>
+                <fullName>LEG SVC</fullName>
+                <default>false</default>
+                <label>LEG SVC</label>
+            </value>
+            <value>
+                <fullName>LEG SW</fullName>
+                <default>false</default>
+                <label>LEG SW</label>
+            </value>
+            <value>
+                <fullName>LEG TC</fullName>
+                <default>false</default>
+                <label>LEG TC</label>
+            </value>
+            <value>
+                <fullName>LEG VRM</fullName>
+                <default>false</default>
+                <label>LEG VRM</label>
+            </value>
+            <value>
+                <fullName>LEG WHP</fullName>
+                <default>false</default>
+                <label>LEG WHP</label>
+            </value>
+            <value>
+                <fullName>LEG SR</fullName>
+                <default>false</default>
+                <label>LEG SR</label>
+            </value>
+            <value>
+                <fullName>LEG SS</fullName>
+                <default>false</default>
+                <label>LEG SS</label>
+            </value>
+            <value>
+                <fullName>LEG SSS</fullName>
+                <default>false</default>
+                <label>LEG SSS</label>
+            </value>
+            <value>
+                <fullName>LEG STR</fullName>
+                <default>false</default>
+                <label>LEG STR</label>
+            </value>
+            <value>
+                <fullName>LEG TRE</fullName>
+                <default>false</default>
+                <label>LEG TRE</label>
+            </value>
+            <value>
+                <fullName>LEG VCH</fullName>
+                <default>false</default>
+                <label>LEG VCH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Liability --></label>
+    <name>Liability__c</name>
+    <picklistValues>
+        <masterLabel>Defendant Cited</masterLabel>
+        <translation><!-- Defendant Cited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defendant Paid Property Damage</masterLabel>
+        <translation><!-- Defendant Paid Property Damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liability Accepted</masterLabel>
+        <translation><!-- Liability Accepted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liability Undetermined</masterLabel>
+        <translation><!-- Liability Undetermined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plaintiff Cited</masterLabel>
+        <translation><!-- Plaintiff Cited --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

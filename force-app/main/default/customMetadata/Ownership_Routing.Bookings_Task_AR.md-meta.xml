@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Bookings Task - AR</label>
+    <protected>false</protected>
+    <values>
+        <field>Assign_To_ID__c</field>
+        <value xsi:type="xsd:string">0054M000003icweQAA</value>
+    </values>
+    <values>
+        <field>FES_Id__c</field>
+        <value xsi:type="xsd:string">005Rl0000095xa9IAA</value>
+    </values>
+    <values>
+        <field>FES_Name__c</field>
+        <value xsi:type="xsd:string">Angelica Castillo</value>
+    </values>
+    <values>
+        <field>Notes__c</field>
+        <value xsi:type="xsd:string">Lisa Christensen</value>
+    </values>
+    <values>
+        <field>RVP_ID__c</field>
+        <value xsi:type="xsd:string">0054M000003icweQAA</value>
+    </values>
+    <values>
+        <field>State_Code__c</field>
+        <value xsi:type="xsd:string">AR</value>
+    </values>
+    <values>
+        <field>State_Name__c</field>
+        <value xsi:type="xsd:string">Arkansas</value>
+    </values>
+</CustomMetadata>

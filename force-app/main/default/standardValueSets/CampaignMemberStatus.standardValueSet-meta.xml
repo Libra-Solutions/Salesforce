@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - NC</fullName>
+        <default>false</default>
+        <label>Attended - NC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booked a Demo</fullName>
+        <default>false</default>
+        <label>Booked a Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booked Demo</fullName>
+        <default>false</default>
+        <label>Booked Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Demo</fullName>
+        <default>false</default>
+        <label>Clicked Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked - ExpertPays</fullName>
+        <default>false</default>
+        <label>Clicked - ExpertPays</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked ExpertPays LP</fullName>
+        <default>false</default>
+        <label>Clicked ExpertPays LP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Landing Page</fullName>
+        <default>false</default>
+        <label>Clicked Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked LP Link</fullName>
+        <default>false</default>
+        <label>Clicked LP Link</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Connected</fullName>
+        <default>false</default>
+        <label>Connected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Clicked</fullName>
+        <default>false</default>
+        <label>Demo Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Request</fullName>
+        <default>false</default>
+        <label>Demo Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Em1_Click</fullName>
+        <default>false</default>
+        <label>Em1_Click</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Em1_Open</fullName>
+        <default>false</default>
+        <label>Em1_Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Em2_Click</fullName>
+        <default>false</default>
+        <label>Em2_Click</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Em3_Click</fullName>
+        <default>false</default>
+        <label>Em3_Click</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Form Fill</fullName>
+        <default>false</default>
+        <label>Form Fill</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Form Submit</fullName>
+        <default>false</default>
+        <label>Form Submit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Had Demo</fullName>
+        <default>false</default>
+        <label>Had Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Imported</fullName>
+        <default>false</default>
+        <label>Imported</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Initiated Request</fullName>
+        <default>false</default>
+        <label>Initiated Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested</fullName>
+        <default>false</default>
+        <label>Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Link Click - ML</fullName>
+        <default>false</default>
+        <label>Link Click - ML</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Link Click - NML</fullName>
+        <default>false</default>
+        <label>Link Click - NML</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No-Show</fullName>
+        <default>false</default>
+        <label>No-Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No-Show - NC</fullName>
+        <default>false</default>
+        <label>No-Show - NC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - NC</fullName>
+        <default>false</default>
+        <label>Registered - NC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVPd_Remaining States</fullName>
+        <default>false</default>
+        <label>RSVPd_Remaining States</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Score=0</fullName>
+        <default>false</default>
+        <label>Score=0</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Started Campaign</fullName>
+        <default>false</default>
+        <label>Started Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Undelivered</fullName>
+        <default>false</default>
+        <label>Undelivered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Video Clicked - Bills &amp; Records</fullName>
+        <default>false</default>
+        <label>Video Clicked - Bills &amp; Records</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Video Clicked - MDs Overview</fullName>
+        <default>false</default>
+        <label>Video Clicked - MDs Overview</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Video Clicked - Oasis</fullName>
+        <default>false</default>
+        <label>Video Clicked - Oasis</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Video Clicked - Provider Map</fullName>
+        <default>false</default>
+        <label>Video Clicked - Provider Map</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Week 2 Follow Up</fullName>
+        <default>false</default>
+        <label>Week 2 Follow Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Week 3</fullName>
+        <default>false</default>
+        <label>Week 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Week 4</fullName>
+        <default>false</default>
+        <label>Week 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Week 5</fullName>
+        <default>false</default>
+        <label>Week 5</label>
+    </standardValue>
+</StandardValueSet>

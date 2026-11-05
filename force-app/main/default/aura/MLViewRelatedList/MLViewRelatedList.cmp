@@ -1,0 +1,25 @@
+<aura:component controller="MLViewRelatedListClass" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+   
+    <aura:attribute name="mlObjList" type="ML_View360__c[]"/> 
+    
+    <aura:iteration items="{!v.mlObjList}" var="mlObj" >  
+        <span class="slds-page-header__title slds-truncate" title="Contacts (will truncate)">ML-View360</span>
+				<lightning:recordViewForm recordId="{!mlObj.Id}" objectApiName="ML_View360__c">
+                    <div class="slds-box slds-theme_default">
+                     
+                        <lightning:outputField fieldName="Contact__c" />  
+                        <lightning:outputField fieldName="DateofFirstReferral__c" />  
+                        <lightning:outputField fieldName="Name" />  
+                        <lightning:outputField fieldName="MostRecentPatientName__c" />  
+                        <lightning:outputField fieldName="NoofCasesDeclined__c" /> 
+                        <lightning:outputField fieldName="NoofcaseswithAttorney__c" /> 
+                        <lightning:outputField fieldName="NoofClassAReferral__c" />  
+                        <lightning:outputField fieldName="NoofClassBReferral__c" />    
+                        <lightning:outputField fieldName="Site_Collection_age__c" />  
+                        <lightning:outputField fieldName="Collection__c" />
+                   
+                    </div>
+                </lightning:recordViewForm>
+    </aura:iteration>
+</aura:component>

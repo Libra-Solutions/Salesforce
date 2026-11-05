@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw_sfuoncfu__Reelection_Status_e__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Reelection Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>This executive may run for reelection</fullName>
+                <default>false</default>
+                <label>This executive may run for reelection</label>
+            </value>
+            <value>
+                <fullName>This executive is running for a different office</fullName>
+                <default>false</default>
+                <label>This executive is running for a different office</label>
+            </value>
+            <value>
+                <fullName>This executive is retiring at the end of this term</fullName>
+                <default>false</default>
+                <label>This executive is retiring at the end of this term</label>
+            </value>
+            <value>
+                <fullName>This executive has reached their term limit</fullName>
+                <default>false</default>
+                <label>This executive has reached their term limit</label>
+            </value>
+            <value>
+                <fullName>Reelection status for this executive is not available</fullName>
+                <default>false</default>
+                <label>Reelection status for this executive is not available</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

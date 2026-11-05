@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Status_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(Status, &apos;Unqualified&apos;) , ISBLANK(text(Unqualified_Reason__c))  )</errorConditionFormula>
+    <errorDisplayField>Unqualified_Reason__c</errorDisplayField>
+    <errorMessage>Please select reason for unqualification.</errorMessage>
+</ValidationRule>

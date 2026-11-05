@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disable_Account_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disables firing the Account Trigger when this is set to true.</description>
+    <inlineHelpText>Disables firing the Account Trigger when this is set to true.</inlineHelpText>
+    <label>Disable Account Trigger</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

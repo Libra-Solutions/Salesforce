@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Path - Attorney</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>ProductInterest__c</fieldNames>
+        <info>&lt;p&gt;&lt;img src=&quot;https://oasiscrm--dev.sandbox.file.force.com/servlet/rtaImage?eid=1CF4M00000007mm&amp;amp;feoid=Info&amp;amp;refid=0EM4M000001E8Yy&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <info>&lt;p&gt;&lt;img src=&quot;https://oasiscrm--dev.sandbox.file.force.com/servlet/rtaImage?eid=1CF4M00000007mn&amp;amp;feoid=Info&amp;amp;refid=0EM4M000001E8Yt&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Open</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>ProductInterest__c</fieldNames>
+        <info>&lt;p&gt;&lt;img src=&quot;https://oasiscrm--dev.sandbox.file.force.com/servlet/rtaImage?eid=1CF4M00000007ml&amp;amp;feoid=Info&amp;amp;refid=0EM4M000001E9JQ&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>ProductInterest__c</fieldNames>
+        <info>&lt;p&gt;&lt;img src=&quot;https://oasiscrm--dev.sandbox.file.force.com/servlet/rtaImage?eid=1CF4M00000007mk&amp;amp;feoid=Info&amp;amp;refid=0EM4M000001E8Z8&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Attorney</recordTypeName>
+</PathAssistant>

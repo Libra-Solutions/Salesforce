@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Facility Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Acute Care Hospitals</masterLabel>
+        <translation><!-- Acute Care Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgery Center</masterLabel>
+        <translation><!-- Ambulatory Surgery Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chiropractor</masterLabel>
+        <translation><!-- Chiropractor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Critical Access Hospitals</masterLabel>
+        <translation><!-- Critical Access Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equipment Supplier</masterLabel>
+        <translation><!-- Equipment Supplier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital (inpatient &amp; outpatient)</masterLabel>
+        <translation><!-- Hospital (inpatient &amp; outpatient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital (inpatient)</masterLabel>
+        <translation><!-- Hospital (inpatient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital (outpatient)</masterLabel>
+        <translation><!-- Hospital (outpatient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging Center (hospital)</masterLabel>
+        <translation><!-- Imaging Center (hospital) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging Center (standalone)</masterLabel>
+        <translation><!-- Imaging Center (standalone) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Law Firm</masterLabel>
+        <translation><!-- Law Firm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Practice + Imaging</masterLabel>
+        <translation><!-- Medical Practice + Imaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Practice + Multi-modality</masterLabel>
+        <translation><!-- Medical Practice + Multi-modality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Practice + PT</masterLabel>
+        <translation><!-- Medical Practice + PT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Practice only</masterLabel>
+        <translation><!-- Medical Practice only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mgmt / Billing Company</masterLabel>
+        <translation><!-- Mgmt / Billing Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pain Treatment Center/Clinic</masterLabel>
+        <translation><!-- Pain Treatment Center/Clinic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Therapy (standalone)</masterLabel>
+        <translation><!-- Physical Therapy (standalone) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rx Distributor</masterLabel>
+        <translation><!-- Rx Distributor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduling Office</masterLabel>
+        <translation><!-- Scheduling Office --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+Dear {!Account.OwnerFullName},
+
+A new {!Account.Type} : {!Account.Name} has been created in Salesforce.
+
+Regards 
+Salesforce Admin

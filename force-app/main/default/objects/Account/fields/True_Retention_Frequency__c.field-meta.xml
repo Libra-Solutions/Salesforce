@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>True_Retention_Frequency__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Contact_Frequency__c ,
+ &quot;14 Days&quot;, 14,
+ &quot;30 Days&quot;, 30,
+ &quot;45 Days&quot;, 45,
+ &quot;60 Days&quot;, 60,
+ &quot;90 Days&quot;, 90,
+ &quot;120 Days&quot;, 120,
+ &quot;150 Days&quot;, 150,
+ &quot;180 Days&quot;, 180,
+ &quot;Never&quot;, 9999,
+30
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>True Contact Frequency</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

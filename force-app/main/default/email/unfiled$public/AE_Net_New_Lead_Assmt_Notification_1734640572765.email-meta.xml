@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for internal notification that a new new lead was assigned to an RVP. 12.19.24.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AE Net New Lead Assmt Notification</name>
+    <style>none</style>
+    <subject>New Lead Assignment via Website Form</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

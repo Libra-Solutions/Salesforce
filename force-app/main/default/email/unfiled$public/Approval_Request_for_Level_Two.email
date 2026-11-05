@@ -1,0 +1,7 @@
+The pricing request for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c}) submitted by {!Opportunity.OwnerFullName} is ready for assessment. Please evaluate this request and provide an Approval or Rejection at your earliest convenience.
+
+Opportunity Link: https://oasiscrm--uatsandbox.lightning.force.com/{!Opportunity.Id}
+
+Approve/Reject Link: {!ApprovalRequest.Internal_URL}
+
+Approval List View: https://oasiscrm.lightning.force.com/lightning/o/Opportunity/list?filterName=00B4M000004aSaOUAU

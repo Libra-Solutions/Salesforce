@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Salesforce Help</masterLabel>
+    <promptVersions>
+        <body>Salesforce Help is 1 click away! Click on &quot;?&quot; at top right of screen!</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <delayDays>7</delayDays>
+        <description>directing users to the &quot;?&quot; quick link</description>
+        <dismissButtonLabel>OK</dismissButtonLabel>
+        <displayPosition>TopRight</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <endDate>2019-07-26</endDate>
+        <isPublished>true</isPublished>
+        <masterLabel>Salesforce Help</masterLabel>
+        <publishedDate>2019-07-14</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2019-07-15</startDate>
+        <targetPageKey1>home</targetPageKey1>
+        <targetPageType>standard__namedPage</targetPageType>
+        <timesToDisplay>2</timesToDisplay>
+        <title>Did you know?</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

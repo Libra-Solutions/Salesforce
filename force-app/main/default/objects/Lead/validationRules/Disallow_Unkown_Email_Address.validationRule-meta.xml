@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disallow_Unkown_Email_Address</fullName>
+    <active>true</active>
+    <errorConditionFormula>Email = &quot;unknown@unkown.com&quot;</errorConditionFormula>
+    <errorMessage>You must enter a real email address.</errorMessage>
+</ValidationRule>

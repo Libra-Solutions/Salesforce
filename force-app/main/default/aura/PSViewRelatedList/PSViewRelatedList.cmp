@@ -1,0 +1,30 @@
+<aura:component controller="PSViewRelatedListClass" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+   
+    <aura:attribute name="psObjList" type="PS_View360__c[]"/> 
+    
+    <aura:iteration items="{!v.psObjList}" var="psObj" >  
+        <span class="slds-page-header__title slds-truncate" title="Contacts (will truncate)">PS-View360</span>
+				<lightning:recordViewForm recordId="{!psObj.Id}" objectApiName="PS_View360__c">
+                    <div class="slds-box slds-theme_default">
+                    
+                        <lightning:outputField fieldName="Attorney_Grade__c" />  
+                        <lightning:outputField fieldName="No_of_Total_Cases__c" />  
+                        <lightning:outputField fieldName="No_of_Funded_Cases__c" />  
+                        <lightning:outputField fieldName="Funded__c" />  
+                        <lightning:outputField fieldName="No_of_Referral_Cases__c" /> 
+                        <lightning:outputField fieldName="No_of_Referral_Funded_Cases__c" /> 
+                        <lightning:outputField fieldName="Referral_Funded__c" />  
+                        <lightning:outputField fieldName="PSBlackListedTempFundingHold__c" />  
+                        <lightning:outputField fieldName="PSBookofBusiness__c" />  
+                        <lightning:outputField fieldName="PSContractMultiple__c" />  
+                        <lightning:outputField fieldName="PSDefaultPricing__c" />  
+                        <lightning:outputField fieldName="PSEstimatedProfit__c" />  
+                        <lightning:outputField fieldName="PSMultipleRatio__c" />  
+                        <lightning:outputField fieldName="PSRealizedMultiple__c" />          
+                        <lightning:outputField fieldName="PSServicingRepresentative__c" />  
+                      
+                    </div>
+                </lightning:recordViewForm>
+    </aura:iteration>
+</aura:component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- NUMBERS only. If you selected &quot;Other&quot; in response to the previous question, please enter your response here. --></help>
+    <label><!-- Other: Total # of Cases (Firm Level) --></label>
+    <name>Total_of_Cases_Firm_Level_Other__c</name>
+</CustomFieldTranslation>

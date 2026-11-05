@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Note_FacilityId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Facility_Note_FacilityId</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>FacilityNotes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

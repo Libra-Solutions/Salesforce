@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign$Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Contact</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Email</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Contact.Account.Name</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Contact.Owner</field>
+    </columns>
+    <columns>
+        <field>Campaign.CampaignMembers$Status</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Campaign$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>CMS | 8am CasePeer - Oasis | July 2026</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign.CampaignMembers$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Clicked</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>8am CP + Oasis Clicks Report_7.27.26</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_Members_and_Extended_Data__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Campaign$StartDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

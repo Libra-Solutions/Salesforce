@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_ALL_Reps_who_are_Grandfathers</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <label>KW ALL Reps who are Grandfathers</label>
+    <sharedTo>
+        <group>KnowWho_Users</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jack_Croke_WP_Call_List</fullName>
+    <columns>NAME</columns>
+    <columns>Assignee__c</columns>
+    <columns>Attorney__c</columns>
+    <columns>Attorney_Phone__c</columns>
+    <columns>Attorney_Firm_Name__c</columns>
+    <columns>City__c</columns>
+    <columns>Postal_Code__c</columns>
+    <columns>Attorney_Funded_Count__c</columns>
+    <columns>Attorney_Funded__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assignee__c</field>
+        <operation>equals</operation>
+        <value>Jack Croke</value>
+    </filters>
+    <filters>
+        <field>Category__c</field>
+        <operation>equals</operation>
+        <value>WP Call List</value>
+    </filters>
+    <label>Jack Croke WP Call List</label>
+</ListView>

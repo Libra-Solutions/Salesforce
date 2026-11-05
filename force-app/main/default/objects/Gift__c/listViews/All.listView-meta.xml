@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Event_Type__c</columns>
+    <columns>Assigned_To__c</columns>
+    <columns>Firm__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Event_Link__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed</value>
+    </filters>
+    <label>All My Pending Gifts</label>
+</ListView>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- MapAnything C2C --></label>
+        <name>MapAnything_C2C</name>
+    </fieldSets>
+    <layouts>
+        <layout>Admin Lead Layout</layout>
+        <sections>
+            <label><!-- Pardot Activity --></label>
+            <section>Pardot Activity</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Details --></label>
+            <section>Pardot Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Attorney --></label>
+        <name>Attorney</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider --></label>
+        <name>Provider</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please fill Street, City, State and Zip Code --></errorMessage>
+        <name>Address_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter annual estimate to convert the lead. --></errorMessage>
+        <name>Annual_Esti_Mandatory_during_conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have the permissions to convert this lead! --></errorMessage>
+        <name>Converted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a real email address. --></errorMessage>
+        <name>Disallow_Unkown_Email_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter email to convert or qualify the lead. --></errorMessage>
+        <name>Email_Mandatory_during_conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is mandatory. --></errorMessage>
+        <name>First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill out the Job Title before qualifying this lead. --></errorMessage>
+        <name>Job_Title_Required_for_Qualified_Leads</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter other reason for unqualified. --></errorMessage>
+        <name>Other_Reason_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter valid phone no. --></errorMessage>
+        <name>Phone_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the phone field to qualify this lead. --></errorMessage>
+        <name>Phone_Required_to_Qualify_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead status must be qualified before conversion. --></errorMessage>
+        <name>Qualified_Status_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only edit records that you own. --></errorMessage>
+        <name>Restrict_Edit_To_Own_Records</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter 2 digit State Code. --></errorMessage>
+        <name>State_Validation_2Digit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select reason for unqualification. --></errorMessage>
+        <name>Unqualified_Status_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the disqualification reason in the comments box. --></errorMessage>
+        <name>Unqualified_Status_Validation_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a valid phone number --></errorMessage>
+        <name>Validation_for_Phone_number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter 5 digit Zip Code. --></errorMessage>
+        <name>Zip_Code_5digits_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_To_Webinar --></label>
+        <name>ZVC__Add_To_Webinar</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Bulk_Handwrytten_Note --></label>
+        <name>hndwrt__Send_Bulk_Handwrytten_Note</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks>
+</CustomObjectTranslation>

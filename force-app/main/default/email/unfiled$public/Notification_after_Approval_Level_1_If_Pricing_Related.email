@@ -1,0 +1,11 @@
+Hello {!Opportunity.OwnerFullName},
+
+The new pricing for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c})  has been approved.  {!Opportunity.Recommend_Pricing__c} is the new pricing for the firm. This pricing is granted so that we may fund {!Opportunity.How_many_Additional_Funded_Cases__c} additional funding(s) per month. Please convey this to every attorney in the firm. 
+
+**Once you have confirmation from the firm, you must mark the opportunity as Closed-Won or Closed-Lost. If the opportunity is Closed-Won, the pricing will subsequently be updated in Cashtrax.
+
+Note: The firm’s incremental fundings will be assessed after 2 months. If the firm does not meet the agreed upon level of business the firm is subject to revert back to previous pricing. 
+
+Opportunity Link: https://oasiscrm--uatsandbox.lightning.force.com/{!Opportunity.Id}
+
+Please reach out to Colin and Ryan with any questions.

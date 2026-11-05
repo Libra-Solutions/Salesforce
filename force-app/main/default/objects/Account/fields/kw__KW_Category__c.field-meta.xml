@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <label>KnowWho Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fed Caucus</fullName>
+                <default>false</default>
+                <label>Fed Caucus</label>
+            </value>
+            <value>
+                <fullName>Fed Committee</fullName>
+                <default>false</default>
+                <label>Fed Committee</label>
+            </value>
+            <value>
+                <fullName>Fed Leadership</fullName>
+                <default>false</default>
+                <label>Fed Leadership</label>
+            </value>
+            <value>
+                <fullName>Fed Legislator Office</fullName>
+                <default>false</default>
+                <label>Fed Legislator Office</label>
+            </value>
+            <value>
+                <fullName>Fed Officer</fullName>
+                <default>false</default>
+                <label>Fed Officer</label>
+            </value>
+            <value>
+                <fullName>Former Fed Caucus</fullName>
+                <default>false</default>
+                <label>Former Fed Caucus</label>
+            </value>
+            <value>
+                <fullName>Former Fed Committee</fullName>
+                <default>false</default>
+                <label>Former Fed Committee</label>
+            </value>
+            <value>
+                <fullName>Former Fed Leadership</fullName>
+                <default>false</default>
+                <label>Former Fed Leadership</label>
+            </value>
+            <value>
+                <fullName>Former Fed Legislator</fullName>
+                <default>false</default>
+                <label>Former Fed Legislator</label>
+            </value>
+            <value>
+                <fullName>Former Fed Officer</fullName>
+                <default>false</default>
+                <label>Former Fed Officer</label>
+            </value>
+            <value>
+                <fullName>Former Fed Staffer</fullName>
+                <default>false</default>
+                <label>Former Fed Staffer</label>
+            </value>
+            <value>
+                <fullName>Former State Caucus</fullName>
+                <default>false</default>
+                <label>Former State Caucus</label>
+            </value>
+            <value>
+                <fullName>Former State Committee</fullName>
+                <default>false</default>
+                <label>Former State Committee</label>
+            </value>
+            <value>
+                <fullName>Former State Exec Agency</fullName>
+                <default>false</default>
+                <label>Former State Exec Agency</label>
+            </value>
+            <value>
+                <fullName>Former State Exec Department</fullName>
+                <default>false</default>
+                <label>Former State Exec Department</label>
+            </value>
+            <value>
+                <fullName>Former State Exec Office</fullName>
+                <default>false</default>
+                <label>Former State Exec Office</label>
+            </value>
+            <value>
+                <fullName>Former State Leadership</fullName>
+                <default>false</default>
+                <label>Former State Leadership</label>
+            </value>
+            <value>
+                <fullName>Former State Legislator</fullName>
+                <default>false</default>
+                <label>Former State Legislator</label>
+            </value>
+            <value>
+                <fullName>Former State Officer</fullName>
+                <default>false</default>
+                <label>Former State Officer</label>
+            </value>
+            <value>
+                <fullName>Former State Staffer</fullName>
+                <default>false</default>
+                <label>Former State Staffer</label>
+            </value>
+            <value>
+                <fullName>State Caucus</fullName>
+                <default>false</default>
+                <label>State Caucus</label>
+            </value>
+            <value>
+                <fullName>State Committee</fullName>
+                <default>false</default>
+                <label>State Committee</label>
+            </value>
+            <value>
+                <fullName>State Exec Agency</fullName>
+                <default>false</default>
+                <label>State Exec Agency</label>
+            </value>
+            <value>
+                <fullName>State Exec Department</fullName>
+                <default>false</default>
+                <label>State Exec Department</label>
+            </value>
+            <value>
+                <fullName>State Exec Office</fullName>
+                <default>false</default>
+                <label>State Exec Office</label>
+            </value>
+            <value>
+                <fullName>State Leadership</fullName>
+                <default>false</default>
+                <label>State Leadership</label>
+            </value>
+            <value>
+                <fullName>State Legislator Office</fullName>
+                <default>false</default>
+                <label>State Legislator Office</label>
+            </value>
+            <value>
+                <fullName>State Officer</fullName>
+                <default>false</default>
+                <label>State Officer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

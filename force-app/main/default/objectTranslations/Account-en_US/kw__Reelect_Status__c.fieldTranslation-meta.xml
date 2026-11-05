@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reelection Status --></label>
+    <name>kw__Reelect_Status__c</name>
+    <picklistValues>
+        <masterLabel>Reelection status for this legislator is not available</masterLabel>
+        <translation><!-- Reelection status for this legislator is not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>This legislator is retiring at the end of this term</masterLabel>
+        <translation><!-- This legislator is retiring at the end of this term --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>This legislator is running for a different office</masterLabel>
+        <translation><!-- This legislator is running for a different office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>This legislator may run for reelection</masterLabel>
+        <translation><!-- This legislator may run for reelection --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

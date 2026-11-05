@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KnowWho Template --></label>
+    <name>kw__KW_Template__c</name>
+    <picklistValues>
+        <masterLabel>AccountCaucus</masterLabel>
+        <translation><!-- AccountCaucus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountCaucusFormer</masterLabel>
+        <translation><!-- AccountCaucusFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountCommittee</masterLabel>
+        <translation><!-- AccountCommittee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountCommitteeFormer</masterLabel>
+        <translation><!-- AccountCommitteeFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountFormer</masterLabel>
+        <translation><!-- AccountFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountMember</masterLabel>
+        <translation><!-- AccountMember --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountMemberFormer</masterLabel>
+        <translation><!-- AccountMemberFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountOfficer</masterLabel>
+        <translation><!-- AccountOfficer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountOfficerFormer</masterLabel>
+        <translation><!-- AccountOfficerFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateCaucus</masterLabel>
+        <translation><!-- AccountStateCaucus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateCaucusFormer</masterLabel>
+        <translation><!-- AccountStateCaucusFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateCommittee</masterLabel>
+        <translation><!-- AccountStateCommittee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateCommitteeFormer</masterLabel>
+        <translation><!-- AccountStateCommitteeFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateExecutive</masterLabel>
+        <translation><!-- AccountStateExecutive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateExecutiveFormer</masterLabel>
+        <translation><!-- AccountStateExecutiveFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateMember</masterLabel>
+        <translation><!-- AccountStateMember --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateMemberFormer</masterLabel>
+        <translation><!-- AccountStateMemberFormer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateOfficer</masterLabel>
+        <translation><!-- AccountStateOfficer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AccountStateOfficerFormer</masterLabel>
+        <translation><!-- AccountStateOfficerFormer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

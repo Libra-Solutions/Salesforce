@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KnowWho Category --></label>
+    <name>kw__KW_Category__c</name>
+    <picklistValues>
+        <masterLabel>Fed Caucus</masterLabel>
+        <translation><!-- Fed Caucus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Committee</masterLabel>
+        <translation><!-- Fed Committee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Leadership</masterLabel>
+        <translation><!-- Fed Leadership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Legislator Office</masterLabel>
+        <translation><!-- Fed Legislator Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fed Officer</masterLabel>
+        <translation><!-- Fed Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former Fed Caucus</masterLabel>
+        <translation><!-- Former Fed Caucus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former Fed Committee</masterLabel>
+        <translation><!-- Former Fed Committee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former Fed Leadership</masterLabel>
+        <translation><!-- Former Fed Leadership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former Fed Legislator</masterLabel>
+        <translation><!-- Former Fed Legislator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former Fed Officer</masterLabel>
+        <translation><!-- Former Fed Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former Fed Staffer</masterLabel>
+        <translation><!-- Former Fed Staffer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Caucus</masterLabel>
+        <translation><!-- Former State Caucus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Committee</masterLabel>
+        <translation><!-- Former State Committee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Exec Agency</masterLabel>
+        <translation><!-- Former State Exec Agency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Exec Department</masterLabel>
+        <translation><!-- Former State Exec Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Exec Office</masterLabel>
+        <translation><!-- Former State Exec Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Leadership</masterLabel>
+        <translation><!-- Former State Leadership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Legislator</masterLabel>
+        <translation><!-- Former State Legislator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Officer</masterLabel>
+        <translation><!-- Former State Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Former State Staffer</masterLabel>
+        <translation><!-- Former State Staffer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Caucus</masterLabel>
+        <translation><!-- State Caucus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Committee</masterLabel>
+        <translation><!-- State Committee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Exec Agency</masterLabel>
+        <translation><!-- State Exec Agency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Exec Department</masterLabel>
+        <translation><!-- State Exec Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Exec Office</masterLabel>
+        <translation><!-- State Exec Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Leadership</masterLabel>
+        <translation><!-- State Leadership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Legislator Office</masterLabel>
+        <translation><!-- State Legislator Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State Officer</masterLabel>
+        <translation><!-- State Officer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

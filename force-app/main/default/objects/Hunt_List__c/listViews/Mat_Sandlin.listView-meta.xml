@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mat_Sandlin</fullName>
+    <columns>Contact_owner_1__c</columns>
+    <columns>NAME</columns>
+    <columns>Attorney__c</columns>
+    <columns>Attorney_Phone__c</columns>
+    <columns>Attorney_Firm_Name__c</columns>
+    <columns>Attorney_Firm_Address__c</columns>
+    <columns>City__c</columns>
+    <columns>Assignee__c</columns>
+    <columns>Activity_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assignee__c</field>
+        <operation>equals</operation>
+        <value>Mat Sandlin</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>Mat Sandlin</label>
+</ListView>

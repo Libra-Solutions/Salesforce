@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Week_Developments</fullName>
+    <columns>NAME</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <filterScope>Mine</filterScope>
+    <label>Last Week Developments</label>
+</ListView>

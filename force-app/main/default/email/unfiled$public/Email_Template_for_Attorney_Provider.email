@@ -1,0 +1,6 @@
+Dear {!Account_Relation__c.OwnerFullName},
+
+A new {!Account_Relation__c.Role__c} : {!Account_Relation__c.Contact__c} at {!Account_Relation__c.Account__c} has been created in Salesforce. 
+
+Regards 
+Salesforce Admin

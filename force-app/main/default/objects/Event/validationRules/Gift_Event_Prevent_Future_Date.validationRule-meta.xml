@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_Event_Prevent_Future_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(ISPICKVAL(Oasis_Event_Purpose__c, &quot;Thanksgiving Gift&quot;), ISPICKVAL(Oasis_Event_Purpose__c, &quot;Summer Gift&quot;)),
+ActivityDate &gt; TODAY())</errorConditionFormula>
+    <errorMessage>You cannot set a gift event to a date in the future.</errorMessage>
+</ValidationRule>

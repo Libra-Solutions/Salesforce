@@ -1,0 +1,13 @@
+Dear {!PSCommunicationCache__c.OwnerFirstName},
+<br/><br/>
+There is some sync issue with backend systems. Please reach out to your administrator.
+<br/><br/>
+
+Operation : '{!PSCommunicationCache__c.Operation__c}<br/>
+Object ID :  {!PSCommunicationCache__c.ObjectId__c}<br/>
+Input Payload :  {!PSCommunicationCache__c.InputPayload__c}<br/>
+Output Response : {!PSCommunicationCache__c.ResponsePayload__c}<br/><br/>
+
+
+Thanks<br/>
+Salesforce Admin

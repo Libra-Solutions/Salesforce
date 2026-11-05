@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Admin_C3_Provider_Field_Updates</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;C3_Provider&quot;,
+    $User.Alias != &quot;apionly&quot;,
+    $Profile.Name = &quot;System Administrator&quot;,
+    NOT(ISNEW()),
+    OR(
+        ISCHANGED(provider_id_c__c),
+        ISCHANGED(Provider_Parent_ID__c),
+        ISCHANGED(BillingStreet),
+        ISCHANGED(Street2__c),
+        ISCHANGED(Salesforce_Id__c),
+        ISCHANGED(BillingCity),
+        ISCHANGED(BillingState),
+        ISCHANGED(BillingPostalCode),
+        ISCHANGED(Provider_Facility_Type__c),
+        ISCHANGED(provider_status__c),
+        ISCHANGED(provider_substatus__c),
+        ISCHANGED(Provider_Do_Not_Show_On_Map__c),
+        ISCHANGED(Provider_Is_Virtual__c),
+        ISCHANGED(Provider_Is_Scheduling__c),
+        ISCHANGED(Provider_Client_Negotiation__c),
+        ISCHANGED(Provider_Default_Cost__c),
+        ISCHANGED(Provider_Agreement_Type__c),
+        ISCHANGED(Provider_Default_Cap__c),
+        ISCHANGED(Provider_Multiply_By_Cost__c),
+        ISCHANGED(Provider_Default_Servicing_Type__c),
+        ISCHANGED(Provider_Default_Threshold_Value__c),
+        ISCHANGED(Provider_Default_Threshold_Amount__c),
+        ISCHANGED(Provider_Default_Min_Perf_Rate__c),
+        ISCHANGED(Provider_Default_Min_Perf_Amount__c),
+        ISCHANGED(Provider_Default_Servicing_Percent__c),
+        ISCHANGED(Provider_Contract_Type__c),
+        ISCHANGED(Provider_Contract_Date_Signed__c),
+        ISCHANGED(Provider_Contract_Date_End__c),
+        ISCHANGED(Provider_Modality__c),
+        ISCHANGED(Website),
+        ISCHANGED(Email__c),
+        ISCHANGED(Fax),
+        ISCHANGED(Phone),
+        ISCHANGED(Provider_Office_Phone__c),
+        ISCHANGED(Provider_Office_Phone_Ext__c),
+        ISCHANGED(Assigned_AC__c),
+        ISCHANGED(Provider_Created_By__c),
+        ISCHANGED(Type)
+    )
+)</errorConditionFormula>
+    <errorMessage>Admin cannot modify these fields for C3 Provider accounts. Only the API user is allowed to make updates.</errorMessage>
+</ValidationRule>

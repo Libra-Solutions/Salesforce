@@ -1,0 +1,5 @@
+<apex:page standardController="Contact" >
+ <apex:form > 
+<apex:outputLink value="http://forms.office.com/Pages/ResponsePage.aspx?id=qzAefDjkyU-Z7TQO4q_Yo8UESCmZIeJFvI2FDpa54MRUNjc3S0xBMVpOTUgwVFJCVlVKVDZPVEg0Wi4u" id="theLink" style="padding-left:180px;color:blue;font-weight:bold; font-size:15px"> Medical Transportation Survey...Click Here! </apex:outputLink>
+ </apex:form>
+</apex:page>

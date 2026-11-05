@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DaysSinceDate__c</fullName>
+    <description>ANALYTICS- Recreating buckets on KH OSR Report which based on days since date</description>
+    <externalId>false</externalId>
+    <formula>if(TODAY() -   ActivityDate  &lt;= 7, &quot;Last 7 Days&quot;, if(TODAY() - ActivityDate &gt; 7 &amp;&amp; TODAY() - ActivityDate &lt;= 14, &quot;8-14 Days Ago&quot;, if(TODAY() - ActivityDate &gt; 15 &amp;&amp; TODAY() - ActivityDate &lt;= 21,&quot;15 - 21 Days Ago&quot;, if(TODAY() - ActivityDate &gt; 22 &amp;&amp; TODAY() - ActivityDate &lt;= 28, &quot;22 - 28 Days Ago&quot;, &quot;OLD&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DaysSinceDate</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

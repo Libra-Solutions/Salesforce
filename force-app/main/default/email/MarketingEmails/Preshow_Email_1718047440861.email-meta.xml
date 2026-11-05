@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Pre-Show Email/Post-Show Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MoveDocs Sponsorships Emails</name>
+    <pageDevName>Preshow_Email1</pageDevName>
+    <style>none</style>
+    <subject>Visit Booth 49 at the Lanier Trial Academy for a chance to Win a Scotty Cameron Putter!</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+Are you heading to theLanier Trial Academyfrom June 17th-20th?
+
+Be sure to stop by our booth to learn about MoveDocs &lt; http://www.movedocs.com/ &gt; – the leading Personal Injury Solutions Platform helping law firms optimize outcomes and minimize costs.
+
+ - Plaintiff Medical:A searchable map of over 10,000 providers, click-to-schedule appointments, and free delivery of bills and records
+ - Plaintiff Funding from Oasis Financial &lt; https://www.oasisfinancial.com/ &gt; : Attentive personal service plus access to transact and view payoff information 24/7
+ - Expert Services from ExpertPays:Find expert witnesses to strengthen your case with no upfront costs for your firm
+
+Swing byBooth 49 for a chance to win a Scotty Cameron Putter in our raffle!
+
+Sincerely,
+
+{{{Sender.Signature}}}
+
+MoveDocs
+
+4670 S. Fort Apache Road, Suite 200
+
+Las Vegas, NV 89147
+
+Copyright © 2024 MoveDocs,
+
+All rights reserved.
+
+Unsubscribe &lt;  {{{Unsubscribe}}}  &gt; | Website &lt; https://movedocs.com/ &gt; | Instagram &lt; https://www.instagram.com/movedocs &gt; | LinkedIn &lt; https://www.linkedin.com/company/movedocs/ &gt; 
+
+ &lt; https://www.instagram.com/oasisfinancial/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contract Type --></label>
+    <name>Contract_Type__c</name>
+    <picklistValues>
+        <masterLabel>ADVANCE</masterLabel>
+        <translation><!-- ADVANCE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIA</masterLabel>
+        <translation><!-- BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MPA</masterLabel>
+        <translation><!-- MPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OTA</masterLabel>
+        <translation><!-- OTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SERVICING</masterLabel>
+        <translation><!-- SERVICING --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SUBSCRIPTION</masterLabel>
+        <translation><!-- SUBSCRIPTION --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

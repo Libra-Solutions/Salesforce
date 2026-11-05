@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Is_there_a_Hunt_List</name>
+        <label>Is there a Hunt List?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>There_is_a_Hunt_List</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Check_for_Hunt_List</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Hunt_List</targetReference>
+            </connector>
+            <label>There is a Hunt List</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_there_a_What_Id</name>
+        <label>Is there a What Id?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>There_is_a_What_Id</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.WhatId</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_for_Hunt_List</targetReference>
+            </connector>
+            <label>There is a What Id</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_there_an_Account_ID</name>
+        <label>Is there an Account ID?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Is_there_a_What_Id</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>There_is_an_Account_ID</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Account_Last_Event_Date</targetReference>
+            </connector>
+            <label>There is an Account ID</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>AccountLocation</name>
+        <dataType>String</dataType>
+        <expression>IF(LEN({!$Record.Account.BillingCity}) &gt; 0,IF(LEN({!$Record.Location})&gt;0 , {!$Record.Location},  LEFT({!$Record.Account.BillingStreet} &amp; &quot;, &quot; &amp; {!$Record.Account.Street2__c}  &amp; &quot; &quot; &amp; {!$Record.Account.BillingCity} &amp; &quot; &quot; &amp; {!$Record.Account.BillingState}  &amp; &quot; &quot; &amp; {!$Record.Account.BillingPostalCode}, 255)), &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>TODAY</name>
+        <dataType>Date</dataType>
+        <expression>TODAY()</expression>
+    </formulas>
+    <interviewLabel>XVA Event Fields And Related Account Update Process {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>XVA Event Fields And Related Account Update Process</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Check_for_Hunt_List</name>
+        <label>Check for Hunt List</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Is_there_a_Hunt_List</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Hunt_List__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Account_Last_Event_Date</name>
+        <label>Update Account Last Event Date</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_there_a_What_Id</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Account_Last_Event_Date__c</field>
+            <value>
+                <elementReference>$Record.StartDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Account</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Hunt_List</name>
+        <label>Update Hunt List</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Check_for_Hunt_List.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_Event_Activity_Date__c</field>
+            <value>
+                <elementReference>$Record.StartDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Hunt_List__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Location</name>
+        <label>Update Location</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_there_an_Account_ID</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Location</field>
+            <value>
+                <elementReference>AccountLocation</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Location</targetReference>
+        </connector>
+        <filterFormula> IF(OR(LEFT({!$Record.WhoId}, 3) = &apos;003&apos;, LEFT({!$Record.WhatId},3) = &apos;001&apos;), true, false)</filterFormula>
+        <object>Event</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

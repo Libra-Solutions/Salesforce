@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Top 100</fullName>
+        <default>false</default>
+        <label>Top 100</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VOC_Meeting</fullName>
+        <default>false</default>
+        <label>VOC_Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Summer Gift</fullName>
+        <default>false</default>
+        <label>Summer Gift</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bookings</fullName>
+        <default>false</default>
+        <label>Bookings</label>
+    </standardValue>
+</StandardValueSet>

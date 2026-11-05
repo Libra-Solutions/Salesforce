@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linked_Cimi_Blacklisted__c</fullName>
+    <formula>Cimi_Account__r.Cimi_Blacklisted__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cimi Blacklisted</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

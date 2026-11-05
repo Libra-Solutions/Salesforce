@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Committee Assignments --></label>
+    <name>kw__Committee_Membership__c</name>
+    <picklistValues>
+        <masterLabel>HEDU</masterLabel>
+        <translation><!-- HEDU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KnowWho</masterLabel>
+        <translation><!-- KnowWho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHELP</masterLabel>
+        <translation><!-- SHELP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

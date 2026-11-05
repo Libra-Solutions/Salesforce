@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HL_Compact</fullName>
+    <fields>Attorney_Firm_Name_New__c</fields>
+    <fields>Attorney_firm_Id__c</fields>
+    <fields>Last_Event_Activity_Date__c</fields>
+    <label>HL Compact</label>
+</CompactLayout>

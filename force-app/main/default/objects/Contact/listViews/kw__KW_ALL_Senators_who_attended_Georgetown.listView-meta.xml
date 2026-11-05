@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__KW_ALL_Senators_who_attended_Georgetown</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>kw__District__c</columns>
+    <columns>kw__Political_Party__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>kw__KW_Category__c</field>
+        <operation>equals</operation>
+        <value>Fed Legislator</value>
+    </filters>
+    <filters>
+        <field>kw__KW_Address__c</field>
+        <operation>equals</operation>
+        <value>Fed Capitol</value>
+    </filters>
+    <filters>
+        <field>kw__Education__c</field>
+        <operation>contains</operation>
+        <value>Georgetown</value>
+    </filters>
+    <filters>
+        <field>kw__Chamber__c</field>
+        <operation>equals</operation>
+        <value>US Senate</value>
+    </filters>
+    <label>KW ALL Senators who attended Georgetown</label>
+    <sharedTo>
+        <group>KnowWho_Users</group>
+    </sharedTo>
+</ListView>

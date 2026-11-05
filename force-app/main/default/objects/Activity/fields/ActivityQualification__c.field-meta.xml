@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivityQualification__c</fullName>
+    <description>Determines whether the activity is qualified or not. Looks at Activity Type, Status, and Subtype</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Oasis_Type__c , &quot;Task&quot;) &amp;&amp;  ISPICKVAL(Status, &quot;Completed&quot;) &amp;&amp;  OR(ISPICKVAL(Oasis_Sub_Type__c, &quot;Call&quot;),ISPICKVAL(Oasis_Sub_Type__c, &quot;Meeting&quot;)),1,IF(ISPICKVAL(Oasis_Type__c, &quot;Call&quot;) || NOT(ISBLANK(TEXT( Oasis_Event_Result__c ))),1,0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ActivityQualification</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

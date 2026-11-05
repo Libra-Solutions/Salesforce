@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contracted_Product_Check</fullName>
+    <active>false</active>
+    <description>Contracted Product is mandatory before contracted is checked</description>
+    <errorConditionFormula>AND( RecordType.Name = &apos;Provider&apos;, 
+(Contracted__c =  true), ISBLANK(TEXT(Contracted_Product__c)), NOT(ISNEW()))</errorConditionFormula>
+    <errorDisplayField>Contracted_Product__c</errorDisplayField>
+    <errorMessage>Please select Contracted Product before closing the opportunity</errorMessage>
+</ValidationRule>

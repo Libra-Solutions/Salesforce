@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>In Person Visit</fullName>
+        <default>true</default>
+        <label>In Person Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Content / White Paper</fullName>
+        <default>false</default>
+        <label>Content / White Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PR</fullName>
+        <default>false</default>
+        <label>PR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partners</fullName>
+        <default>false</default>
+        <label>Partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Program</fullName>
+        <default>false</default>
+        <label>Referral Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Signup / Trial</fullName>
+        <default>false</default>
+        <label>Signup / Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media - Organic</fullName>
+        <default>false</default>
+        <label>Social Media - Organic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media - Paid</fullName>
+        <default>false</default>
+        <label>Social Media - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Form</fullName>
+        <default>false</default>
+        <label>Web Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pardot Landing Page</fullName>
+        <default>false</default>
+        <label>Pardot Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pardot Engagement</fullName>
+        <default>false</default>
+        <label>Pardot Engagement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pardot List Email</fullName>
+        <default>false</default>
+        <label>Pardot List Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pardot Web Tracking</fullName>
+        <default>false</default>
+        <label>Pardot Web Tracking</label>
+    </standardValue>
+</StandardValueSet>

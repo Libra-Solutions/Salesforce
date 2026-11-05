@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zip_Code_5digits_Validation</fullName>
+    <active>true</active>
+    <description>06/05/2019 -- All agreed to have zip code in both 5 digit and 5+4 digit</description>
+    <errorConditionFormula>AND (( $User.Alias &lt;&gt; &quot;psupp&quot;), (LEN( PostalCode ) &lt; 5))&amp;&amp;
+$Permission.Submit_Leads_Bypass=FALSE &amp;&amp;
+ISPICKVAL(Status,&quot;Qualified&quot;)</errorConditionFormula>
+    <errorDisplayField>PostalCode</errorDisplayField>
+    <errorMessage>Please enter 5 digit Zip Code.</errorMessage>
+</ValidationRule>

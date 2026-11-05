@@ -1,0 +1,7 @@
+A new Inside Sales user has been added. Please add {!User.Name} to the following report:
+
+https://oasiscrm.lightning.force.com/lightning/r/Dashboard/01Z4M000000ZduqUAC/view?queryScope=userFolders
+
+https://oasiscrm.lightning.force.com/lightning/r/Dashboard/01Z4M000000BYuiUAG/view?queryScope=userFolders
+
+https://oasiscrm.lightning.force.com/lightning/r/Report/00O4M000004a82gUAA/view

@@ -1,0 +1,19 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader" access="global" controller="PresetSalesforceToCasthraxController">
+	<aura:attribute name="message" type="String"/> 
+    <aura:attribute name="recordId" type="String"/> 
+    <aura:attribute name="hideOkButton" type="Boolean" default="true" />
+    <div class="slds-modal__content slds-p-around_medium" style="font-size: 20px;" id="modal-content-id-1">
+        <p><b><center>You are about to sync in the backend systems. Are you sure? </center>
+            </b>
+        </p>
+     </div>
+     <div class="slds-text-align_center slds-m-around_x-medium">  
+        <aura:if isTrue="{!v.hideOkButton}">
+        	<lightning:button name="ok" label="OK" variant="brand" onclick="{!c.doInit}"/>
+        </aura:if>
+        <lightning:button name="cancel" label="Cancel" onclick="{!c.closeModal}"/>
+        
+    </div>  <br/>   
+    <div style="font-size: 20px;"><b><i><center>{!v.message}</center></i></b></div>
+    
+</aura:component>

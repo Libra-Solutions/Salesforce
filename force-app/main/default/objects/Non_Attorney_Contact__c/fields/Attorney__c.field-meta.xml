@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attorney__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>Stores Attorney name</inlineHelpText>
+    <label>Attorney/Provider</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Support Contacts</relationshipLabel>
+    <relationshipName>Non_Attorney_Contacts</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

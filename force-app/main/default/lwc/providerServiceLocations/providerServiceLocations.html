@@ -1,0 +1,25 @@
+<template>
+    <div class="card-header" onclick={toggleExpanded}>
+        <div class="header-left">
+            <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+            <span class="card-title">Service Locations</span>
+            <span class="slds-badge slds-m-left_x-small">{locationCount}</span>
+        </div>
+        <lightning-button-icon icon-name={toggleIcon} alternative-text={toggleLabel} onclick={toggleExpanded}></lightning-button-icon>
+    </div>
+    <template if:true={isExpanded}>
+        <div class="card-body">
+            <template if:false={hasLocations}>
+                <p class="slds-p-around_medium">No service locations found.</p>
+            </template>
+            <template if:true={hasLocations}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={locations}
+                    columns={columns}
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </template>
+        </div>
+    </template>
+</template>

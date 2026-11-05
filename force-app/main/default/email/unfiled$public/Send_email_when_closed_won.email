@@ -1,0 +1,1 @@
+The Sizing Opportunity pricing request submitted by {!Opportunity.OwnerFullName} for {!Opportunity.Recommend_Pricing__c} for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c}) has been Closed-Won. Please go into Cashtrax and update the pricing for this firm immediately.

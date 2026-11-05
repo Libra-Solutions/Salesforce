@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Mandatory_during_conversion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+IsConverted, 
+IsBlank(Email)
+) ||
+(ISBLANK(Email) &amp;&amp;
+$Permission.Submit_Leads_Bypass=FALSE &amp;&amp;
+ISPICKVAL(Status,&quot;Qualified&quot;))</errorConditionFormula>
+    <errorMessage>Please enter email to convert or qualify the lead.</errorMessage>
+</ValidationRule>

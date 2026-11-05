@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Firm Name --></label>
+    <lookupFilter>
+        <errorMessage><!-- Firm Account Owner does not match currently user. --></errorMessage>
+    </lookupFilter>
+    <name>Firm_Name__c</name>
+    <relationshipLabel><!-- Hunt List (Firm Name) --></relationshipLabel>
+</CustomFieldTranslation>

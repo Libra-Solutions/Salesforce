@@ -1,0 +1,9 @@
+Hello {!Opportunity.OwnerFullName},
+
+The Sizing Opportunity request for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c}) has been rejected. 
+
+If you wish to appeal or edit your request, please email Ryan and  Colin and CC Alicia Priyatmo. They will then inform you via email if your appeal is approved or rejected. You must then go in and close the Opportunity as Closed-Won or Closed-Lost.
+
+Opportunity Link: https://oasiscrm--uatsandbox.lightning.force.com/{!Opportunity.Id}
+
+Please reach out to Colin and Ryan with any questions.

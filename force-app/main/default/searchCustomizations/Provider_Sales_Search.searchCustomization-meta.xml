@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchCustomization xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channel>GlobalSearch</channel>
+    <masterLabel>Provider_Sales_Search</masterLabel>
+    <objectOverride>
+        <objectApiName>Account</objectApiName>
+        <rule>
+            <fieldApiName>Non_Searchable_Account__c</fieldApiName>
+            <operator>eq</operator>
+            <ruleValue>
+                <value>false</value>
+            </ruleValue>
+        </rule>
+        <rule>
+            <fieldApiName>Type</fieldApiName>
+            <operator>eq</operator>
+            <ruleValue>
+                <value>Provider: Enterprise</value>
+            </ruleValue>
+        </rule>
+    </objectOverride>
+    <selectedProfile>Provider Sales</selectedProfile>
+</SearchCustomization>

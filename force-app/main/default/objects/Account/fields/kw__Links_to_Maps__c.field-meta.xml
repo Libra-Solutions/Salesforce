@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__Links_to_Maps__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(  kw__Map_URL__c&amp;&quot;&amp;theme=&quot;&amp;TEXT($Organization.UiSkin) , IMAGE(&quot;/servlet/servlet.FileDownload?file=015A00000004lhg&quot;, &quot;Maps&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Interactive Map</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

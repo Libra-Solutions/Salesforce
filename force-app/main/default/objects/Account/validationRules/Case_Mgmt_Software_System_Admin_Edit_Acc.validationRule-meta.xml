@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Mgmt_Software_System_Admin_Edit_Acc</fullName>
+    <active>true</active>
+    <description>Revoking the ability to give edit access to the System Admin for the Case Mgmt Software field.</description>
+    <errorConditionFormula>AND(
+  ISCHANGED(Case_Mgmt_Software__c),
+  $Profile.Name = &quot;System Administrator&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Case_Mgmt_Software__c</errorDisplayField>
+    <errorMessage>System Administrators are not allowed to modify the Case Mgmt Software field</errorMessage>
+</ValidationRule>

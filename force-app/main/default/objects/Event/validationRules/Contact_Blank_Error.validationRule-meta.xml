@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Blank_Error</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISBLANK(WhoId),
+    OR(
+        $Profile.Name = &quot;Business Development&quot;,
+        $Profile.Name = &quot;Provider Sales&quot;,
+        $Profile.Name = &quot;Provider Inside Sales&quot;
+    )
+)</errorConditionFormula>
+    <errorMessage>A Contact is required to save record!</errorMessage>
+</ValidationRule>

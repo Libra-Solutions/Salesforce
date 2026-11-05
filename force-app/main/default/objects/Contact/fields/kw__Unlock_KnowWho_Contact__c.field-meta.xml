@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw__Unlock_KnowWho_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, if this Contact is a former Contact (i.e. linked to a KW Account for former Contacts), then this contact will NOT be updated by nightly updates. NOTE - If this Contact reverts to being an active KW Contact, this flag will be overridden</description>
+    <inlineHelpText>When checked, if this Contact is a former Contact (i.e. linked to a KW Account for former Contacts), then this contact will NOT be updated by nightly updates. NOTE - If this Contact reverts to being an active KW Contact, this flag will be overridden</inlineHelpText>
+    <label>Unlock KnowWho Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

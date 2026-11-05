@@ -1,0 +1,28 @@
+<aura:component controller="CaseTypeController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+	
+    <!--<aura:if isTrue="{!!v.showOpptyPage}"> -->
+        <lightning:select aura:id="select" name="select" label="Select Case Type" onchange="{! c.onChange }">
+            <option value="">choose one...</option>
+            <option value="Auto">Auto</option>
+            <option value="Worker's Compensation">Worker's Compensation</option>
+            <option value="Other">Other</option>
+            
+        </lightning:select>    
+    <!--</aura:if>-->
+    <aura:attribute name="selectedValue" type="String"/>
+    <aura:attribute name="disabled" type="Boolean" default="false" />
+    <aura:attribute name="saved" type="Boolean" default="false" />
+    <aura:attribute name="showOpptyPage" type="Boolean" default="false" />
+    <aura:attribute name="recordId" type="String" />
+   <!-- <aura:if isTrue="{!v.showSpinner}">
+        <lightning:spinner />
+    </aura:if> -->
+    <aura:if isTrue="{!v.showOpptyPage}">
+    <aura:if isTrue="{!!v.saved}">
+    	
+        <aura:set attribute="else">
+            <p>Saved! New record id is {!v.recordId}</p>
+        </aura:set>
+    </aura:if> 
+    </aura:if>
+</aura:component>

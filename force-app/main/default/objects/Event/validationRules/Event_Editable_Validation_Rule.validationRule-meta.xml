@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Editable_Validation_Rule</fullName>
+    <active>false</active>
+    <description>This validation rule evaluates if an Event can be edited or not. If the Event was past 30 days from Due Date, prevents any edits to the Event.</description>
+    <errorConditionFormula>AND($Profile.Name  &lt;&gt; &quot;System Administrator&quot;, (TODAY() - IF( 
+OR(ISNULL(ActivityDate), 
+ISBLANK(ActivityDate) 
+), DATEVALUE(LastModifiedDate),ActivityDate 
+) &gt; 31))</errorConditionFormula>
+    <errorMessage>This Activity was past 30 Days from Due Date or Last Modified Date, it cannot be updated. Please contact Salesforce Administrator for help.</errorMessage>
+</ValidationRule>

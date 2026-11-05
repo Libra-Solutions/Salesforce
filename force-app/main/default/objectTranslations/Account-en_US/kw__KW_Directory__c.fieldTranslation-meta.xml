@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KnowWho Directory --></label>
+    <name>kw__KW_Directory__c</name>
+    <picklistValues>
+        <masterLabel>CongressForce</masterLabel>
+        <translation><!-- CongressForce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FedExecForce</masterLabel>
+        <translation><!-- FedExecForce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GovAffairsForce</masterLabel>
+        <translation><!-- GovAffairsForce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LocalForce</masterLabel>
+        <translation><!-- LocalForce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MediaForce</masterLabel>
+        <translation><!-- MediaForce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>StateForce</masterLabel>
+        <translation><!-- StateForce --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

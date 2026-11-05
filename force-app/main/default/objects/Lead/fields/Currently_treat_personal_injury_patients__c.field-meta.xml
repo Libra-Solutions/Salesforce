@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Currently_treat_personal_injury_patients__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Allows User to check True to the question of currently treating Personal Injury patients.</description>
+    <inlineHelpText>Placing a check mark in the box means that this Medical Provider is currently treating Personal Injury Patients.</inlineHelpText>
+    <label>Currently treat personal injury patients</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

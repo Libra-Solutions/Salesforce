@@ -1,0 +1,66 @@
+<apex:page controller="PresetMedImportCsvController">
+    <style>
+      .pbBody{
+        overflow: auto !important;
+        max-height: 300px !important;
+     }
+    </style>
+    <script>
+        function selectAllItems(obj){
+        
+          if(obj.checked){ 
+              var checkItem=document.getElementsByClassName("checkItem");
+              for(var i=0, n=checkItem.length;i<n;i++) {
+                checkItem[i].checked = true;
+              }
+          }else{
+              var checkItem=document.getElementsByClassName("checkItem");
+              for(var i=0, n=checkItem.length;i<n;i++) {
+                checkItem[i].checked = false;
+              }
+          }
+        }
+    </script>
+    <apex:form >
+       
+        <apex:pageBlock title="Upload Csv File">
+             <apex:pagemessages />
+            <apex:pageBlockSection > 
+                  <apex:inputFile value="{!fileBody}" fileName="{!fileName}" />
+                  <apex:commandButton value="Import" action="{!importCSVFile}" />
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+        <apex:outputPanel rendered="{!lstOfMdsMedComms.size>0}">
+          <apex:pageBlock title="Imported data" >
+            <apex:pageBlockButtons >
+                  <apex:commandButton value="Save" action="{!SaveData}"/> 
+               
+                  <a class="btn" href="/apex/PreMedSyncCsv" style="text-decoration: none; padding: 4px;">Next</a>
+            </apex:pageBlockButtons>
+           <apex:pageblocktable value="{!lstOfMdsMedComms}" var="item">
+           
+            <apex:column >
+                <apex:facet name="header">
+                      <input type="checkbox" onclick="selectAllItems(this)" name="AllRecords" />
+                </apex:facet>
+                <apex:inputCheckbox value="{!item.ischecked}" styleClass="checkItem"/>
+            </apex:column>
+              <apex:column value="{!item.preMedCmm.Name}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Deleting_Cashtrax_Id__c}" styleClass="checkItem" /> 
+              <apex:column value="{!item.preMedCmm.Serviving_CashTrax_Id__c}" styleClass="checkItem" /> 
+              <apex:column value="{!item.preMedCmm.Deleting_Atticus_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Serviving_Atticus_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Deleting_Core_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Serviving_Core_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Deleting_Grs_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Serviving_Grs_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Deleting_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Serviving_Id__c}" styleClass="checkItem" />
+              <apex:column value="{!item.preMedCmm.Api_Action__c}" styleClass="checkItem" />                
+        </apex:pageblocktable>
+        
+       </apex:pageBlock> 
+       </apex:outputPanel>  
+   </apex:form>
+</apex:page>

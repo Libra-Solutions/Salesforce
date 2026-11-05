@@ -1,0 +1,41 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader" access="global" controller="PresetSalesforceToCasthraxController">
+	<aura:attribute name="message" type="String"/>
+    <aura:attribute name="recordId" type="String"/> 
+    <aura:attribute name="hideOkButton" type="Boolean" default="true" />
+    <aura:attribute name="showCloseButton" type="Boolean" default="false" />
+    <aura:attribute name="progress" type="Integer" default="0"/>
+    <aura:attribute name="showProgressBar" type="boolean" default="false"/> 
+    <aura:attribute name="hideMessage" type="boolean" default="true"/> 
+    <br/>
+    <aura:if isTrue="{!v.hideMessage}">
+        <div class="slds-modal__content slds-p-around_medium" style="font-size: 20px;" id="modal-content-id-1">
+            <b><center>You are about to submit data to backend systems. Are you sure? </center>
+                </b>
+            
+         </div>
+    </aura:if>   
+    <aura:if isTrue="{!v.showProgressBar}">
+        <div class="slds-m-around_xx-large">
+            <!--Lightning Progress Bar-->
+            <center>Processing...</center>
+            <lightning:progressBar value="{!v.progress}" />
+            
+        </div>    
+    </aura:if>
+   	<!--<div style="font-size: 20px;"><b><i><center>{!v.message}</center></i></b></div>-->
+    		<div class="slds-notify__content">
+                <br/>
+                <p class="slds-align_absolute-center" align="center" style="color:black;font-size:14px;"><b>{!v.message}</b></p>                
+    </div><br/><br/>
+     <div class="slds-text-align_center slds-m-around_x-medium">  
+        <aura:if isTrue="{!v.hideOkButton}">
+        	<lightning:button name="ok" label="OK" variant="brand" onclick="{!c.doInit}"/>
+            <lightning:button name="cancel" label="Cancel" onclick="{!c.closeModal}"/>
+        </aura:if> 
+        <aura:if isTrue="{!v.showCloseButton}"> 
+        <lightning:button name="close" label="Close" onclick="{!c.closeModal}"/>
+        </aura:if> 
+    </div>  <br/>   
+    
+    
+</aura:component>

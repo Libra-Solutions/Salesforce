@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Contacts_Call_List</fullName>
+    <columns>Successfully_Contacted__c</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Phone_link__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account.Billing_State__c</columns>
+    <columns>Attorney_ID__c</columns>
+    <columns>Recent_Child_Campaign_Name__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Recent_Campaign_Name__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Recent_Campaign_Name__c</field>
+        <operation>equals</operation>
+        <value>Outbound List Q1 - 2022</value>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Attorney</value>
+    </filters>
+    <label>Outbound Call List</label>
+</ListView>

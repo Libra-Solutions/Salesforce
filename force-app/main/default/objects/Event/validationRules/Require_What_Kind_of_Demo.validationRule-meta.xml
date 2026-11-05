@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_What_Kind_of_Demo</fullName>
+    <active>true</active>
+    <description>When level 3 or level 3 not interested is selected, require the &quot;What kind of Demo was completed&quot;</description>
+    <errorConditionFormula>(TEXT(Oasis_Event_Result__c) = &apos;Level Three - Demo Complete- Int&apos;
+||
+ISPICKVAL(Oasis_Event_Result__c , &apos;Level Three- Demo Completed - Not Interested&apos;) )
+&amp;&amp;
+(ISNULL(What_kind_of_demo_was_completed__c) ||
+ISBLANK(What_kind_of_demo_was_completed__c) )</errorConditionFormula>
+    <errorMessage>Please fill out the What Kind of Demo was completed field.</errorMessage>
+</ValidationRule>

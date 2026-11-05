@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Settlement_Express_List_Dave_Ahrens</fullName>
+    <columns>Successfully_Contacted_BDR__c</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Phone_link__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Attorney_ID__c</columns>
+    <columns>Account.Billing_State__c</columns>
+    <columns>Recent_Campaign_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Attorney</value>
+    </filters>
+    <filters>
+        <field>Recent_Campaign_Name__c</field>
+        <operation>equals</operation>
+        <value>Settlement Express List - 2021</value>
+    </filters>
+    <filters>
+        <field>Assigned_RAM__c</field>
+        <operation>equals</operation>
+        <value>Dave Ahrens</value>
+    </filters>
+    <label>Settlement Express List - Dave Ahrens</label>
+</ListView>

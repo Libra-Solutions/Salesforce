@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Account_Update_MD_Contacts</fullName>
+    <active>true</active>
+    <description>Restrict Account Relationship updates for MDs system contacts and prompt to contact Product Support</description>
+    <errorConditionFormula>AND
+(
+  $Profile.Name &lt;&gt; &quot;API Only User&quot;,
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+  RecordType.Name = &quot;MoveDocs User&quot;,
+  ISCHANGED(AccountId),
+  NOT(ISNEW())
+)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>You cannot update the Account Please contact Product Support if the contact has moved firms,</errorMessage>
+</ValidationRule>

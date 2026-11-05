@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDR_Huntlist_Faith_Hazelwood</fullName>
+    <columns>Successfully_Contacted_BDR__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Phone_link__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Assigned_Field_Director__c</columns>
+    <columns>AR_Score__c</columns>
+    <columns>Rep_Coverage__c</columns>
+    <columns>Account.Zip__c</columns>
+    <columns>Account.Billing_City__c</columns>
+    <columns>Account.Billing_Street__c</columns>
+    <columns>Account.Street2__c</columns>
+    <columns>Account.Billing_State__c</columns>
+    <columns>Attorney_ID__c</columns>
+    <columns>Recent_BDR_Child_Campaign_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Recent_BDR_Campaign_Name__c</field>
+        <operation>equals</operation>
+        <value>BDR Lead List (2022 05)</value>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Attorney</value>
+    </filters>
+    <label>BDR Huntlist - Faith Hazelwood</label>
+</ListView>

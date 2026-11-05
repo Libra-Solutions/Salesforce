@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>MapAnything How to Videos</masterLabel>
+    <promptVersions>
+        <actionButtonLabel>Click Here!</actionButtonLabel>
+        <actionButtonLink>https://mapanythingtraining.hubs.vidyard.com/search?utf8=%E2%9C%93&amp;query=schedule</actionButtonLink>
+        <body>MapAnything can help you navigate between planned events &amp; create new events on the road!</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <delayDays>4</delayDays>
+        <description>Link directing users to MapAnything training videos</description>
+        <dismissButtonLabel>OK</dismissButtonLabel>
+        <displayPosition>TopCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <endDate>2019-07-26</endDate>
+        <isPublished>true</isPublished>
+        <masterLabel>MapAnything How to Videos</masterLabel>
+        <publishedDate>2019-07-14</publishedDate>
+        <shouldDisplayActionButton>true</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2019-07-15</startDate>
+        <targetPageKey1>sma__MapAnything</targetPageKey1>
+        <targetPageType>standard__navItemPage</targetPageType>
+        <timesToDisplay>3</timesToDisplay>
+        <title>Did you know?</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

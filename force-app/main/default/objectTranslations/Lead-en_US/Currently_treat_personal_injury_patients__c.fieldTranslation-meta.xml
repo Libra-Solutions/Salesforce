@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Placing a check mark in the box means that this Medical Provider is currently treating Personal Injury Patients. --></help>
+    <label><!-- Currently treat personal injury patients --></label>
+    <name>Currently_treat_personal_injury_patients__c</name>
+</CustomFieldTranslation>

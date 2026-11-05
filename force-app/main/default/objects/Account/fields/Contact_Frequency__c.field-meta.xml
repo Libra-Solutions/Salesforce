@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Frequency__c</fullName>
+    <label>Contact Frequency</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>14 Days</fullName>
+                <default>false</default>
+                <label>14 Days</label>
+            </value>
+            <value>
+                <fullName>30 Days</fullName>
+                <default>false</default>
+                <label>30 Days</label>
+            </value>
+            <value>
+                <fullName>45 Days</fullName>
+                <default>false</default>
+                <label>45 Days</label>
+            </value>
+            <value>
+                <fullName>60 Days</fullName>
+                <default>false</default>
+                <label>60 Days</label>
+            </value>
+            <value>
+                <fullName>90 Days</fullName>
+                <default>false</default>
+                <label>90 Days</label>
+            </value>
+            <value>
+                <fullName>120 Days</fullName>
+                <default>false</default>
+                <label>120 Days</label>
+            </value>
+            <value>
+                <fullName>150 Days</fullName>
+                <default>false</default>
+                <label>150 Days</label>
+            </value>
+            <value>
+                <fullName>180 Days</fullName>
+                <default>false</default>
+                <label>180 Days</label>
+            </value>
+            <value>
+                <fullName>Never</fullName>
+                <default>false</default>
+                <label>Never</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

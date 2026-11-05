@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kristopher_Smith</fullName>
+    <columns>NAME</columns>
+    <columns>Assignee__c</columns>
+    <columns>Attorney__c</columns>
+    <columns>Attorney_Phone__c</columns>
+    <columns>Attorney_Firm_Name__c</columns>
+    <columns>Attorney_Firm_Address__c</columns>
+    <columns>City__c</columns>
+    <columns>Activity_Date__c</columns>
+    <columns>Attorney_Last_Funded_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assignee__c</field>
+        <operation>equals</operation>
+        <value>Kristopher Smith</value>
+    </filters>
+    <label>Kristopher Smith</label>
+</ListView>

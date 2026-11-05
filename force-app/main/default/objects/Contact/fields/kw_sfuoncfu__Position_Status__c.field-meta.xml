@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw_sfuoncfu__Position_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Position Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>This executive has been nominated and is awaiting confirmation</fullName>
+                <default>false</default>
+                <label>This executive has been nominated and is awaiting confirmation</label>
+            </value>
+            <value>
+                <fullName>This executive has been renominated and is awaiting nomination</fullName>
+                <default>false</default>
+                <label>This executive has been renominated and is awaiting nomination</label>
+            </value>
+            <value>
+                <fullName>This executive is retiring from this position</fullName>
+                <default>false</default>
+                <label>This executive is retiring from this position</label>
+            </value>
+            <value>
+                <fullName>This executive is running for a different office</fullName>
+                <default>false</default>
+                <label>This executive is running for a different office</label>
+            </value>
+            <value>
+                <fullName>This executive is serving in a designate capacity</fullName>
+                <default>false</default>
+                <label>This executive is serving in a designate capacity</label>
+            </value>
+            <value>
+                <fullName>This executive is serving in an acting capacity</fullName>
+                <default>false</default>
+                <label>This executive is serving in an acting capacity</label>
+            </value>
+            <value>
+                <fullName>This executive is serving in a normal capacity</fullName>
+                <default>false</default>
+                <label>This executive is serving in a normal capacity</label>
+            </value>
+            <value>
+                <fullName>This executive is serving in an undefined capacity</fullName>
+                <default>false</default>
+                <label>This executive is serving in an undefined capacity</label>
+            </value>
+            <value>
+                <fullName>This position is currently vacant</fullName>
+                <default>false</default>
+                <label>This position is currently vacant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

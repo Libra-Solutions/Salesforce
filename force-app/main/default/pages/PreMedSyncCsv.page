@@ -1,0 +1,138 @@
+<apex:page controller="PreMedSyncCsvController">
+    <style>
+      .pbBody{
+        overflow: auto !important;
+        max-height: 300px !important;
+        max-width:1250px !important;
+     }
+      .dv_load{
+            top: 45%;
+            margin-left: 40%;
+            padding: 15px;
+            z-index: 20000;
+            position: fixed;
+            width: 250px;
+            background-color: #ccd8e7;
+            border: 5px solid #afc3e0;
+            color: #394057;
+        }
+    </style>
+    <script>
+        function selectAllItems(obj){
+        
+          if(obj.checked){ 
+              var checkItem=document.getElementsByClassName("checkItem");
+              for(var i=0, n=checkItem.length;i<n;i++) {
+                checkItem[i].checked = true;
+              }
+          }else{
+              var checkItem=document.getElementsByClassName("checkItem");
+              for(var i=0, n=checkItem.length;i<n;i++) {
+                checkItem[i].checked = false;
+              }
+          }
+        }
+    </script>
+    
+   
+    <apex:form >
+    
+         <apex:actionStatus id="status">
+            <apex:facet name="start">
+                   <div style="width: 100%; height:700px; background:#000; opacity : 0.7; top:0px; left:0px; position: fixed; z-index:10000">
+            </div>
+                
+            <div class="dv_load">
+                     <img src="/img/loading24.gif" style="vertical-align:middle;"/>
+                     <span style="margin-left: 10px; font-size: 12px; font-weight: bold; color: #000000;">Loading...</span>
+                </div>
+                </apex:facet>
+          </apex:actionStatus>
+        
+
+          <apex:pagemessages />
+          <apex:pageBlock title="Communication Records" >
+                <apex:pageBlockButtons >
+                      <apex:commandButton value="Sync Records" action="{!sysBackEndRecords}"/> 
+                </apex:pageBlockButtons>
+                <table>
+                    <tr>
+                        <td>File Name</td>
+                        <td><apex:inputtext value="{!fileName}"/></td>
+                        <td><apex:commandButton value="Search" action="{!filterRecords}"/></td>
+                        <td><apex:commandButton value="Remove" action="{!deleteRecords}"/></td>
+                    </tr>
+                </table>
+                  
+                 <apex:outputPanel rendered="{!lstOfModelCmms.size=0}">
+                     <div style="color:red"><h1>Record Not Found!</h1></div>
+                 </apex:outputPanel> 
+                 <apex:outputPanel rendered="{!lstOfModelCmms.size>0}">  
+                    
+            
+                   <apex:pageblocktable value="{!lstOfModelCmms}" var="item">
+                   
+                    <apex:column >
+                        <apex:facet name="header">
+                              <input type="checkbox" onclick="selectAllItems(this)" name="AllRecords" />
+                        </apex:facet>
+                        <apex:inputCheckbox value="{!item.ischecked}" styleClass="checkItem"/>
+                    </apex:column>
+                      <apex:column title="Name">
+                      <apex:facet name="Name" >
+                          <a href="/{!item.preCmm.id}" target="_blank">{!item.preCmm.name}</a>
+                      </apex:facet>
+                      </apex:column> 
+                      <apex:column value="{!item.preCmm.Name}" />  
+                      
+                      <apex:column value="{!item.preCmm.Status_Code__c}" />  
+                      <apex:column value="{!item.preCmm.Status__c}" />  
+                      
+                      <apex:column value="{!item.preCmm.Deleting_Cashtrax_Id__c}"  /> 
+                      <apex:column value="{!item.preCmm.Serviving_CashTrax_Id__c}"  /> 
+                      <apex:column value="{!item.preCmm.Deleting_Atticus_Id__c}"  />
+                      <apex:column value="{!item.preCmm.Serviving_Atticus_Id__c}"  />
+                      <apex:column value="{!item.preCmm.Deleting_Core_Id__c}"/>
+                      <apex:column value="{!item.preCmm.Serviving_Core_Id__c}"/>
+                      <apex:column value="{!item.preCmm.Deleting_Grs_Id__c}" />
+                      <apex:column value="{!item.preCmm.Serviving_Grs_Id__c}" />
+                      <apex:column value="{!item.preCmm.Deleting_Id__c}"  />
+                      <apex:column value="{!item.preCmm.Serviving_Id__c}"/>
+                      <apex:column value="{!item.preCmm.Api_Action__c}"  />  
+                                
+                       <apex:column >
+                        <apex:facet name="header">
+                              Del
+                        </apex:facet>
+                        <apex:inputCheckbox value="{!item.isDelete}" />
+                    </apex:column>          
+                </apex:pageblocktable>
+             </apex:outputPanel> 
+       </apex:pageBlock> 
+
+
+       <apex:outputPanel rendered="{!lstOfPreMedComms.size>0}">
+       
+          <apex:pageBlock title="Selected Records" >
+            <apex:pageBlockButtons >
+                  <apex:commandButton value="Refresh Records" status="status" action="{!sysRefreshRecords}"  reRender="panelReFresh"/> 
+            </apex:pageBlockButtons>
+           
+           <apex:outputPanel id="panelReFresh"> 
+               <apex:pageblocktable value="{!lstOfPreMedComms}" var="item">
+                  <apex:column headerValue="Name" >
+                      <a href="/{!item.id}" target="_blank">{!item.name}</a>
+                  </apex:column> 
+                   <apex:column value="{!item.Name}" />  
+                  <apex:column value="{!item.Status_Code__c}" />  
+                  <apex:column value="{!item.Status__c}" />  
+                  <apex:column value="{!item.Input_Payload__c}" />  
+                  <apex:column value="{!item.Output_Body__c}" />     
+                            
+            </apex:pageblocktable>
+          </apex:outputPanel>
+       </apex:pageBlock> 
+       </apex:outputPanel>  
+       
+   </apex:form>
+</apex:page>

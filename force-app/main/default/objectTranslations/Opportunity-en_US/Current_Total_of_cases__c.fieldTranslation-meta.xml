@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- NUMBERS only. Check the War Room to find the firm&apos;s number of FUNDED cases in the past 12 months. --></help>
+    <label><!-- Total # of Funded Cases Last 12m --></label>
+    <name>Current_Total_of_cases__c</name>
+</CustomFieldTranslation>

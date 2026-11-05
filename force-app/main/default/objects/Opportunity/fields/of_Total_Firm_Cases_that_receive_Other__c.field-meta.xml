@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>of_Total_Firm_Cases_that_receive_Other__c</fullName>
+    <inlineHelpText>NUMBERS only. If you selected &quot;Other&quot; in response to the previous question, please enter your response here.</inlineHelpText>
+    <label>Other: % of Total Firm Cases that Fund</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

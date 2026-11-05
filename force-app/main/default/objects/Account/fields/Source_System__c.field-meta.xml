@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_System__c</fullName>
+    <description>Source System/s for Record</description>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISBLANK(CTXFirmId__c) &amp;&amp; ISBLANK(Cimi_Id__c) &amp;&amp; ISBLANK(provider_id_c__c),
+  &quot;Salesforce&quot;,
+  IF(NOT(ISBLANK(CTXFirmId__c)),
+    IF(NOT(ISBLANK(Cimi_Id__c)) || NOT(ISBLANK(provider_id_c__c)), &quot;CashTrax | &quot;, &quot;CashTrax&quot;),
+    &quot;&quot;) &amp;
+  IF(NOT(ISBLANK(Cimi_Id__c)),
+    IF(NOT(ISBLANK(provider_id_c__c)), &quot;C3 Firm | &quot;, &quot;C3 Firm&quot;),
+    &quot;&quot;) &amp;
+  IF(NOT(ISBLANK(provider_id_c__c)), &quot;C3 Provider&quot;, &quot;&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Source System</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

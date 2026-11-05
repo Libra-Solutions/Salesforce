@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMS_Demo__c</fullName>
+    <label>CMS Demo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Interested in Integration</fullName>
+                <default>false</default>
+                <label>Interested in Integration</label>
+            </value>
+            <value>
+                <fullName>Not Interested at this time</fullName>
+                <default>false</default>
+                <label>Not Interested at this time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

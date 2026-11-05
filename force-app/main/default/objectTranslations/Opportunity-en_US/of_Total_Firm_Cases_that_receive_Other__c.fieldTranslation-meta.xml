@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- NUMBERS only. If you selected &quot;Other&quot; in response to the previous question, please enter your response here. --></help>
+    <label><!-- Other: % of Total Firm Cases that Fund --></label>
+    <name>of_Total_Firm_Cases_that_receive_Other__c</name>
+</CustomFieldTranslation>

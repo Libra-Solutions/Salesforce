@@ -1,0 +1,16 @@
+<apex:page showHeader="false" title="DisplayImage" sidebar="false" showQuickActionVfHeader="false">
+<!-- Begin Default Content REMOVE THIS -->
+<!-- Import the Design System style sheet -->
+    <apex:slds />
+
+<!-- REQUIRED SLDS WRAPPER -->
+    <div class="slds-scope">
+        <div style="font-size: 25px; text-decorataion: bold; text-align:center;"
+        class="slds-theme_error">
+            
+            Inactive Account
+        </div>
+    </div>
+
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

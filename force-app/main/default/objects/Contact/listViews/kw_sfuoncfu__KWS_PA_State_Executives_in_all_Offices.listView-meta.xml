@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kw_sfuoncfu__KWS_PA_State_Executives_in_all_Offices</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.PHONE2</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <label>KWS PA State Executives in all Offices</label>
+    <sharedTo>
+        <group>KnowWho_Users</group>
+    </sharedTo>
+</ListView>

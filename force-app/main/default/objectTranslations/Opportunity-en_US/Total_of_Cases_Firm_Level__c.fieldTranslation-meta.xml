@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Find out how many cases the atty is carrying right now on avg. and multiply that by the # of attys in the firm --></help>
+    <label><!-- Total # of Cases (Firm Level) --></label>
+    <name>Total_of_Cases_Firm_Level__c</name>
+    <picklistValues>
+        <masterLabel>100</masterLabel>
+        <translation><!-- 100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1000</masterLabel>
+        <translation><!-- 1000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1500</masterLabel>
+        <translation><!-- 1500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>200</masterLabel>
+        <translation><!-- 200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>300</masterLabel>
+        <translation><!-- 300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>400</masterLabel>
+        <translation><!-- 400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50</masterLabel>
+        <translation><!-- 50 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>500</masterLabel>
+        <translation><!-- 500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>800</masterLabel>
+        <translation><!-- 800 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

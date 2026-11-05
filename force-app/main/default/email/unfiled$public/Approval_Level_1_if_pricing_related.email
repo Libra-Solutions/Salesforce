@@ -1,0 +1,7 @@
+The Sizing Opportunity request for {!Opportunity.Law_Firm_Name__c} (Firm ID {!Opportunity.Firm_Id__c}) submitted by {!Opportunity.OwnerFullName} has passed the first round of approval. Please evaluate this request and provide an Approval or Rejection response at your earliest convenience.
+
+Opportunity Link: https://oasiscrm--uatsandbox.lightning.force.com/{!Opportunity.Id}
+
+Approve/Reject Link: {!ApprovalRequest.Internal_URL}
+
+Approval List View: https://oasiscrm.lightning.force.com/lightning/o/Opportunity/list?filterName=00B4M000004aSaOUAU
